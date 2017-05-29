@@ -8,10 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Meta for Edge style rendering in IE -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <!-- External font - Open Sans -->
     <link rel="stylesheet" type="text/css" href="css/app.css"> <!-- Compiled css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
-    <div id="app">
+<div id="app">
     <!-- Navbar Header -->
 
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -83,28 +83,28 @@
                     <div class="col-sm-4">
                         <div class="speaker">
                             <a href="#profile-1" data-toggle="modal">
-                                <img src="/img/melyssa-griffin.jpg" alt="Melyssa Griffin">
-                                <h2>Melyssa Griffin</h2>
+                                <img src="/img/kai-davis.jpg" alt="Kai Davis">
+                                <h2>Kai Davis</h2>
                             </a>
-                            <a href="javascript:void(0)" class="site-link">melyssagriffin.com</a>
+                            <a href="javascript:void(0)" class="site-link" target="_blank">kaidavis.com</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="speaker">
-                            <a href="#profile-1" data-toggle="modal">
-                                <img src="/img/melyssa-griffin.jpg" alt="Melyssa Griffin">
-                                <h2>Melyssa Griffin</h2>
+                            <a href="#profile-2" data-toggle="modal">
+                                <img src="/img/sean-dsouza.jpg" alt="Sean D'Souza">
+                                <h2>Sean D'Souza</h2>
                             </a>
-                            <a href="javascript:void(0)" class="site-link">melyssagriffin.com</a>
+                            <a href="javascript:void(0)" class="site-link" target="_blank">psychotactics.com</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="speaker">
-                            <a href="#profile-1" data-toggle="modal">
-                                <img src="/img/melyssa-griffin.jpg" alt="Melyssa Griffin">
-                                <h2>Melyssa Griffin</h2>
+                            <a href="#profile-3" data-toggle="modal">
+                                <img src="/img/christopher-hawkins.jpg" alt="Christopher Hawkins">
+                                <h2>Christopher Hawkins</h2>
                             </a>
-                            <a href="javascript:void(0)" class="site-link">melyssagriffin.com</a>
+                            <a href="javascript:void(0)" class="site-link">christopherhawkins.com</a>
                         </div>
                     </div>
                 </div>
@@ -472,7 +472,7 @@
 
     <!-- End of subscribe to newsletter section -->
 
-    <!-- Speaker Modal -->
+    <!-- Kai Davis Modal -->
 
     <div id="profile-1" class="modal speaker-modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="container">
@@ -485,7 +485,7 @@
                         <div class="row">
                             <div class="col-sm-3">
                                 <div class="speaker-data">
-                                    <img src="/img/melyssa-griffin.jpg" alt="Melyssa Griffin">
+                                    <img src="/img/kai-davis.jpg" alt="Kai Davis">
                                     <div class="data-title">
                                         <i class="fa fa-television" aria-hidden="true"></i>
                                         Main stage
@@ -493,19 +493,138 @@
                                     <p>Sunday 25 June, 3:15pm</p>
 
                                     <a href="javascript:void(0)">
-                                        Your job is to make art: Why we need your generosity now more than ever.
+                                        Generating client referrals and repeat projects through outreach.
                                     </a>
                                 </div>
                             </div>
                             <div class="col-sm-9">
-                                <h2>Melyssa Griffin</h2>
-                                <a href="javascript:void(0)" class="site-target" target="_blank">melyssagriffin.com</a>
+                                <h2>Kai Davis</h2>
+                                <a href="javascript:void(0)" class="site-target" target="_blank">kaidavis.com</a>
                                 <p></p>
-                                <p>Within just three years of launching her hobby blog, Melyssa Griffin was earning $1
-                                    million per year through that blog and e-courses. Now, Melyssa has parlayed that
-                                    success to help over 100,000 creative hustlers make their own passions profitable.
-                                    Currently, she specializes in topics like list-building, online course creation,
-                                    webinars, and Pinterest marketing.</p>
+                                <p>
+                                    Kai Davis teaches Freelancers and Consultants how to get more clients without
+                                    spending more money on marketing. He's an evangelist of the model of modern
+                                    freelancing. Kai runs Double Your Audience, an Outreach Consulting Agency, helps
+                                    authors and self-funded business owners reach through target audience through
+                                    Digital Outreach.
+                                </p>
+                                <p>
+                                    Kai sends out a DAILY email on marketing and consulting for freelancers at
+                                    <a href="javascript:void(0)" class="" target="_blank">kaidavis.com</a>. You aren't
+                                    alone any longer, fellow freelancer.
+                                </p>
+                                <p></p>
+                                <div class="social-icons">
+                                    <a href="javascript:void(0)" class="icon fb-icon" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="javascript:void(0)" class="icon twitter-icon" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="javascript:void(0)" class="icon insta-icon" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Sean D'Souza Modal -->
+
+    <div id="profile-2" class="modal speaker-modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="container">
+
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i
+                                class="fa fa-close"></i></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="speaker-data">
+                                    <img src="/img/sean-dsouza.jpg" alt="Sean D'Souza">
+                                    <div class="data-title">
+                                        <i class="fa fa-television" aria-hidden="true"></i>
+                                        Main stage
+                                    </div>
+                                    <p>Sunday 25 June, 3:15pm</p>
+
+                                    <a href="javascript:void(0)">
+                                        How To Get To Your Uniqueness For Your Consultancy/Freelancing Business.
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-9">
+                                <h2>Sean D'Souza</h2>
+                                <a href="javascript:void(0)" class="site-target" target="_blank">psychotactics.com</a>
+                                <p></p>
+                                <p>
+                                    Sean has always followed his dreams, putting in the effort required to achieve them.
+                                    He was running a successful business as a freelance cartoonist in Mumbai, when he
+                                    and his wife decided to embark on a completely new adventure – moving to beautiful
+                                    New Zealand. Through relentless perseverance, springing out of bed at 4am, he once
+                                    again built up a portfolio of delighted clients. Eventually he developed a
+                                    three-pronged strategy that allows him to take three months off every year, while
+                                    running the very successful website <a href="javascript:void(0)" class="site-target" target="_blank">psychotactics.com</a>.
+                                </p>
+                                <p></p>
+                                <div class="social-icons">
+                                    <a href="javascript:void(0)" class="icon fb-icon" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="javascript:void(0)" class="icon twitter-icon" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="javascript:void(0)" class="icon insta-icon" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Christopher Hawkins Modal -->
+
+    <div id="profile-3" class="modal speaker-modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="container">
+
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i
+                                class="fa fa-close"></i></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="speaker-data">
+                                    <img src="/img/christopher-hawkins.jpg" alt="Christopher Hawkins">
+                                    <div class="data-title">
+                                        <i class="fa fa-television" aria-hidden="true"></i>
+                                        Main stage
+                                    </div>
+                                    <p>Sunday 25 June, 3:15pm</p>
+
+                                    <a href="javascript:void(0)">
+                                        Offline Networking to increase your funnel
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-9">
+                                <h2>Christopher Hawkins</h2>
+                                <a href="javascript:void(0)" class="site-target" target="_blank">christopherhawkins.com</a>
+                                <p></p>
+                                <p>
+                                    Speaker Description
+                                </p>
                                 <p></p>
                                 <div class="social-icons">
                                     <a href="javascript:void(0)" class="icon fb-icon" target="_blank">
@@ -576,68 +695,68 @@
 
 </div>
 
-    <script type="text/javascript" src="/js/app.js"></script> <!-- compiled js -->
+<script type="text/javascript" src="/js/app.js"></script> <!-- compiled js -->
 
-    <script>
-        /*
-         Main JS file for writing our JS code.
-         Author: Pankaj Patil
-         */
+<script>
+    /*
+     Main JS file for writing our JS code.
+     Author: Pankaj Patil
+     */
 
-        /* Javascript code will start function only after all the resources and assets of the site will load */
+    /* Javascript code will start function only after all the resources and assets of the site will load */
 
-        $(window).on('load',function(){
-
-
-            /* Navigation Functionality */
-
-            $('.conf-nav li a').on('click',function(){
-                var $this = $(this);
-                $('.conf-nav li a').removeClass('active');
-                var moveSection = $this.data('move');
-                $('html, body').animate({
-                    scrollTop: $('.'+moveSection).offset().top - 73
-                }, 1000);
-                $this.addClass('active');
-            })
-
-            /* End of navigation functionality */
+    $(window).on('load', function () {
 
 
-            /* Responsive header & animation */
+        /* Navigation Functionality */
 
-            if($(window).width()  < 768){
-                $('.navbar-default').addClass('white-nav');
-            }else{
-                $(window).scroll(function(){
-                    if($(this).scrollTop() > 0){
-                        $('.navbar-default').addClass('white-nav');
-                    }else{
-                        $('.navbar-default').removeClass('white-nav');
-                    }
-                });
-            }
+        $('.conf-nav li a').on('click', function () {
+            var $this = $(this);
+            $('.conf-nav li a').removeClass('active');
+            var moveSection = $this.data('move');
+            $('html, body').animate({
+                scrollTop: $('.' + moveSection).offset().top - 73
+            }, 1000);
+            $this.addClass('active');
+        })
 
-            /* End of responsive header */
+        /* End of navigation functionality */
 
 
-            /* IE 9 Support */
+        /* Responsive header & animation */
 
-            function isIE () {
-                var myNav = navigator.userAgent.toLowerCase();
-                return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
-            }
+        if ($(window).width() < 768) {
+            $('.navbar-default').addClass('white-nav');
+        } else {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.navbar-default').addClass('white-nav');
+                } else {
+                    $('.navbar-default').removeClass('white-nav');
+                }
+            });
+        }
 
-            if(isIE() == 9){
-                $('body').addClass('ie');
-            }
+        /* End of responsive header */
 
-            /* End of IE9 Support*/
 
-        });
+        /* IE 9 Support */
 
-        /* End of window load function */
+        function isIE() {
+            var myNav = navigator.userAgent.toLowerCase();
+            return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+        }
 
-    </script>
+        if (isIE() == 9) {
+            $('body').addClass('ie');
+        }
+
+        /* End of IE9 Support*/
+
+    });
+
+    /* End of window load function */
+
+</script>
 </body>
 </html>
