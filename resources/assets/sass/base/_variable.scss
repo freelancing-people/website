@@ -1,0 +1,36 @@
+/* 
+	Variables for colors used in website and animation
+	Author: Pankaj Patil
+ */
+
+
+$white: #fff;         /* White Color */
+$black: #000;	      /* Black Color */
+$green: #8eb75d;	  /* Green Color */
+$text-gray: #888;	  /* Gray color for paragraphs and text */	
+$light-gray: #f6f6f6; /* Light gray color used as background for gray bg sections */
+$dark-gray: #333;     /* Dark gray color */
+$gray: #ccc;		  /* Normal gray color */	
+$slackbg: #3e313c;    /* Slack section bg color */
+$fbbg: #3b5998;       /* Facebook color */
+$twitterbg: #3A8FDA;  /* Twitter bg color */
+$instabg: #fb3958;    /* Instagram bg color */
+
+/* Animation for header */
+
+	@keyframes fadeInDown {
+		0% {
+			opacity:0;
+			-webkit-transform:translateY(-20px);
+			-ms-transform:translateY(-20px);
+			transform:translateY(-20px);
+		}
+		100% {
+			opacity:1;
+			-webkit-transform:translateY(0);
+			-ms-transform:translateY(0);
+			transform:translateY(0);
+		}
+	}
+
+/* End of animation for header */

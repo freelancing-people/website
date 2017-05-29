@@ -1,0 +1,147 @@
+/* 
+	Module: Media Queries styling
+	Author: Pankaj Patil
+*/
+
+@media(max-width: 991px){
+	.slack-section{
+		background-image: none;
+		.col-md-5{
+			padding: 0;
+		}
+	}
+}
+
+@media(max-width: 768px){
+
+	.conference-landing{
+		background-position: 35% 50%;
+		.welcome-message{
+			margin: 150px 0 80px 0;
+			h1{
+				font-size: 34px;
+				line-height: 1.2;
+			}
+			p{
+				font-size: 24px;
+			}
+			
+		}
+
+	}
+
+	.navbar.white-nav{
+		background: $white;
+		.navbar-header{
+			.navbar-brand{
+				padding-left: 15px;
+			}
+		}
+	}
+	
+	.description-section{
+		.description-points{
+			display: block;
+			.points{
+				width: 100%;
+				padding-right: 0;
+				&:not(:first-child){
+					border: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+				.icon,h5{
+					text-align: center;
+				}
+			}
+		}
+	}
+
+	.price-section{
+		.plans{
+			margin-bottom: 25px;
+		}
+	}
+
+	.sponsor-section{
+		.row{
+			img{
+				height: 100px;
+				width: 100px;
+				margin-bottom: 30px;
+			}
+		}
+
+		.last-row{
+			img{
+				margin-top: 0;
+			}
+		}
+	}
+
+	footer{
+		.footer-links{
+			margin: 0;
+		}
+		.copy-div{
+			margin: 20px 0 10px 0;
+		}
+		.copy-text{
+			margin: 0 0 25px 0;
+		}
+	}
+
+	.speaker-modal{
+		.modal-content{
+			.modal-body{
+				padding: 30px 0;
+				.speaker-data{
+					margin-left: 0;
+					padding-bottom: 30px;
+					border-bottom: 1px solid $gray;
+					text-align: center;
+					.data-title{
+						margin-top: 25px;
+					}
+				}
+				.col-sm-9{
+					margin-top: 30px;
+					padding: 0 20px;
+					h2,
+					.site-target{
+						text-align: center;
+					}
+					.site-target{
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}	
+
+}
+
+@media (max-height: 520px) and (orientation: landscape) { 
+
+	.conference-landing{
+		height: 120vh;
+	}
+
+}
+
+@media(max-width: 450px){
+	.conference-landing{
+		.welcome-message{
+			.action-buttons{
+				button{
+					width: 100%;
+					margin: 0;
+					&:first-child{
+						margin-bottom: 20px;
+					}
+				}
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,33 @@
+.primary-btn{
+	padding: 13px 25px;
+	border-radius: 4px;
+	background: $green;
+	color: $white;
+	font-weight: 600;
+	font-size: 16px;
+	border: 2px solid $green;
+	transition: all 0.3s ease;
+	&:hover{
+		background: $white;
+		border: 2px solid $green;
+		color: $green;
+		transition: all 0.3s ease;
+	}
+}
+
+.secondary-btn{
+	padding: 13px 25px;
+	border-radius: 4px;
+	background: transparent;
+	color: $white;
+	font-weight: 600;
+	font-size: 16px;
+	border: 2px solid $white;
+	transition: all 0.3s ease;
+	&:hover{
+		background: $green;
+		border: 2px solid $green;
+		color: $white;
+		transition: all 0.3s ease;
+	}
+}

@@ -1,0 +1,27 @@
+/* 
+	IE9 Styling
+	Author: Pankaj Patil
+ */
+
+
+.ie{
+
+	/* Linear gradient not supoorted in ie9 so fallback for it */
+
+	.conference-landing{
+		background: url(../img/conference-5.jpg) center center no-repeat fixed;
+		background-size: cover;
+	}
+	.description-section{
+
+		/* Fallback for flex property in ie9 */
+		
+		.description-points{
+			display: table;
+			margin-top: 25px;
+			.points{
+				display: table-cell;
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+/*
+	
+	Global/Common styling
+	Author: Pankaj Patil
+
+*/
+
+*{
+	-webkit-outline: 0;
+	-moz-outline: 0;
+	-ms-outline: 0;
+	-o-outline: 0;
+	outline: 0;
+} /* Globally outline removed */
+
+a:focus{
+	outline: 0;
+} /* ON focusing anchor outline none */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+} /* Open sans fonts used in website */
+
+.conf-section{
+	padding: 60px 0;
+} /* Common class for conf section */
+
+p{
+	color: $text-gray;
+	font-size: 18px;
+	line-height: 1.52857;
+}
+
+.gray-section{
+	background: $light-gray;
+}
+
+.conf-header{
+	text-align: center;
+	h2{
+		font-size: 22px;
+		margin: 15px 0 30px 0;
+	}
+}
