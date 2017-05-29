@@ -52,9 +52,10 @@
     <section class="conference-landing">
         <div class="container">
             <div class="welcome-message">
-                <h1>A Event For Web Designers And Developers</h1>
-                <p>10th – 13th July 2015</p>
-                <p>New York, USA</p>
+                {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
+                <h1>This year, we're bringing the best minds in the freelancing community to YOU! </h1>
+                {{--<p>10th – 13th July 2015</p>--}}
+                <p>15th October, 2017</p>
                 <div class="action-buttons">
                     <button class="primary-btn">Buy Tickets Now</button>
                     <button class="secondary-btn">Learn More</button>
@@ -151,10 +152,12 @@
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                     <header class="conf-header">
-                        <p>The ConvertKit conference is where modern crafts(wo)men come to renew their commitment to
-                            creating great work every day. We’ve created a schedule full of opportunity to set goals,
-                            find passion in you work, learn from the best, and build long-term relationships with other
-                            online creators.</p>
+                        <p>
+                            There's nothing inspirational than attending a conference, but unfortunately, not everyone
+                            can take part in person. We've created Consulting People Conference - it is the easiest and
+                            most affordable way to attend an event. We've put together a full day of talks from the best
+                            minds in the consulting community, and we're streaming them directly to your home or office.
+                        </p>
                     </header>
                 </div>
             </div>
@@ -350,21 +353,20 @@
                                 <h4 class="panel-title">
                                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
                                        aria-expanded="false" aria-controls="collapseOne">
-                                        Collapsible Group Item #1
+                                        Will this be worth my money and time?
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
                                  aria-labelledby="headingOne">
                                 <div class="panel-body">
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                                        you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                    <p>
+                                        This conference is specifically created to help people like you – freelancers,
+                                        consultants, and agency owners – be inspired from fellow freelancers and
+                                        educated by consultants to help grow your business. If learning how to become a
+                                        better freelancer, consultant, or agency owner and starting long-lasting
+                                        relationships with your clients is your objective, then the answer is yes!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -373,21 +375,18 @@
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Collapsible Group Item #2
+                                        Are you taking applications for speakers?
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                                  aria-labelledby="headingTwo">
                                 <div class="panel-body">
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                                        you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                    <p>
+                                        No. We know you're great, but we also want to make sure that you get the best
+                                        experience and actionable advice. We're carefully designing the schedule to be
+                                        able to inspire and help you grow with an actionable plan.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -396,21 +395,17 @@
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Collapsible Group Item #3
+                                        How will I watch the sessions?
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
                                  aria-labelledby="headingThree">
                                 <div class="panel-body">
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                                        you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                    <p>
+                                        The sessions will be live streamed directly to your computer or laptop. You will
+                                        get the access details a couple of days before the conference.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -419,21 +414,21 @@
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                        href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Collapsible Group Item #4
+                                        Are videos available for download?
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
                                  aria-labelledby="headingFour">
                                 <div class="panel-body">
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                                        you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                    <p>
+                                        The short answer is yes.
+                                    </p>
+                                    <p>
+                                        All session videos will be recorded for offline download after the conference.
+                                        It may take a couple of days to a week to make them available for you, but we
+                                        will make sure to have them ready as soon as possible.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -570,7 +565,8 @@
                                     New Zealand. Through relentless perseverance, springing out of bed at 4am, he once
                                     again built up a portfolio of delighted clients. Eventually he developed a
                                     three-pronged strategy that allows him to take three months off every year, while
-                                    running the very successful website <a href="javascript:void(0)" class="site-target" target="_blank">psychotactics.com</a>.
+                                    running the very successful website <a href="javascript:void(0)" class="site-target"
+                                                                           target="_blank">psychotactics.com</a>.
                                 </p>
                                 <p></p>
                                 <div class="social-icons">
@@ -620,7 +616,8 @@
                             </div>
                             <div class="col-sm-9">
                                 <h2>Christopher Hawkins</h2>
-                                <a href="javascript:void(0)" class="site-target" target="_blank">christopherhawkins.com</a>
+                                <a href="javascript:void(0)" class="site-target"
+                                   target="_blank">christopherhawkins.com</a>
                                 <p></p>
                                 <p>
                                     Speaker Description
