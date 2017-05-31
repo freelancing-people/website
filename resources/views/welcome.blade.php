@@ -217,52 +217,29 @@
                 <h2>Pricing</h2>
             </header>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="plans">
-                        <div class="header">
-                            <h4>Plan 1</h4>
-                            <div class="price">
-                                <span class="currency-symbol">$</span>500<span class="unit">/ Per Ticket</span>
-                            </div>
-                        </div>
-                        <ul class="features">
-                            <li>First Feature</li>
-                            <li>First Feature</li>
-                            <li>First Feature</li>
-                            <li>First Feature</li>
-                        </ul>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="pricing-info">
+                        <h3>15th October, 2017</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="plans">
-                        <div class="header">
-                            <h4>Plan 2</h4>
-                            <div class="price">
-                                <span class="currency-symbol">$</span>600<span class="unit">/ Per Ticket</span>
-                            </div>
+                    <div class="price">
+                        <div class="p-icon">
+                           <i class="fa fa-dollar"> </i>
                         </div>
-                        <ul class="features">
-                            <li>First Feature</li>
-                            <li>First Feature</li>
-                            <li>First Feature</li>
-                            <li>First Feature</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="plans">
-                        <div class="header">
-                            <h4>Plan 3</h4>
-                            <div class="price">
-                                <span class="currency-symbol">$</span>800<span class="unit">/ Per Ticket</span>
-                            </div>
+                        <div class="p-type">
+                            <h6>Price</h6>
+                            Access to all keynotes, workshops and parties across three days.
                         </div>
-                        <ul class="features">
-                            <li>First Feature</li>
-                            <li>First Feature</li>
-                            <li>First Feature</li>
-                            <li>First Feature</li>
-                        </ul>
+                        <div class="p-amount">
+                            <span class="p-act-amount">$799<span class="p-current-amount"></span></span>
+                            $599
+                        </div>
+                        <div class="p-btn">
+                            <a href="javascript:void(0)" class="primary-btn">Register Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
