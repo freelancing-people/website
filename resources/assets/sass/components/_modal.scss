@@ -71,7 +71,8 @@
 					    width: 40px;
 					    display: inline-block;
 						color: $green;
-						padding: 8px 14px;
+						padding: 8px 0;
+						text-align: center;
 						transition: all 0.3s ease;
 						&:hover,
 						&:active,

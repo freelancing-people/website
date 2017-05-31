@@ -225,6 +225,9 @@
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat.</p>
                     </div>
+                
+                   
+              
                     <div class="price">
                         <div class="p-icon">
                            <i class="fa fa-dollar"> </i>
@@ -239,6 +242,25 @@
                         </div>
                         <div class="p-btn">
                             <a href="javascript:void(0)" class="primary-btn">Register Now</a>
+                        </div>
+                    </div>
+
+                     <div class="pricing-details">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li><p>Lorem ipsum is a dummy text.</p></li>
+                                    <li><p>Lorem ipsum is a dummy text.</p></li>
+                                    <li><p>Lorem ipsum is a dummy text.</p></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li><p>Lorem ipsum is a dummy text.</p></li>
+                                    <li><p>Lorem ipsum is a dummy text.</p></li>
+                                    <li><p>Lorem ipsum is a dummy text.</p></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -547,8 +569,7 @@
                                     New Zealand. Through relentless perseverance, springing out of bed at 4am, he once
                                     again built up a portfolio of delighted clients. Eventually he developed a
                                     three-pronged strategy that allows him to take three months off every year, while
-                                    running the very successful website <a href="https://psychotactics.com" class="site-target"
-                                                                           target="_blank">psychotactics.com</a>.
+                                    running the very successful website <a href="https://psychotactics.com" target="_blank">psychotactics.com</a>.
                                 </p>
                                 <p></p>
                                 <div class="social-icons">
@@ -711,6 +732,7 @@
             $('.navbar-default').addClass('white-nav');
         } else {
             $(window).scroll(function () {
+                $('.conf-nav li a').removeClass('active');
                 if ($(this).scrollTop() > 0) {
                     $('.navbar-default').addClass('white-nav');
                 } else {
