@@ -8,20 +8,44 @@
 
 	/* Linear gradient not supoorted in ie9 so fallback for it */
 
-	.conference-landing{
-		background: url(../img/conference-5.jpg) center center no-repeat fixed;
-		background-size: cover;
-	}
-	.description-section{
-
-		/* Fallback for flex property in ie9 */
-		
-		.description-points{
-			display: table;
-			margin-top: 25px;
-			.points{
-				display: table-cell;
+	
+	.price-section{
+		.price{
+			display: block;
+			padding: 0;
+			h3{
+				text-align: center;
+				color: $black;
+				font-weight: bold;
 			}
+			p{
+				text-align: center;
+			}
+		    .p-icon{
+		    	background: $green;
+		    	width: 100%;
+			    font-size: 64px;
+			    text-align: center;
+			    color: $white;
+			    margin: 0;
+		    }
+		    .p-type{
+		    	padding: 15px;
+		    	padding-top: 30px;
+		    	width: 100%;
+		    	text-align:center;
+		    	h6{
+		    		text-align: center;
+		    		font-size: 30px;
+		    	}
+		    }
+		    .p-amount{
+		    	width: 100%;
+		    }
+		    .p-btn{
+		    	padding: 15px;
+		    	text-align: center;
+		    }
 		}
 	}
 }
