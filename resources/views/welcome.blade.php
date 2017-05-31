@@ -6,9 +6,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta for responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Meta for Edge style rendering in IE -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <!-- External font - Open Sans -->
-    <link rel="stylesheet" type="text/css" href="css/app.css"> <!-- Compiled css -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet"> <!-- External font - Open Sans -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/app.css"> <!-- Compiled css -->
 </head>
 <body>
 <div id="app">
@@ -53,12 +53,16 @@
         <div class="container">
             <div class="welcome-message">
                 {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
-                <h1>This year, we're bringing the best minds in the freelancing community to YOU! </h1>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1>This year, we're bringing the best minds in the freelancing community to YOU! </h1>
+                    </div>
+                </div>
                 {{--<p>10th – 13th July 2015</p>--}}
                 <p>15th October, 2017</p>
                 <div class="action-buttons">
                     <button class="primary-btn">Buy Tickets Now</button>
-                    <button class="secondary-btn">Learn More</button>
+                    <button class="secondary-btn" id="learn-more">Learn More</button>
                 </div>
             </div>
         </div>
@@ -67,138 +71,141 @@
     <!-- End of landing section -->
 
 
+    <!-- About Section -->
+
+        <section class="conf-section about-section">
+            <div class="container">
+                <header class="conf-header">
+                    <img src="/img/about.png">
+                    <h2>About Conference</h2>
+                </header>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi. dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi. dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi. dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- End of acbout section -->
+
+
     <!-- Speakers section -->
 
-    <section class="conf-section speaker-section">
-        <div class="container">
-            <header class="conf-header">
-                <img src="/img/microphone.png">
-                <h2>Our Speakers</h2>
-            </header>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <p>We’ve lined up brilliant thought leaders to teach and inspire you with stories of victories,
-                        defeats, and everything you learn in the in between from putting your passions to work.</p>
-                </div>
-                <div class="col-sm-10 col-sm-offset-1">
-                    <div class="col-sm-4">
-                        <div class="speaker">
-                            <a href="#profile-1" data-toggle="modal">
-                                <img src="/img/kai-davis.jpg" alt="Kai Davis">
-                                <h2>Kai Davis</h2>
-                            </a>
-                            <a href="javascript:void(0)" class="site-link" target="_blank">kaidavis.com</a>
+        <section class="conf-section speaker-section gray-section">
+            <div class="container">
+                <header class="conf-header">
+                    <img src="/img/microphone.png">
+                    <h2>Our Speakers</h2>
+                </header>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <p>We’ve lined up brilliant thought leaders to teach and inspire you with stories of victories,
+                            defeats, and everything you learn in the in between from putting your passions to work.</p>
+                    </div>
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-4">
+                            <div class="speaker">
+                                <a href="#profile-1" data-toggle="modal">
+                                    <img src="/img/kai-davis.jpg" alt="Kai Davis">
+                                </a>
+                                <div class="open-pro-modal">
+                                    <a href="#profile-1" data-toggle="modal">
+                                        <h2>Kai Davis</h2>
+                                    </a>
+                                </div>
+                                <a href="https://kaidavis.com" class="site-link" target="_blank">kaidavis.com</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="speaker">
+                                <a href="#profile-2" data-toggle="modal">
+                                    <img src="/img/sean-dsouza.jpg" alt="Sean D'Souza">
+                                </a>
+                                <div class="open-pro-modal">
+                                    <a href="#profile-2" data-toggle="modal">
+                                       <h2>Sean D'Souza</h2>
+                                    </a>
+                                </div>
+                                <a href="javascript:void(0)" class="site-link" target="_blank">psychotactics.com</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="speaker">
+                                <a href="#profile-3" data-toggle="modal">
+                                    <img src="/img/christopher-hawkins.jpg" alt="Christopher Hawkins">
+                                </a>
+                                <div class="open-pro-modal">
+                                    <a href="#profile-3" data-toggle="modal">
+                                       <h2>Christopher Hawkins</h2>
+                                    </a>
+                                </div>
+                                <a href="https://christopherhawkins.com" class="site-link">christopherhawkins.com</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="speaker">
-                            <a href="#profile-2" data-toggle="modal">
-                                <img src="/img/sean-dsouza.jpg" alt="Sean D'Souza">
-                                <h2>Sean D'Souza</h2>
-                            </a>
-                            <a href="javascript:void(0)" class="site-link" target="_blank">psychotactics.com</a>
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-4">
+                            <div class="speaker">
+                                <a href="#profile-1" data-toggle="modal">
+                                    <img src="/img/female-user.png" alt="Speaker 4">
+                                </a>
+                                <div class="open-pro-modal">
+                                    <a href="#profile-1" data-toggle="modal">
+                                       <h2>Speaker 4</h2>
+                                    </a>
+                                </div>
+                                <a href="javascript:void(0)" class="site-link">speaker4.com</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="speaker">
-                            <a href="#profile-3" data-toggle="modal">
-                                <img src="/img/christopher-hawkins.jpg" alt="Christopher Hawkins">
-                                <h2>Christopher Hawkins</h2>
-                            </a>
-                            <a href="javascript:void(0)" class="site-link">christopherhawkins.com</a>
+                        <div class="col-sm-4">
+                            <div class="speaker">
+                                <a href="#profile-1" data-toggle="modal">
+                                    <img src="/img/female-user.png" alt="Speaker 5">
+                                </a>
+                                <div class="open-pro-modal">
+                                    <a href="#profile-1" data-toggle="modal">
+                                       <h2>Speaker 5</h2>
+                                    </a>
+                                </div>
+                                <a href="javascript:void(0)" class="site-link">speaker5.com</a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-10 col-sm-offset-1">
-                    <div class="col-sm-4">
-                        <div class="speaker">
-                            <a href="#profile-1" data-toggle="modal">
-                                <img src="/img/melyssa-griffin.jpg" alt="Melyssa Griffin">
-                                <h2>Melyssa Griffin</h2>
-                            </a>
-                            <a href="javascript:void(0)" class="site-link">melyssagriffin.com</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="speaker">
-                            <a href="#profile-1" data-toggle="modal">
-                                <img src="/img/melyssa-griffin.jpg" alt="Melyssa Griffin">
-                                <h2>Melyssa Griffin</h2>
-                            </a>
-                            <a href="javascript:void(0)" class="site-link">melyssagriffin.com</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="speaker">
-                            <a href="#profile-1" data-toggle="modal">
-                                <img src="/img/melyssa-griffin.jpg" alt="Melyssa Griffin">
-                                <h2>Melyssa Griffin</h2>
-                            </a>
-                            <a href="javascript:void(0)" class="site-link">melyssagriffin.com</a>
+                        <div class="col-sm-4">
+                            <div class="speaker">
+                                <a href="#profile-1" data-toggle="modal">
+                                    <img src="/img/female-user.png" alt="Speaker 6">
+                                </a>
+                                <div class="open-pro-modal">
+                                    <a href="#profile-1" data-toggle="modal">
+                                        <h2>Speaker 6</h2>
+                                    </a>
+                                </div>
+                                <a href="javascript:void(0)" class="site-link">speaker6.com</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     <!-- End of speakers section -->
 
 
-    <!-- Description section -->
-
-    <section class="conf-section gray-section description-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <header class="conf-header">
-                        <p>
-                            There's nothing inspirational than attending a conference, but unfortunately, not everyone
-                            can take part in person. We've created Consulting People Conference - it is the easiest and
-                            most affordable way to attend an event. We've put together a full day of talks from the best
-                            minds in the consulting community, and we're streaming them directly to your home or office.
-                        </p>
-                    </header>
-                </div>
-            </div>
-            <div class="description-points">
-                <div class="points">
-                    <div class="icon">
-                        <i class="fa fa-television" aria-hidden="true"></i>
-                    </div>
-                    <h5>Keynote talks</h5>
-                    <p>Hear creative and inspiring stories from our main stage on how to transform your day-to-day work
-                        into work that has a life-changing impact on your customers.</p>
-                </div>
-                <div class="points">
-                    <div class="icon">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                    </div>
-                    <h5>Intimate workshops</h5>
-                    <p>Throughout the weekend you’ll have the opportunity to choose between different workshops taught
-                        by online business leaders in a more focused environment.</p>
-                </div>
-                <div class="points">
-                    <div class="icon">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    </div>
-                    <h5>ConvertKit experts</h5>
-                    <p>Ask questions about your email marketing and get help using ConvertKit genius-bar-style from our
-                        team members onsite.</p>
-                </div>
-                <div class="points">
-                    <div class="icon">
-                        <i class="fa fa-glass" aria-hidden="true"></i>
-                    </div>
-                    <h5>Parties</h5>
-                    <p>Join us to kick off the event and meet your fellow attendees on Friday night and make sure you’ve
-                        made your rounds at our closing party on Sunday.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End of description section -->
 
 
     <!-- Pricing section -->
@@ -301,32 +308,36 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="row">
                         <div class="col-sm-3 col-xs-6">
-                            <img src="/img/facebook.png" alt="Facebook">
+                            <img src="/img/sponsor-1.png" alt="Facebook">
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <img src="/img/wordpress.png" alt="Wordpress">
+                            <img src="/img/sponsor-2.png" alt="Wordpress">
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <img src="/img/blogger.png" alt="Blogger">
+                            <img src="/img/sponsor-3.png" alt="Blogger">
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <img src="/img/amazon.png" alt="Amazon">
+                            <img src="/img/sponsor-1.png" alt="Amazon">
                         </div>
                     </div>
 
                     <div class="row last-row">
                         <div class="col-sm-3 col-xs-6">
-                            <img src="/img/linkedin.png" alt="Linkedin">
+                            <img src="/img/sponsor-2.png" alt="Linkedin">
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <img src="/img/chrome.png" alt="Chrome">
+                            <img src="/img/sponsor-3.png" alt="Chrome">
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <img src="/img/pinterest.png" alt="Pinterest">
+                            <img src="/img/sponsor-1.png" alt="Pinterest">
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <img src="/img/microsoft.png" alt="Microsoft">
+                            <img src="/img/sponsor-2.png" alt="Microsoft">
                         </div>
+                    </div>
+
+                    <div class="sponsor-btn text-center">
+                        <a href="javascript:void(0)" class="primary-btn" target="_blank">Become a Sponsor</a>
                     </div>
 
                 </div>
@@ -481,10 +492,7 @@
                             <div class="col-sm-3">
                                 <div class="speaker-data">
                                     <img src="/img/kai-davis.jpg" alt="Kai Davis">
-                                    <div class="data-title">
-                                        <i class="fa fa-television" aria-hidden="true"></i>
-                                        Main stage
-                                    </div>
+                                   
                                     <p>Sunday 25 June, 3:15pm</p>
 
                                     <a href="javascript:void(0)">
@@ -494,7 +502,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <h2>Kai Davis</h2>
-                                <a href="javascript:void(0)" class="site-target" target="_blank">kaidavis.com</a>
+                                <a href="https://kaidavis.com/" class="site-target" target="_blank">kaidavis.com</a>
                                 <p></p>
                                 <p>
                                     Kai Davis teaches Freelancers and Consultants how to get more clients without
@@ -505,7 +513,7 @@
                                 </p>
                                 <p>
                                     Kai sends out a DAILY email on marketing and consulting for freelancers at
-                                    <a href="javascript:void(0)" class="" target="_blank">kaidavis.com</a>. You aren't
+                                    <a href="https://kaidavis.com/" class="" target="_blank">kaidavis.com</a>. You aren't
                                     alone any longer, fellow freelancer.
                                 </p>
                                 <p></p>
@@ -543,10 +551,7 @@
                             <div class="col-sm-3">
                                 <div class="speaker-data">
                                     <img src="/img/sean-dsouza.jpg" alt="Sean D'Souza">
-                                    <div class="data-title">
-                                        <i class="fa fa-television" aria-hidden="true"></i>
-                                        Main stage
-                                    </div>
+                                  
                                     <p>Sunday 25 June, 3:15pm</p>
 
                                     <a href="javascript:void(0)">
@@ -556,7 +561,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <h2>Sean D'Souza</h2>
-                                <a href="javascript:void(0)" class="site-target" target="_blank">psychotactics.com</a>
+                                <a href="https://psychotactics.com" class="site-target" target="_blank">psychotactics.com</a>
                                 <p></p>
                                 <p>
                                     Sean has always followed his dreams, putting in the effort required to achieve them.
@@ -565,7 +570,7 @@
                                     New Zealand. Through relentless perseverance, springing out of bed at 4am, he once
                                     again built up a portfolio of delighted clients. Eventually he developed a
                                     three-pronged strategy that allows him to take three months off every year, while
-                                    running the very successful website <a href="javascript:void(0)" class="site-target"
+                                    running the very successful website <a href="https://psychotactics.com" class="site-target"
                                                                            target="_blank">psychotactics.com</a>.
                                 </p>
                                 <p></p>
@@ -603,10 +608,7 @@
                             <div class="col-sm-3">
                                 <div class="speaker-data">
                                     <img src="/img/christopher-hawkins.jpg" alt="Christopher Hawkins">
-                                    <div class="data-title">
-                                        <i class="fa fa-television" aria-hidden="true"></i>
-                                        Main stage
-                                    </div>
+                                   
                                     <p>Sunday 25 June, 3:15pm</p>
 
                                     <a href="javascript:void(0)">
@@ -616,7 +618,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <h2>Christopher Hawkins</h2>
-                                <a href="javascript:void(0)" class="site-target"
+                                <a href="https://christopherhawkins.com" class="site-target"
                                    target="_blank">christopherhawkins.com</a>
                                 <p></p>
                                 <p>
@@ -715,6 +717,12 @@
                 scrollTop: $('.' + moveSection).offset().top - 73
             }, 1000);
             $this.addClass('active');
+        })
+
+        $('#learn-more').on('click',function(){
+            $('html, body').animate({
+                scrollTop: $('.about-section').offset().top - 73
+            }, 1000);
         })
 
         /* End of navigation functionality */

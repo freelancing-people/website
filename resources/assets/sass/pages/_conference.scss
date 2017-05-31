@@ -5,17 +5,19 @@
 
 .conference-landing{
 	height: 100vh;
-	background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(../img/conference-5.jpg) center center no-repeat fixed;
+	background: url('../img/landing-3.jpg');
 	background-size: cover;
 
 	.welcome-message{
 		text-align: center;
 		margin: 250px 0 100px 0;
 		h1{
-			font-weight: 700;
+			font-weight: 500;
 		    text-shadow: 0 1px 1px $black;
 		    color: $white;
-		    font-size: 42px;
+		    font-size: 36px;
+		    line-height: 48px;
+		    font-family: 'Ubuntu', sans-serif;
 		}
 		p{
 			margin-bottom: 0;
@@ -34,6 +36,12 @@
 	}
 }
 
+.about-section{
+	p{
+		line-height: 1.8;
+	}
+}
+
 .speaker-section{
 	
 
@@ -47,6 +55,19 @@
 			&:active{
 				text-decoration: none;
 			}
+			&[data-toggle="modal"]{
+				display: inline-block;
+			}
+			h2{
+				color: $dark-gray;
+				font-weight: 600;
+	    		line-height: 1.4;
+	    		font-size: 24px;
+	    		margin: 0;
+			}
+		}
+		.open-pro-modal{
+			margin: 15px 0 5px 0;
 		}
 		img{
 			border-radius: 50%;
@@ -54,13 +75,7 @@
 			height: 130px;
 			width: 130px;
 		}
-		h2{
-			margin: 15px 0 5px 0;
-			color: $dark-gray;
-			font-weight: 600;
-    		line-height: 1.4;
-    		font-size: 24px;
-		}
+		
 		.site-link{
 			color: $text-gray;
 			transition: all 0.3s ease;
@@ -201,6 +216,17 @@
 	.last-row{
 		img{
 			margin-top: 50px;
+		}
+	}
+	.sponsor-btn{
+		margin-top: 75px;
+		margin-bottom: 25px;
+		a{
+			&:hover,
+			&:active,
+			&:focus{
+				text-decoration: none;
+			}
 		}
 	}
 }
