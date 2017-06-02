@@ -225,9 +225,9 @@
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat.</p>
                     </div>
-                
-                   
-              
+
+
+
                     <div class="price">
                         <div class="p-icon">
                            <i class="fa fa-dollar"> </i>
@@ -281,8 +281,8 @@
                         <img src="/img/slack.png">
                         <h2>Mingling</h2>
                     </header>
-                    <p>Part of the excitement of Laracon is the chance to network and make new connections. For Laracon
-                        Online, we’re creating a dedicated Slack room just for attendees which you can use before,
+                    <p>
+                    Part of the excitement of a conference is the chance to network and make new connections. For Consulting People Conference, we’re creating a dedicated Slack room just for attendees which you can use before,
                         during, and after the event.</p>
 
                     <p>Discuss the talks as they happen, swap notes, and make new friends from around the globe.</p>
@@ -491,7 +491,7 @@
                             <div class="col-sm-3">
                                 <div class="speaker-data">
                                     <img src="/img/kai-davis.jpg" alt="Kai Davis">
-                                   
+
                                     <p>Sunday 25 June, 3:15pm</p>
 
                                     <a href="javascript:void(0)">
@@ -550,7 +550,7 @@
                             <div class="col-sm-3">
                                 <div class="speaker-data">
                                     <img src="/img/sean-dsouza.jpg" alt="Sean D'Souza">
-                                  
+
                                     <p>Sunday 25 June, 3:15pm</p>
 
                                     <a href="javascript:void(0)">
@@ -606,7 +606,7 @@
                             <div class="col-sm-3">
                                 <div class="speaker-data">
                                     <img src="/img/christopher-hawkins.jpg" alt="Christopher Hawkins">
-                                   
+
                                     <p>Sunday 25 June, 3:15pm</p>
 
                                     <a href="javascript:void(0)">
