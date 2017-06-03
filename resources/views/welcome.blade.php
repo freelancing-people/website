@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta for responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Meta for Edge style rendering in IE -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet"> <!-- External font - Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Satisfy|Ubuntu" rel="stylesheet"> <!-- External font - Open Sans -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/app.css"> <!-- Compiled css -->
 </head>
@@ -26,8 +26,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand white-logo" href="/"><img src="/img/logo.png" alt="Conference"></a>
-                    <a class="navbar-brand green-logo" href="/"><img src="/img/logo-nav.png" alt="Conference"></a>
+                    <a class="navbar-brand" href="/">Conference</a>
 
                 </div>
 
@@ -451,32 +450,6 @@
     <!-- End of FAQ section -->
 
 
-    <!-- Subscribe to newsletter section -->
-
-    <section class="conf-section newsletter-section gray-section">
-        <div class="container">
-            <header class="conf-header">
-                <img src="/img/subscribe.png">
-                <h2>Subscribe To Our Newsletter</h2>
-            </header>
-            <div class="row">
-                <div class="col-md-6 col-sm-10 mid-column">
-                    <form role="form" novalidate="true">
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Email Address" name="email">
-                            <i class="fa fa-envelope-o"></i>
-                            <span class="input-group-btn">
-                                    <button type="submit" class="btn btn-default">Submit</button>
-                                </span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End of subscribe to newsletter section -->
-
     <!-- Kai Davis Modal -->
 
     <div id="profile-1" class="modal speaker-modal fade" tabindex="-1" role="dialog" aria-hidden="true">
@@ -660,7 +633,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="copy-div">
-                        <img src="/img/logo-nav.png" alt="Conference">
+                        Conference
                     </div>
                     <p class="copy-text">© 2015 Conference. All rights reserved.</p>
                 </div>
@@ -706,38 +679,67 @@
 
 
         /* Navigation Functionality */
+            $('.conf-nav li a').on('click', function () {
+                $('.conf-nav li a').removeClass('active');
+                var $this = $(this);
+                var moveSection = $this.data('move');
+                $('html, body').animate({
+                    scrollTop: $('.' + moveSection).offset().top - 73
+                }, 1000);
+                if($(window).width() < 768){
+                    $('.navbar-toggle').addClass('collapsed')
+                                        .attr('aria-expanded',false);
+                    $('.navbar-collapse').removeClass('in');                                        
+                }
+            })
 
-        $('.conf-nav li a').on('click', function () {
-            var $this = $(this);
-            $('.conf-nav li a').removeClass('active');
-            var moveSection = $this.data('move');
-            $('html, body').animate({
-                scrollTop: $('.' + moveSection).offset().top - 73
-            }, 1000);
-            $this.addClass('active');
-        })
-
-        $('#learn-more').on('click',function(){
-            $('html, body').animate({
-                scrollTop: $('.about-section').offset().top - 73
-            }, 1000);
-        })
+       
+            $('#learn-more').on('click',function(){
+                $('html, body').animate({
+                    scrollTop: $('.about-section').offset().top - 73
+                }, 1000);
+            })
 
         /* End of navigation functionality */
 
-
         /* Responsive header & animation */
+        var speakerSection = $('.speaker-section').offset().top - 100;
+        var priceSection = $('.price-section').offset().top -100;
+        var slackSection = $('.slack-section').offset().top - 100;
+        var sponsorSection = $('.sponsor-section').offset().top - 100;
+        var faqSection = $('.faq-section').offset().top - 100;
+        var footer = $('footer').offset().top - 100;
+
 
         if ($(window).width() < 768) {
             $('.navbar-default').addClass('white-nav');
         } else {
+            
             $(window).scroll(function () {
-                $('.conf-nav li a').removeClass('active');
-                if ($(this).scrollTop() > 0) {
+                var scrollTop = $(this).scrollTop();
+
+                if(scrollTop > speakerSection && scrollTop < priceSection){
+                    $('.conf-nav li a').removeClass('active');
+                    $('a[data-move="speaker-section"]').addClass('active');
+                }else if(scrollTop > priceSection && scrollTop < slackSection){
+                    $('.conf-nav li a').removeClass('active');
+                    $('a[data-move="price-section"]').addClass('active');
+                }else if(scrollTop > sponsorSection && scrollTop < faqSection){
+                    $('.conf-nav li a').removeClass('active');
+                    $('a[data-move="sponsor-section"]').addClass('active');
+                }else if(scrollTop > faqSection && scrollTop < footer){
+                    $('.conf-nav li a').removeClass('active');
+                    $('a[data-move="faq-section"]').addClass('active');
+                }else{
+                    $('.conf-nav li a').removeClass('active');
+                }
+
+                if (scrollTop > 0) {
                     $('.navbar-default').addClass('white-nav');
                 } else {
                     $('.navbar-default').removeClass('white-nav');
                 }
+
             });
         }
 
