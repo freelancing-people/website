@@ -1,4 +1,4 @@
-/* 
+/*
 	Page/Component : Confernce
 	Author : Pankaj Patil
 */
@@ -20,6 +20,7 @@
 		    font-family: 'Ubuntu', sans-serif;
 		}
 		p{
+			margin-top: 35px;
 			margin-bottom: 0;
 		    color: $white;
 		    font-weight: 400;
@@ -28,7 +29,7 @@
 		}
 
 		.action-buttons{
-			margin-top: 20px;
+			margin-top: 40px;
 			.primary-btn{
 				margin-right: 15px;
 			}
@@ -43,7 +44,7 @@
 }
 
 .speaker-section{
-	
+
 
 	.speaker{
 		padding-top: 50px;
@@ -75,7 +76,7 @@
 			height: 130px;
 			width: 130px;
 		}
-		
+
 		.site-link{
 			color: $text-gray;
 			transition: all 0.3s ease;
@@ -294,7 +295,7 @@
 				}
 			}
 		}
-	
+
 	}
 }
 

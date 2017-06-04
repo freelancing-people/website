@@ -26,7 +26,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">Conference</a>
+                    <a class="navbar-brand" href="/">FreelancingConf</a>
 
                 </div>
 
@@ -54,7 +54,7 @@
                 {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1>This year, we're bringing the best minds in the freelancing community to YOU! </h1>
+                        <h1>This year, we're bringing an online conference for the FREELANCING community! </h1>
                     </div>
                 </div>
                 {{--<p>10th – 13th July 2015</p>--}}
@@ -689,11 +689,11 @@
                 if($(window).width() < 768){
                     $('.navbar-toggle').addClass('collapsed')
                                         .attr('aria-expanded',false);
-                    $('.navbar-collapse').removeClass('in');                                        
+                    $('.navbar-collapse').removeClass('in');
                 }
             })
 
-       
+
             $('#learn-more').on('click',function(){
                 $('html, body').animate({
                     scrollTop: $('.about-section').offset().top - 73
@@ -714,7 +714,7 @@
         if ($(window).width() < 768) {
             $('.navbar-default').addClass('white-nav');
         } else {
-            
+
             $(window).scroll(function () {
                 var scrollTop = $(this).scrollTop();
 
