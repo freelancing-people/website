@@ -58,23 +58,23 @@ p{
 
 }
 
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: $white; }
+}
+
 .animate-word {
 	overflow: hidden;
 	display: inline-flex;
-	width: 245px;
+	width: 248px;
+	span{
+		max-width: 0;
+		animation: blink-caret 1s step-end infinite;
+		overflow: hidden;
+	}
 	.freelance{
 		max-width: 500px;
-		overflow: hidden;
-	}
-	.design{
-		max-width: 0;
-		overflow: hidden;
-
-	}
-	.agency{
-		max-width: 0;
-		overflow: hidden;
-
+		border-right: 2px solid $white;
 	}
 }
 

@@ -678,59 +678,70 @@
 
     $(window).on('load', function () {
         
-        function funHide(div,num,divNum){
-            console.log(div);
-            console.log(num);
-            console.log(divNum);
-            if(num == 0){
-                 div.animate({
-                    maxWidth: "0",
-                  }, 3000 );
-            }else{
-                  div.animate({
-                    maxWidth: "500px",
-                  }, 3000 );
-            }
+        function funHide(divNum){
             switch(divNum){
-                case 2:
+                case 1:
+                $('.freelance').animate({
+                    maxWidth: "0",
+                }, 4000 );
                 setTimeout(function(){
-                    funHide($('.design'),1,3)
-                },3000);
+                    $('.freelance').css('border-right',"0");
+                    $('.design').css('border-right',"2px solid #fff");
+                    funHide(2);
+                },4000);
+                break;
+                case 2:
+                $('.design').animate({
+                    maxWidth: "500px",
+                }, 4000 );
+                setTimeout(function(){
+                    funHide(3);
+                },4000);
                 break;
                 case 3:
-                 setTimeout(function(){
-                    funHide($('.design'),0,4)
-                },3000);
+                $('.design').animate({
+                    maxWidth: "0",
+                }, 4000 );
+                setTimeout(function(){
+                    $('.design').css('border-right',"0");
+                    $('.agency').css('border-right',"2px solid #fff");
+                    funHide(4);
+                },4000);
                 break;
                 case 4:
+                $('.agency').animate({
+                    maxWidth: "450px",
+                }, 4000 );
                 setTimeout(function(){
-                    funHide($('.agency'),1,5)
-                },3000);
+                    funHide(5);
+                },4000);
                 break;
                 case 5:
+                $('.agency').animate({
+                    maxWidth: "0",
+                }, 4000 );
                 setTimeout(function(){
-                    funHide($('.agency'),0,6)
-                },3000);
+                     $('.agency').css('border-right',"0");
+                    $('.freelance').css('border-right',"2px solid #fff");
+                    funHide(6);
+                },4000);
                 break;
                 case 6:
+                $('.freelance').animate({
+                    maxWidth: "450px",
+                }, 4000 );
                 setTimeout(function(){
-                    funHide($('.freelance'),1,7)
-                },3000);
-                break;
-                case 7:
-                setTimeout(function(){
-                    funHide($('.freelance'),0,2)
-                },3000);
+                    funHide(1);
+                },4000);
                 break;
                 default:
                 break;
             }       
         }
 
-        setTimeout(function(){
-            funHide($('.freelance'),0,2);
-        },1000)
+        funHide(1);
 
+      
 
         /* Navigation Functionality */
             $('.conf-nav li a').on('click', function () {
