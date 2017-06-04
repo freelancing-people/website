@@ -54,7 +54,7 @@
                 {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1>This year, we're bringing an online conference for the FREELANCING community! </h1>
+                        <h1>This year, we're bringing an online conference for FREELANCERS! </h1>
                     </div>
                 </div>
                 {{--<p>10th – 13th July 2015</p>--}}
