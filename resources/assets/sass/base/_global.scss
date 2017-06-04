@@ -58,23 +58,39 @@ p{
 
 }
 
+@keyframes backspace{
+	from{
+		max-width: 500px;
+	}
+	to{
+		max-width: 0;
+	}
+}
+
+@keyframes typing{
+	from{
+		max-width: 0;
+	}
+	to{
+		max-width: 500px;
+	}
+}
+
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: $white; }
 }
 
 .animate-word {
-	overflow: hidden;
 	display: inline-flex;
-	width: 248px;
-	span{
-		max-width: 0;
-		animation: blink-caret 1s step-end infinite;
-		overflow: hidden;
-	}
-	.freelance{
+	width: 250px;
+	.freelancer{
 		max-width: 500px;
-		border-right: 2px solid $white;
+		overflow: hidden;
+		display: inline-flex;
+		border-right: 2.5px solid $white;
+		animation: backspace 4s steps(60, end),
+	           blink-caret 1.5s step-end infinite alternate;
 	}
 }
 

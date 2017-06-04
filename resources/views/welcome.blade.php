@@ -54,7 +54,7 @@
                 {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1>This year, we're bringing an online conference for <span class="animate-word"><span class="freelance">FREELANCERS!</span><span class="design">DESIGNERS!</span><span class="agency">AGENCIES!</span></span> </h1>
+                        <h1>This year, we're bringing an online conference for <span class="animate-word"><span class="freelancer">FREELANCERS!</span></span> </h1>
                     </div>
                 </div>
                 {{--<p>10th – 13th July 2015</p>--}}
@@ -678,68 +678,74 @@
 
     $(window).on('load', function () {
         
-        function funHide(divNum){
-            switch(divNum){
+        function funHide(text,num){
+            switch(num){
                 case 1:
-                $('.freelance').animate({
-                    maxWidth: "0",
-                }, 4000 );
-                setTimeout(function(){
-                    $('.freelance').css('border-right',"0");
-                    $('.design').css('border-right',"2px solid #fff");
-                    funHide(2);
-                },4000);
+                    setTimeout(function(){
+                        $('.freelancer').text(text)
+                                        .css({
+                                            "animation": "typing 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                        });
+                        funHide('DESIGNERS!',2);
+                    },3800);
                 break;
-                case 2:
-                $('.design').animate({
-                    maxWidth: "500px",
-                }, 4000 );
-                setTimeout(function(){
-                    funHide(3);
-                },4000);
+                
+                case 2 :
+                    setTimeout(function(){
+                        $('.freelancer').css({
+                                            "animation": "backspace 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                        });
+                        funHide('AGENCIES!',3);
+                    },3800);
                 break;
-                case 3:
-                $('.design').animate({
-                    maxWidth: "0",
-                }, 4000 );
-                setTimeout(function(){
-                    $('.design').css('border-right',"0");
-                    $('.agency').css('border-right',"2px solid #fff");
-                    funHide(4);
-                },4000);
+                
+                case 3 :
+                    setTimeout(function(){
+                        $('.freelancer').text(text)
+                                        .css({
+                                            "animation": "typing 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                        });
+                        funHide('AGENCIES!',4);
+                    },3800);
                 break;
-                case 4:
-                $('.agency').animate({
-                    maxWidth: "450px",
-                }, 4000 );
-                setTimeout(function(){
-                    funHide(5);
-                },4000);
+                
+                case 4 :
+                    setTimeout(function(){
+                        $('.freelancer').css({
+                                            "animation": "backspace 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                        });
+                        funHide('FREELANCERS!',5);
+
+                    },3800);
                 break;
-                case 5:
-                $('.agency').animate({
-                    maxWidth: "0",
-                }, 4000 );
-                setTimeout(function(){
-                     $('.agency').css('border-right',"0");
-                    $('.freelance').css('border-right',"2px solid #fff");
-                    funHide(6);
-                },4000);
+
+                case 5 :
+                    setTimeout(function(){
+                        $('.freelancer').text(text)
+                                        .css({
+                                            "animation": "typing 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                        });
+                        funHide('FREELANCERS!',6);
+                    },3800);
                 break;
-                case 6:
-                $('.freelance').animate({
-                    maxWidth: "450px",
-                }, 4000 );
-                setTimeout(function(){
-                    funHide(1);
-                },4000);
+
+                case 6 :
+                    setTimeout(function(){
+                        $('.freelancer').css({
+                                            "animation": "backspace 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                        });
+                        funHide('DESIGNERS!',1);
+                },3800);
                 break;
+
                 default:
                 break;
-            }       
-        }
+            };
+        };
 
-        funHide(1);
+        funHide('DESIGNERS!',1);
+
+        
 
       
 
