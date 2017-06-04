@@ -89,8 +89,8 @@ p{
 		overflow: hidden;
 		display: inline-flex;
 		border-right: 2.5px solid $white;
-		animation: backspace 4s steps(60, end),
-	           blink-caret 1.5s step-end infinite alternate;
+		animation: backspace 3s steps(60, end),
+	           blink-caret 1s step-end infinite alternate;
 	}
 }
 

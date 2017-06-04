@@ -684,58 +684,58 @@
                     setTimeout(function(){
                         $('.freelancer').text(text)
                                         .css({
-                                            "animation": "typing 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                            "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
                                         });
                         funHide('DESIGNERS!',2);
-                    },3800);
+                    },2800);
                 break;
                 
                 case 2 :
                     setTimeout(function(){
                         $('.freelancer').css({
-                                            "animation": "backspace 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
                                         });
                         funHide('AGENCIES!',3);
-                    },3800);
+                    },2800);
                 break;
                 
                 case 3 :
                     setTimeout(function(){
                         $('.freelancer').text(text)
                                         .css({
-                                            "animation": "typing 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                            "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
                                         });
                         funHide('AGENCIES!',4);
-                    },3800);
+                    },2800);
                 break;
                 
                 case 4 :
                     setTimeout(function(){
                         $('.freelancer').css({
-                                            "animation": "backspace 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
                                         });
                         funHide('FREELANCERS!',5);
 
-                    },3800);
+                    },2800);
                 break;
 
                 case 5 :
                     setTimeout(function(){
                         $('.freelancer').text(text)
                                         .css({
-                                            "animation": "typing 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                            "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
                                         });
                         funHide('FREELANCERS!',6);
-                    },3800);
+                    },2800);
                 break;
 
                 case 6 :
                     setTimeout(function(){
                         $('.freelancer').css({
-                                            "animation": "backspace 4s steps(60, end),blink-caret 1s step-end infinite alternate",
+                                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
                                         });
                         funHide('DESIGNERS!',1);
-                },3800);
+                },2800);
                 break;
 
                 default:
