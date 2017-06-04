@@ -43,3 +43,40 @@ p{
 		margin: 5px 0 20px 0;
 	}
 }
+
+/* The typing effect */
+@keyframes typing {
+ 0{
+ 	max-width: 0;
+ }
+ 50%{
+ 	max-width: 500px;
+ }
+ 100%{
+ 	max-width: 0;
+ }
+
+}
+
+.animate-word {
+	overflow: hidden;
+	display: inline-flex;
+	width: 245px;
+	.freelance{
+		max-width: 500px;
+		overflow: hidden;
+	}
+	.design{
+		max-width: 0;
+		overflow: hidden;
+
+	}
+	.agency{
+		max-width: 0;
+		overflow: hidden;
+
+	}
+}
+
+
+

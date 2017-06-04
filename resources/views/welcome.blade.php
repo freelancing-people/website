@@ -54,7 +54,7 @@
                 {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1>This year, we're bringing an online conference for FREELANCERS! </h1>
+                        <h1>This year, we're bringing an online conference for <span class="animate-word"><span class="freelance">FREELANCERS!</span><span class="design">DESIGNERS!</span><span class="agency">AGENCIES!</span></span> </h1>
                     </div>
                 </div>
                 {{--<p>10th – 13th July 2015</p>--}}
@@ -667,6 +667,7 @@
 
 <script type="text/javascript" src="/js/app.js"></script> <!-- compiled js -->
 
+
 <script>
     /*
      Main JS file for writing our JS code.
@@ -676,6 +677,59 @@
     /* Javascript code will start function only after all the resources and assets of the site will load */
 
     $(window).on('load', function () {
+        
+        function funHide(div,num,divNum){
+            console.log(div);
+            console.log(num);
+            console.log(divNum);
+            if(num == 0){
+                 div.animate({
+                    maxWidth: "0",
+                  }, 3000 );
+            }else{
+                  div.animate({
+                    maxWidth: "500px",
+                  }, 3000 );
+            }
+            switch(divNum){
+                case 2:
+                setTimeout(function(){
+                    funHide($('.design'),1,3)
+                },3000);
+                break;
+                case 3:
+                 setTimeout(function(){
+                    funHide($('.design'),0,4)
+                },3000);
+                break;
+                case 4:
+                setTimeout(function(){
+                    funHide($('.agency'),1,5)
+                },3000);
+                break;
+                case 5:
+                setTimeout(function(){
+                    funHide($('.agency'),0,6)
+                },3000);
+                break;
+                case 6:
+                setTimeout(function(){
+                    funHide($('.freelance'),1,7)
+                },3000);
+                break;
+                case 7:
+                setTimeout(function(){
+                    funHide($('.freelance'),0,2)
+                },3000);
+                break;
+                default:
+                break;
+            }       
+        }
+
+        setTimeout(function(){
+            funHide($('.freelance'),0,2);
+        },1000)
 
 
         /* Navigation Functionality */
