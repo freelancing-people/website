@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
+    return view('conference');
+});
+
+Route::get('/conference', function () {
     return view('welcome');
 });

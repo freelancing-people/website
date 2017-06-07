@@ -6,7 +6,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta for responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Meta for Edge style rendering in IE -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Satisfy|Ubuntu" rel="stylesheet"> <!-- External font - Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Satisfy|Ubuntu" rel="stylesheet">
+    <!-- External font - Open Sans -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/app.css"> <!-- Compiled css -->
 </head>
@@ -54,7 +55,8 @@
                 {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1>This year, we're bringing an online conference for <span class="animate-word"><span class="freelancer">FREELANCERS!</span></span> </h1>
+                        <h1>This year, we're bringing an online conference for <span class="animate-word"><span
+                                        class="freelancer">FREELANCERS!</span></span></h1>
                     </div>
                 </div>
                 {{--<p>10th – 13th July 2015</p>--}}
@@ -72,139 +74,136 @@
 
     <!-- About Section -->
 
-        <section class="conf-section about-section">
-            <div class="container">
-                <header class="conf-header">
-                    <img src="/img/about.png">
-                    <h2>About Conference</h2>
-                </header>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi. dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi. dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi. dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi.</p>
-                    </div>
+    <section class="conf-section about-section">
+        <div class="container">
+            <header class="conf-header">
+                {{--<img src="/img/about.png">--}}
+                <h2 class="dark">About Freelancing Conference</h2>
+            </header>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <p>
+                        There's nothing like attending a conference in person, but unfortunately, everyone of us cannot
+                        make it to wonderful conferences around the world.
+                    </p>
+                    <p>
+                        We've curated a very special experience for YOU. You'll get to experience every exciting
+                        aspect of a conference - mingling with fellow attendees, swag, discussions with speakers,
+                        parties and lastly tons of knowledge to grow your business.
+                    </p>
+                    <p class="green">
+                        Worried you can't make it on 15th October? We'll be recording all talks for offline download
+                        after the conference.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-    <!-- End of acbout section -->
-
+    <!-- End of about section -->
 
     <!-- Speakers section -->
 
-        <section class="conf-section speaker-section gray-section">
-            <div class="container">
-                <header class="conf-header">
-                    <img src="/img/microphone.png">
-                    <h2>Our Speakers</h2>
-                </header>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <p>We’ve lined up brilliant thought leaders to teach and inspire you with stories of victories,
-                            defeats, and everything you learn in the in between from putting your passions to work.</p>
-                    </div>
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <div class="col-sm-4">
-                            <div class="speaker">
+    <section class="conf-section speaker-section gray-section">
+        <div class="container">
+            <header class="conf-header">
+                <img src="/img/microphone.png">
+                <h2>Our Speakers</h2>
+            </header>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <p>
+                        We’ve lined up some brilliant personalities from the freelancing community to share their inside
+                        experience with YOU, and we're streaming them directly to your screen.
+                    </p>
+                </div>
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="col-sm-4">
+                        <div class="speaker">
+                            <a href="#profile-1" data-toggle="modal">
+                                <img src="/img/kai-davis.jpg" alt="Kai Davis">
+                            </a>
+                            <div class="open-pro-modal">
                                 <a href="#profile-1" data-toggle="modal">
-                                    <img src="/img/kai-davis.jpg" alt="Kai Davis">
+                                    <h2>Kai Davis</h2>
                                 </a>
-                                <div class="open-pro-modal">
-                                    <a href="#profile-1" data-toggle="modal">
-                                        <h2>Kai Davis</h2>
-                                    </a>
-                                </div>
-                                <a href="https://kaidavis.com" class="site-link" target="_blank">kaidavis.com</a>
                             </div>
+                            <a href="https://kaidavis.com" class="site-link" target="_blank">kaidavis.com</a>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="speaker">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="speaker">
+                            <a href="#profile-2" data-toggle="modal">
+                                <img src="/img/sean-dsouza.jpg" alt="Sean D'Souza">
+                            </a>
+                            <div class="open-pro-modal">
                                 <a href="#profile-2" data-toggle="modal">
-                                    <img src="/img/sean-dsouza.jpg" alt="Sean D'Souza">
+                                    <h2>Sean D'Souza</h2>
                                 </a>
-                                <div class="open-pro-modal">
-                                    <a href="#profile-2" data-toggle="modal">
-                                       <h2>Sean D'Souza</h2>
-                                    </a>
-                                </div>
-                                <a href="javascript:void(0)" class="site-link" target="_blank">psychotactics.com</a>
                             </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="speaker">
-                                <a href="#profile-3" data-toggle="modal">
-                                    <img src="/img/christopher-hawkins.jpg" alt="Christopher Hawkins">
-                                </a>
-                                <div class="open-pro-modal">
-                                    <a href="#profile-3" data-toggle="modal">
-                                       <h2>Christopher Hawkins</h2>
-                                    </a>
-                                </div>
-                                <a href="https://christopherhawkins.com" class="site-link">christopherhawkins.com</a>
-                            </div>
+                            <a href="javascript:void(0)" class="site-link" target="_blank">psychotactics.com</a>
                         </div>
                     </div>
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <div class="col-sm-4">
-                            <div class="speaker">
-                                <a href="#profile-1" data-toggle="modal">
-                                    <img src="/img/female-user.png" alt="Speaker 4">
+                    <div class="col-sm-4">
+                        <div class="speaker">
+                            <a href="#profile-3" data-toggle="modal">
+                                <img src="/img/christopher-hawkins.jpg" alt="Christopher Hawkins">
+                            </a>
+                            <div class="open-pro-modal">
+                                <a href="#profile-3" data-toggle="modal">
+                                    <h2>Christopher Hawkins</h2>
                                 </a>
-                                <div class="open-pro-modal">
-                                    <a href="#profile-1" data-toggle="modal">
-                                       <h2>Speaker 4</h2>
-                                    </a>
-                                </div>
-                                <a href="javascript:void(0)" class="site-link">speaker4.com</a>
                             </div>
+                            <a href="https://christopherhawkins.com" class="site-link">christopherhawkins.com</a>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="speaker">
+                    </div>
+                </div>
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="col-sm-4">
+                        <div class="speaker">
+                            <a href="#profile-1" data-toggle="modal">
+                                <img src="/img/female-user.png" alt="Speaker 4">
+                            </a>
+                            <div class="open-pro-modal">
                                 <a href="#profile-1" data-toggle="modal">
-                                    <img src="/img/female-user.png" alt="Speaker 5">
+                                    <h2>Speaker 4</h2>
                                 </a>
-                                <div class="open-pro-modal">
-                                    <a href="#profile-1" data-toggle="modal">
-                                       <h2>Speaker 5</h2>
-                                    </a>
-                                </div>
-                                <a href="javascript:void(0)" class="site-link">speaker5.com</a>
                             </div>
+                            <a href="javascript:void(0)" class="site-link">speaker4.com</a>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="speaker">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="speaker">
+                            <a href="#profile-1" data-toggle="modal">
+                                <img src="/img/female-user.png" alt="Speaker 5">
+                            </a>
+                            <div class="open-pro-modal">
                                 <a href="#profile-1" data-toggle="modal">
-                                    <img src="/img/female-user.png" alt="Speaker 6">
+                                    <h2>Speaker 5</h2>
                                 </a>
-                                <div class="open-pro-modal">
-                                    <a href="#profile-1" data-toggle="modal">
-                                        <h2>Speaker 6</h2>
-                                    </a>
-                                </div>
-                                <a href="javascript:void(0)" class="site-link">speaker6.com</a>
                             </div>
+                            <a href="javascript:void(0)" class="site-link">speaker5.com</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="speaker">
+                            <a href="#profile-1" data-toggle="modal">
+                                <img src="/img/female-user.png" alt="Speaker 6">
+                            </a>
+                            <div class="open-pro-modal">
+                                <a href="#profile-1" data-toggle="modal">
+                                    <h2>Speaker 6</h2>
+                                </a>
+                            </div>
+                            <a href="javascript:void(0)" class="site-link">speaker6.com</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
     <!-- End of speakers section -->
-
-
 
 
     <!-- Pricing section -->
@@ -215,21 +214,21 @@
                 <img src="/img/pricing.png">
                 <h2>Pricing</h2>
             </header>
+
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="pricing-info">
                         <h3>15th October, 2017</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
                     </div>
-
 
 
                     <div class="price">
                         <div class="p-icon">
-                           <i class="fa fa-dollar"> </i>
+                            <i class="fa fa-dollar"> </i>
                         </div>
                         <div class="p-type">
                             <h6>Price</h6>
@@ -244,7 +243,7 @@
                         </div>
                     </div>
 
-                     <div class="pricing-details">
+                    <div class="pricing-details">
                         <div class="row">
                             <div class="col-sm-6">
                                 <ul>
@@ -281,7 +280,9 @@
                         <h2>Mingling</h2>
                     </header>
                     <p>
-                    Part of the excitement of a conference is the chance to network and make new connections. For Consulting People Conference, we’re creating a dedicated Slack room just for attendees which you can use before,
+                        Part of the excitement of a conference is the chance to network and make new connections. For
+                        Consulting People Conference, we’re creating a dedicated Slack room just for attendees which you
+                        can use before,
                         during, and after the event.</p>
 
                     <p>Discuss the talks as they happen, swap notes, and make new friends from around the globe.</p>
@@ -485,7 +486,8 @@
                                 </p>
                                 <p>
                                     Kai sends out a DAILY email on marketing and consulting for freelancers at
-                                    <a href="https://kaidavis.com/" class="" target="_blank">kaidavis.com</a>. You aren't
+                                    <a href="https://kaidavis.com/" class="" target="_blank">kaidavis.com</a>. You
+                                    aren't
                                     alone any longer, fellow freelancer.
                                 </p>
                                 <p></p>
@@ -542,7 +544,8 @@
                                     New Zealand. Through relentless perseverance, springing out of bed at 4am, he once
                                     again built up a portfolio of delighted clients. Eventually he developed a
                                     three-pronged strategy that allows him to take three months off every year, while
-                                    running the very successful website <a href="https://psychotactics.com" target="_blank">psychotactics.com</a>.
+                                    running the very successful website <a href="https://psychotactics.com"
+                                                                           target="_blank">psychotactics.com</a>.
                                 </p>
                                 <p></p>
                                 <div class="social-icons">
@@ -677,105 +680,103 @@
     /* Javascript code will start function only after all the resources and assets of the site will load */
 
     $(window).on('load', function () {
-        
-        function funHide(text,num){
-            switch(num){
-                case 1:
-                    setTimeout(function(){
-                        $('.freelancer').text(text)
-                                        .css({
-                                            "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                                        });
-                        funHide('DESIGNERS!',2);
-                    },2800);
-                break;
-                
-                case 2 :
-                    setTimeout(function(){
-                        $('.freelancer').css({
-                                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                                        });
-                        funHide('AGENCIES!',3);
-                    },2800);
-                break;
-                
-                case 3 :
-                    setTimeout(function(){
-                        $('.freelancer').text(text)
-                                        .css({
-                                            "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                                        });
-                        funHide('AGENCIES!',4);
-                    },2800);
-                break;
-                
-                case 4 :
-                    setTimeout(function(){
-                        $('.freelancer').css({
-                                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                                        });
-                        funHide('FREELANCERS!',5);
 
-                    },2800);
-                break;
+        function funHide(text, num) {
+            switch (num) {
+                case 1:
+                    setTimeout(function () {
+                        $('.freelancer').text(text)
+                            .css({
+                                "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
+                            });
+                        funHide('DESIGNERS!', 2);
+                    }, 2800);
+                    break;
+
+                case 2 :
+                    setTimeout(function () {
+                        $('.freelancer').css({
+                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
+                        });
+                        funHide('AGENCIES!', 3);
+                    }, 2800);
+                    break;
+
+                case 3 :
+                    setTimeout(function () {
+                        $('.freelancer').text(text)
+                            .css({
+                                "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
+                            });
+                        funHide('AGENCIES!', 4);
+                    }, 2800);
+                    break;
+
+                case 4 :
+                    setTimeout(function () {
+                        $('.freelancer').css({
+                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
+                        });
+                        funHide('FREELANCERS!', 5);
+
+                    }, 2800);
+                    break;
 
                 case 5 :
-                    setTimeout(function(){
+                    setTimeout(function () {
                         $('.freelancer').text(text)
-                                        .css({
-                                            "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                                        });
-                        funHide('FREELANCERS!',6);
-                    },2800);
-                break;
+                            .css({
+                                "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
+                            });
+                        funHide('FREELANCERS!', 6);
+                    }, 2800);
+                    break;
 
                 case 6 :
-                    setTimeout(function(){
+                    setTimeout(function () {
                         $('.freelancer').css({
-                                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                                        });
-                        funHide('DESIGNERS!',1);
-                },2800);
-                break;
+                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
+                        });
+                        funHide('DESIGNERS!', 1);
+                    }, 2800);
+                    break;
 
                 default:
-                break;
-            };
+                    break;
+            }
+            ;
         };
 
-        funHide('DESIGNERS!',1);
+        funHide('DESIGNERS!', 1);
 
-        
-
-      
 
         /* Navigation Functionality */
-            $('.conf-nav li a').on('click', function () {
-                $('.conf-nav li a').removeClass('active');
-                var $this = $(this);
-                var moveSection = $this.data('move');
-                $('html, body').animate({
-                    scrollTop: $('.' + moveSection).offset().top - 73
-                }, 1000);
-                if($(window).width() < 768){
-                    $('.navbar-toggle').addClass('collapsed')
-                                        .attr('aria-expanded',false);
-                    $('.navbar-collapse').removeClass('in');
-                }
-            })
+        $('.conf-nav li a').on('click', function () {
+            $('.conf-nav li a').removeClass('active');
+            var $this = $(this);
+            var moveSection = $this.data('move');
+            $('html, body').animate({
+                scrollTop: $('.' + moveSection).offset().top - 73
+            }, 1000);
+            if ($(window).width() < 768) {
+                $('.navbar-toggle').addClass('collapsed')
+                    .attr('aria-expanded', false);
+                $('.navbar-collapse').removeClass('in');
+            }
+        })
 
 
-            $('#learn-more').on('click',function(){
-                $('html, body').animate({
-                    scrollTop: $('.about-section').offset().top - 73
-                }, 1000);
-            })
+        $('#learn-more').on('click', function () {
+            $('html, body').animate({
+                scrollTop: $('.about-section').offset().top - 73
+            }, 1000);
+        })
 
         /* End of navigation functionality */
 
         /* Responsive header & animation */
         var speakerSection = $('.speaker-section').offset().top - 100;
-        var priceSection = $('.price-section').offset().top -100;
+        var priceSection = $('.price-section').offset().top - 100;
         var slackSection = $('.slack-section').offset().top - 100;
         var sponsorSection = $('.sponsor-section').offset().top - 100;
         var faqSection = $('.faq-section').offset().top - 100;
@@ -789,19 +790,19 @@
             $(window).scroll(function () {
                 var scrollTop = $(this).scrollTop();
 
-                if(scrollTop > speakerSection && scrollTop < priceSection){
+                if (scrollTop > speakerSection && scrollTop < priceSection) {
                     $('.conf-nav li a').removeClass('active');
                     $('a[data-move="speaker-section"]').addClass('active');
-                }else if(scrollTop > priceSection && scrollTop < slackSection){
+                } else if (scrollTop > priceSection && scrollTop < slackSection) {
                     $('.conf-nav li a').removeClass('active');
                     $('a[data-move="price-section"]').addClass('active');
-                }else if(scrollTop > sponsorSection && scrollTop < faqSection){
+                } else if (scrollTop > sponsorSection && scrollTop < faqSection) {
                     $('.conf-nav li a').removeClass('active');
                     $('a[data-move="sponsor-section"]').addClass('active');
-                }else if(scrollTop > faqSection && scrollTop < footer){
+                } else if (scrollTop > faqSection && scrollTop < footer) {
                     $('.conf-nav li a').removeClass('active');
                     $('a[data-move="faq-section"]').addClass('active');
-                }else{
+                } else {
                     $('.conf-nav li a').removeClass('active');
                 }
 
