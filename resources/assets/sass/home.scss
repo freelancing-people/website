@@ -1,5 +1,5 @@
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 // Variables
 @import "variables";
@@ -8,12 +8,14 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 @import 'base/variable';
+
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	background: $white;
-} /* Open sans fonts used in website */
+} 
 
 .top-section{
+	font-family: 'Source Sans Pro', sans-serif;
 	padding: 50px 0;
 	h1{
     	color: $black;
@@ -32,12 +34,12 @@ body{
 		margin-bottom: 25px;
 	}
 
-		ul{
-			li{
-				font-size: 18px;
-				line-height: 30px;
-			}
+	ul{
+		li{
+			font-size: 18px;
+			line-height: 30px;
 		}
+	}
 
 	.des-box{
 	    color: $dark-gray;
@@ -55,36 +57,7 @@ body{
 		
 	}
 
-		.form{
-			padding: 10px;
-			background: #5ca7d3;
-			form{
-				display: flex;
-				.flex-part{
-					flex: 1;
-				}
-				input{
-					height: 60px;
-					border-radius: 0;
-					font-size: 18px;
-				}
-				button{
-					border: 1px solid #ed5b49;
-					background-color: #ed5b49;
-				    background-image: -webkit-linear-gradient(#ed5b49,#e33d31);
-				    background-image: linear-gradient(#ed5b49,#e33d31);
-					color: $white;
-					font-weight: 700;
-					font-size: 18px;
-					&:hover{
-					    background-color: #e34e3c;
-					    background-image: -webkit-linear-gradient(#e34e3c,#d53428);
-					    background-image: linear-gradient(#e34e3c,#d53428);
-					}
-				}
-			}
-		}
-
+	
 	.para-info{
 		padding-top: 30px;
 		
@@ -111,9 +84,7 @@ body{
 			}
 		}
 
-		.form{
-			background: rgba(0,0,0,0.2);
-		}
+		
 	}
 }
 
@@ -126,6 +97,166 @@ footer{
 		font-weight: 700;
 		color: $dark-gray;
 	}
+}
+
+
+  .ck_form.ck_naked {
+  /* divider image */
+    background: transparent;
+    line-height: 1.5em;
+    overflow: hidden;
+    color: #666;
+    font-size: 16px;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    clear: both;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.ck_form.ck_naked p {
+    padding: 0px;
+}
+
+.ck_form, .ck_form * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ck_form.ck_naked .ck_form_fields {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+/* Form fields */
+
+.ck_errorArea {
+    display: none; /* temporary */
+}
+
+#ck_success_msg {
+    padding: 10px 10px 0px;
+    border: solid 1px #ddd;
+    background: #eee;
+}
+
+.ck_form.ck_naked input[type="text"], .ck_form.ck_naked input[type="email"] {
+    font-size: 18px;
+    padding: 10px 8px;
+    width: 34%;
+    border: 1px solid #d6d6d6; /* stroke */
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px; /* border radius */
+    background-color: #fff; /* layer fill content */
+    margin-bottom: 5px;
+    height: auto;
+    float: left;
+    margin: 0px;
+    margin-right: 1%;
+    height: 55px;
+}
+
+.ck_form input[type="text"]:focus, .ck_form input[type="email"]:focus {
+    outline: none;
+    border-color: #aaa;
+}
+
+.ck_form.ck_naked .ck_subscribe_button {
+    width: 100%;
+    color: #fff;
+    margin: 0px;
+    padding:  14px 0px;
+    font-size: 18px;
+    background: #0d6db8;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px; /* border radius */
+    cursor: pointer;
+    border: none;
+    text-shadow: none;
+    width: 30%;
+    float: left;
+    height: 55px;
+  }
+
+
+.ck_converted_content {
+  display: none;
+    padding: 5%;
+    background: #fff;
+}
+
+/* max width 500 */
+
+    .ck_form.ck_naked.width500 .ck_subscribe_button {
+        width: 100%;
+        float: none;
+        margin-top: 5px;
+    }
+
+    .ck_form.ck_naked.width500 input[type="text"], .ck_form.ck_naked.width500 input[type="email"] {
+        width: 49%;
+    }
+
+    .ck_form.ck_naked.width500 input[type="email"] {
+        margin-right: 0px;
+        width: 50%;
+    }
+
+/* max width 400 */
+
+    .ck_form.ck_naked.width400 .ck_subscribe_button, .ck_form.ck_naked.width400 input[type="text"], .ck_form.ck_naked.width400 input[type="email"] {
+        width: 100%;
+        float: none;
+        margin-top: 5px;
+    }
+
+.ck_slide_up, .ck_modal, .ck_slide_up .ck_naked, .ck_modal .ck_naked  {
+    min-width: 400px;
+}
+
+.page .ck_form.ck_naked {
+    margin: 50px auto;
+    max-width: 700px;
+}
+
+
+/* v6 */
+
+.ck_slide_up.ck_form_v6, .ck_modal.ck_form_v6, .ck_slide_up.ck_form_v6 .ck_naked, .ck_modal.ck_form_v6 .ck_naked {
+  min-width: 0 !important;
+}
+
+.ck_form_v6 #ck_success_msg {
+    padding: 0px 10px;
+}
+
+@media all and (max-width: 403px) {
+  .ck_form_v6.ck_modal .ck_naked {
+    padding-top: 30px;
+  }
+}
+
+@media all and (max-width: 499px) {
+  .ck_form_v6.ck_modal .ck_naked + .ck_close_link {
+    color: #fff;
+    top: 10px;
+  }
+}
+
+.ck_form_v6.ck_slide_up .ck_naked + .ck_close_link {
+  right: 10px;
+  top: -5px;
+}
+
+@media all and (min-width: 600px) {
+  .ck_form_v6.ck_slide_up .ck_naked + .ck_close_link {
+    right: 35px;
+  }
 }
 
 @media(max-width: 768px){
@@ -141,19 +272,16 @@ footer{
 				margin: 15px 0;
 			}
 		}
-		.form{
-			form{
-				display: block;
-				input{
-					height: 50px;
-					margin-bottom: 10px;
-				}
-				button{
-					width: 100%;
-					text-align: center;
-				    padding: 10px 15px;
-				}
-			}
-		}
+		
+	}
+
+	.ck_form.ck_naked .ck_subscribe_button {
+		height: 42px;
+		padding: 0 5px;
+	}
+
+	.ck_form.ck_naked input[type="text"], .ck_form.ck_naked input[type="email"] {
+		height: 42px;
+		margin-bottom: 5px;
 	}
 }

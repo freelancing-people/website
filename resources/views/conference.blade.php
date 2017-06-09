@@ -10,12 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta for responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Meta for Edge style rendering in IE -->
     <link rel="icon" type="image/png" href="{{asset('img/logo-favi.svg')}}">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Satisfy|Ubuntu" rel="stylesheet">
     <!-- External font - Open Sans -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="{{asset('css/home.css')}}">
 </head>
 <body>
+<script src="https://assets.convertkit.com/assets/CKJS4.js?v=21"></script>
+
+    
 	
     <section class="top-section">
     	<div class="container">
@@ -37,14 +39,43 @@
                         </div>
                     </div>
                     <h2>Start building a strong pipeline of profitable clients. Sign up now:</h2>
-                    <div class="form">
-                        <form>
-                            <input type="text" name="name" class="form-control flex-part" placeholder="Name">
-                            <input type="email" name="email" class="form-control flex-part" placeholder="Email">
-                            <button class="submit-btn flex-part">Send</button>
-                        </form>
+                    <div class="ck_form_container ck_inline" data-ck-version="6">
+                        <div class="ck_form ck_naked">
+                            <div class="ck_form_fields">
+                                <div id="ck_success_msg" style="display:none;">
+                                    <p>Success! Now check your email to confirm your subscription.</p>
+                                </div>
+
+                    
+                                <form id="ck_subscribe_form" class="ck_subscribe_form" action="https://app.convertkit.com/landing_pages/223466/subscribe" data-remote="true">
+                                    <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;}" id="ck_form_options">
+                                    <input type="hidden" name="id" value="223466" id="landing_page_id">
+                                    <input type="hidden" name="ck_form_recaptcha" value="" id="ck_form_recaptcha">
+                                    <div class="ck_errorArea">
+                                        <div id="ck_error_msg" style="display:none">
+                                            <p>There was an error submitting your subscription. Please try again.</p>
+                                        </div>
+                                    </div>
+                                    <div class="ck_control_group ck_email_field_group">
+                                        <label class="ck_label" for="ck_emailField" style="display: none">Email Address</label>
+                                        <input type="text" name="first_name" class="ck_first_name" id="ck_firstNameField" placeholder="First Name">
+                                        <input type="email" name="email" class="ck_email_address" id="ck_emailField" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="ck_control_group ck_captcha2_h_field_group ck-captcha2-h" style="position: absolute !important;left: -999em !important;">
+                                        <input type="text" name="captcha2_h" class="ck-captcha2-h" id="ck_captcha2_h" placeholder="We use this field to detect spam bots. If you fill this in, you will be marked as a spammer.">
+                                    </div>
+
+
+                                    <button class="subscribe_button ck_subscribe_button btn fields" id="ck_subscribe_button">Subscribe</button>
+                                </form>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
+
+               
 
                 <div class="para-info">
                     <p>Write a proof-drenched, factual story explaining how you helped a previous client of yours move from the problem described in your headline to a solution. Try to keep this story relatively succinct.</p>
@@ -65,12 +96,39 @@
                         <li>Better understand the problem you solve</li>
                         <li>Estimate what the problem is costing them, the ROI of a solution, or both</li>
                     </ul>
-                    <div class="form">
-                        <form>
-                            <input type="text" name="name" class="form-control flex-part" placeholder="Name">
-                            <input type="email" name="email" class="form-control flex-part" placeholder="Email">
-                            <button class="submit-btn flex-part">Send</button>
-                        </form>
+                    <div class="ck_form_container ck_inline" data-ck-version="6">
+                        <div class="ck_form ck_naked">
+                            <div class="ck_form_fields">
+                                <div id="ck_success_msg" style="display:none;">
+                                    <p>Success! Now check your email to confirm your subscription.</p>
+                                </div>
+
+                    
+                                <form id="ck_subscribe_form" class="ck_subscribe_form" action="https://app.convertkit.com/landing_pages/223466/subscribe" data-remote="true">
+                                    <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;}" id="ck_form_options">
+                                    <input type="hidden" name="id" value="223466" id="landing_page_id">
+                                    <input type="hidden" name="ck_form_recaptcha" value="" id="ck_form_recaptcha">
+                                    <div class="ck_errorArea">
+                                        <div id="ck_error_msg" style="display:none">
+                                            <p>There was an error submitting your subscription. Please try again.</p>
+                                        </div>
+                                    </div>
+                                    <div class="ck_control_group ck_email_field_group">
+                                        <label class="ck_label" for="ck_emailField" style="display: none">Email Address</label>
+                                        <input type="text" name="first_name" class="ck_first_name" id="ck_firstNameField" placeholder="First Name">
+                                        <input type="email" name="email" class="ck_email_address" id="ck_emailField" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="ck_control_group ck_captcha2_h_field_group ck-captcha2-h" style="position: absolute !important;left: -999em !important;">
+                                        <input type="text" name="captcha2_h" class="ck-captcha2-h" id="ck_captcha2_h" placeholder="We use this field to detect spam bots. If you fill this in, you will be marked as a spammer.">
+                                    </div>
+
+
+                                    <button class="subscribe_button ck_subscribe_button btn fields" id="ck_subscribe_button">Subscribe</button>
+                                </form>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
