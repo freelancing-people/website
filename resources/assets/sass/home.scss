@@ -117,6 +117,17 @@ body{
 	}
 }
 
+footer{
+	background: $light-gray;
+	padding: 15px 0;
+	p{
+		margin: 0;
+		font-size: 18px;
+		font-weight: 700;
+		color: $dark-gray;
+	}
+}
+
 @media(max-width: 768px){
 	.top-section{
 		h1{
