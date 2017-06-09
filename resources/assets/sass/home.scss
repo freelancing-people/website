@@ -1,5 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Source+Sans+Pro');
 
 // Variables
 @import "variables";
@@ -21,7 +21,7 @@ body{
     	color: $black;
 		text-align: center;
     	font-size: 48px;
-    	line-height: 1.05em;
+    	line-height: 55px;
     	font-weight: 700;
     	margin: 0;
     	padding-bottom: 50px;
@@ -30,14 +30,17 @@ body{
 	p{
 		font-size: 22px;
 		color: $dark-gray;
-		line-height: 25px;
+		line-height: 35px;
 		margin-bottom: 25px;
 	}
 
 	ul{
 		li{
 			font-size: 18px;
-			line-height: 30px;
+			line-height: 35px;
+			strong{
+				font-family: 'Bree Serif', serif;
+			}
 		}
 	}
 
@@ -49,7 +52,7 @@ body{
 		
 		h2{
 			font-size: 26px;
-    		line-height: 1.1em;
+    		line-height: 35px;
     		font-weight: 700;
     		margin: 15px 20px;
     		text-align: center;
