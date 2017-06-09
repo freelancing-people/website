@@ -6,6 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta for responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Meta for Edge style rendering in IE -->
+    <link rel="icon" type="image/png" href="{{asset('img/logo-favi.svg')}}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Satisfy|Ubuntu" rel="stylesheet">
     <!-- External font - Open Sans -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -15,34 +16,34 @@
 <div id="app">
     <!-- Navbar Header -->
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top">
 
-        <div class="main-nav">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">FreelancingConf</a>
+            <div class="main-nav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/">FreelancingConf</a>
 
-                </div>
+                    </div>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                    <ul class="nav navbar-nav navbar-right conf-nav">
-                        <li><a href="javascrip:void(0)" alt="Speakers" data-move="speaker-section">Speakers</a></li>
-                        <li><a href="javascrip:void(0)" alt="Home" data-move="price-section">Pricing</a></li>
-                        <li><a href="javascrip:void(0)" alt="Home" data-move="sponsor-section">Sponsors</a></li>
-                        <li><a href="javascrip:void(0)" alt="Home" data-move="faq-section">FAQ</a></li>
-                    </ul>
+                        <ul class="nav navbar-nav navbar-right conf-nav">
+                            <li><a href="javascrip:void(0)" alt="Speakers" data-move="speaker-section">Speakers</a></li>
+                            <li><a href="javascrip:void(0)" alt="Home" data-move="price-section">Pricing</a></li>
+                            <li><a href="javascrip:void(0)" alt="Home" data-move="sponsor-section">Sponsors</a></li>
+                            <li><a href="javascrip:void(0)" alt="Home" data-move="faq-section">FAQ</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
     <!-- End of navbar header -->
 
@@ -50,11 +51,15 @@
     <!-- Landing section -->
 
     <section class="conference-landing">
+
         <div class="container">
             <div class="welcome-message">
                 {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
+                        <div class="landing-logo">
+                            <img src="{{asset('img/logo-color.svg')}}" height="200px">
+                        </div>
                         <h1>This year, we're bringing an online conference for <span class="animate-word"><span
                                         class="freelancer">FREELANCERS!</span></span></h1>
                     </div>
@@ -63,7 +68,7 @@
                 <p>15th October, 2017</p>
                 <div class="action-buttons">
                     <button class="primary-btn">Buy Tickets Now</button>
-                    <button class="secondary-btn" id="learn-more">Learn More</button>
+                    <!-- <button class="secondary-btn" id="learn-more">Learn More</button> -->
                 </div>
             </div>
         </div>
@@ -74,6 +79,7 @@
 
     <!-- About Section -->
 
+    
     <section class="conf-section about-section">
         <div class="container">
             <header class="conf-header">
@@ -806,9 +812,9 @@
                     $('.conf-nav li a').removeClass('active');
                 }
 
-                if (scrollTop > 0) {
+                if(scrollTop > 0){
                     $('.navbar-default').addClass('white-nav');
-                } else {
+                }else{
                     $('.navbar-default').removeClass('white-nav');
                 }
 
