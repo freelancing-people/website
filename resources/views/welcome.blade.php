@@ -16,7 +16,7 @@
 <div id="app">
     <!-- Navbar Header -->
 
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- <nav class="navbar navbar-default navbar-fixed-top">
 
             <div class="main-nav">
                 <div class="container">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav> -->
 
     <!-- End of navbar header -->
 
@@ -51,7 +51,7 @@
     <!-- Landing section -->
 
     <section class="conference-landing">
-
+        <a class="site-logo" href="javascript:void(0)">FreelancingConf</a>
         <div class="container">
             <div class="welcome-message">
                 {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
@@ -629,7 +629,7 @@
 
 
     <!-- Footer section -->
-
+    <!-- <a href="javascript:void(0)" class="slideUp"><i class="fa fa-chevron-up"></i></a> -->
     <footer>
         <div class="container">
             <div class="row">
@@ -757,26 +757,26 @@
 
 
         /* Navigation Functionality */
-        $('.conf-nav li a').on('click', function () {
-            $('.conf-nav li a').removeClass('active');
-            var $this = $(this);
-            var moveSection = $this.data('move');
-            $('html, body').animate({
-                scrollTop: $('.' + moveSection).offset().top - 73
-            }, 1000);
-            if ($(window).width() < 768) {
-                $('.navbar-toggle').addClass('collapsed')
-                    .attr('aria-expanded', false);
-                $('.navbar-collapse').removeClass('in');
-            }
-        })
+        // $('.conf-nav li a').on('click', function () {
+        //     $('.conf-nav li a').removeClass('active');
+        //     var $this = $(this);
+        //     var moveSection = $this.data('move');
+        //     $('html, body').animate({
+        //         scrollTop: $('.' + moveSection).offset().top - 73
+        //     }, 1000);
+        //     if ($(window).width() < 768) {
+        //         $('.navbar-toggle').addClass('collapsed')
+        //             .attr('aria-expanded', false);
+        //         $('.navbar-collapse').removeClass('in');
+        //     }
+        // })
 
 
-        $('#learn-more').on('click', function () {
-            $('html, body').animate({
-                scrollTop: $('.about-section').offset().top - 73
-            }, 1000);
-        })
+        // $('#learn-more').on('click', function () {
+        //     $('html, body').animate({
+        //         scrollTop: $('.about-section').offset().top - 73
+        //     }, 1000);
+        // })
 
         /* End of navigation functionality */
 
@@ -796,26 +796,28 @@
             $(window).scroll(function () {
                 var scrollTop = $(this).scrollTop();
 
-                if (scrollTop > speakerSection && scrollTop < priceSection) {
-                    $('.conf-nav li a').removeClass('active');
-                    $('a[data-move="speaker-section"]').addClass('active');
-                } else if (scrollTop > priceSection && scrollTop < slackSection) {
-                    $('.conf-nav li a').removeClass('active');
-                    $('a[data-move="price-section"]').addClass('active');
-                } else if (scrollTop > sponsorSection && scrollTop < faqSection) {
-                    $('.conf-nav li a').removeClass('active');
-                    $('a[data-move="sponsor-section"]').addClass('active');
-                } else if (scrollTop > faqSection && scrollTop < footer) {
-                    $('.conf-nav li a').removeClass('active');
-                    $('a[data-move="faq-section"]').addClass('active');
-                } else {
-                    $('.conf-nav li a').removeClass('active');
-                }
+                // if (scrollTop > speakerSection && scrollTop < priceSection) {
+                //     $('.conf-nav li a').removeClass('active');
+                //     $('a[data-move="speaker-section"]').addClass('active');
+                // } else if (scrollTop > priceSection && scrollTop < slackSection) {
+                //     $('.conf-nav li a').removeClass('active');
+                //     $('a[data-move="price-section"]').addClass('active');
+                // } else if (scrollTop > sponsorSection && scrollTop < faqSection) {
+                //     $('.conf-nav li a').removeClass('active');
+                //     $('a[data-move="sponsor-section"]').addClass('active');
+                // } else if (scrollTop > faqSection && scrollTop < footer) {
+                //     $('.conf-nav li a').removeClass('active');
+                //     $('a[data-move="faq-section"]').addClass('active');
+                // } else {
+                //     $('.conf-nav li a').removeClass('active');
+                // }
+
+               
 
                 if(scrollTop > 0){
-                    $('.navbar-default').addClass('white-nav');
+                    // $('.navbar-default').addClass('white-nav');
                 }else{
-                    $('.navbar-default').removeClass('white-nav');
+                    // $('.navbar-default').removeClass('white-nav');
                 }
 
             });
