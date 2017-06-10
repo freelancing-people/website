@@ -25,7 +25,7 @@
 
             <div class="des-box">
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <ul class="list-unstyled">
                             <li>
                                 <strong>Lesson 1:</strong>
@@ -103,10 +103,10 @@
                 </p>
                 <ul>
                     <li>
-                        Someone who wants more leads and conversations with prospects
+                        <p>Someone who wants more leads and conversations with prospects</p>
                     </li>
                     <li>
-                        Smaller firms or a solo consultant, not for larger firms
+                        <p>Smaller firms or a solo consultant, not for larger firms</p>
                     </li>
                 </ul>
                 <p>

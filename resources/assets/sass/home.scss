@@ -50,8 +50,6 @@ body{
 		margin: 15px;
 		padding: 15px;
 		ul{
-			max-width: 355px;
-		    width: 100%;
 		    margin: 0 auto 20px auto;
 		}
 		
@@ -68,7 +66,11 @@ body{
 	
 	.para-info{
 		padding-top: 30px;
-		
+		ul{
+            p{
+                margin-bottom: 0;
+            }
+        }
 	}
 
 	.info-box{
