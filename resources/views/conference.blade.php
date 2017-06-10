@@ -177,7 +177,7 @@
                                     <h2>Jane Portman</h2>
                                 </a>
                             </div>
-                            <a href="http://uibreakfast.com/" class="site-link">uibreakfast.com</a>
+                            <a href="http://uibreakfast.com/" target="_blank" class="site-link">uibreakfast.com</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -718,39 +718,39 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
-                    <p class="footer-links">
-                        <a href="javascript:void(0)">Terms</a>
-                        <a href="javascript:void(0)">Privacy</a>
-                        <a href="javascript:void(0)">Blog</a>
-                    </p>
-                </div>
-                <div class="col-sm-4">
+                {{--<div class="col-sm-4">--}}
+                    {{--<p class="footer-links">--}}
+                        {{--<a href="javascript:void(0)">Terms</a>--}}
+                        {{--<a href="javascript:void(0)">Privacy</a>--}}
+                        {{--<a href="javascript:void(0)">Blog</a>--}}
+                    {{--</p>--}}
+                {{--</div>--}}
+                <div class="col-sm-12">
                     <div class="copy-div">
-                        Conference
+                        FreelancingConf
                     </div>
-                    <p class="copy-text">© 2015 Conference. All rights reserved.</p>
+                    <p class="copy-text">© {{ date('Y') }} The Consulting and Freelancing Club, Inc.</p>
                 </div>
-                <div class="col-sm-4">
-                    <p class="footer-contact-head">Contact Us</p>
-                    <ul class="social">
-                        <li>
-                            <a href="" data-toggle="modal" data-target="#modal-contact-form">
-                                <i class="fa fa-envelope-o"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                {{--<div class="col-sm-4">--}}
+                    {{--<p class="footer-contact-head">Contact Us</p>--}}
+                    {{--<ul class="social">--}}
+                        {{--<li>--}}
+                            {{--<a href="" data-toggle="modal" data-target="#modal-contact-form">--}}
+                                {{--<i class="fa fa-envelope-o"></i>--}}
+                            {{--</a>--}}
+                        {{--</li>--}}
+                        {{--<li>--}}
+                            {{--<a href="https://twitter.com/" target="_blank">--}}
+                                {{--<i class="fa fa-twitter"></i>--}}
+                            {{--</a>--}}
+                        {{--</li>--}}
+                        {{--<li>--}}
+                            {{--<a href="https://www.facebook.com/" target="_blank">--}}
+                                {{--<i class="fa fa-facebook"></i>--}}
+                            {{--</a>--}}
+                        {{--</li>--}}
+                    {{--</ul>--}}
+                {{--</div>--}}
             </div>
         </div>
     </footer>
