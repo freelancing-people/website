@@ -17,34 +17,34 @@
 <div id="app">
     <!-- Navbar Header -->
 
-        <!-- <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- <nav class="navbar navbar-default navbar-fixed-top">
 
-            <div class="main-nav">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="/">FreelancingConf</a>
+        <div class="main-nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">FreelancingConf</a>
 
-                    </div>
+                </div>
 
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                        <ul class="nav navbar-nav navbar-right conf-nav">
-                            <li><a href="javascrip:void(0)" alt="Speakers" data-move="speaker-section">Speakers</a></li>
-                            <li><a href="javascrip:void(0)" alt="Home" data-move="price-section">Pricing</a></li>
-                            <li><a href="javascrip:void(0)" alt="Home" data-move="sponsor-section">Sponsors</a></li>
-                            <li><a href="javascrip:void(0)" alt="Home" data-move="faq-section">FAQ</a></li>
-                        </ul>
-                    </div>
+                    <ul class="nav navbar-nav navbar-right conf-nav">
+                        <li><a href="javascrip:void(0)" alt="Speakers" data-move="speaker-section">Speakers</a></li>
+                        <li><a href="javascrip:void(0)" alt="Home" data-move="price-section">Pricing</a></li>
+                        <li><a href="javascrip:void(0)" alt="Home" data-move="sponsor-section">Sponsors</a></li>
+                        <li><a href="javascrip:void(0)" alt="Home" data-move="faq-section">FAQ</a></li>
+                    </ul>
                 </div>
             </div>
-        </nav> -->
+        </div>
+    </nav> -->
 
     <!-- End of navbar header -->
 
@@ -68,7 +68,8 @@
                 {{--<p>10th – 13th July 2015</p>--}}
                 <p>15th October, 2017</p>
                 <div class="action-buttons">
-                    <a href="https://www.tickettailor.com/checkout/view-event/id/97243/chk/cf13" target="_blank" class="primary-btn">Buy Tickets Now</a>
+                    <a href="https://www.tickettailor.com/checkout/view-event/id/97243/chk/cf13" target="_blank"
+                       class="primary-btn">Buy Tickets Now</a>
                     <!-- <button class="secondary-btn" id="learn-more">Learn More</button> -->
                 </div>
             </div>
@@ -80,7 +81,7 @@
 
     <!-- About Section -->
 
-    
+
     <section class="conf-section about-section">
         <div class="container">
             <header class="conf-header">
@@ -168,15 +169,15 @@
                 <div class="col-sm-10 col-sm-offset-1">
                     <div class="col-sm-4">
                         <div class="speaker">
-                            <a href="#profile-1" data-toggle="modal">
-                                <img src="/img/female-user.png" alt="Speaker 4">
+                            <a href="#profile-4" data-toggle="modal">
+                                <img src="/img/jane-portman.png" alt="Speaker 4">
                             </a>
                             <div class="open-pro-modal">
                                 <a href="#profile-1" data-toggle="modal">
-                                    <h2>Speaker 4</h2>
+                                    <h2>Jane Portman</h2>
                                 </a>
                             </div>
-                            <a href="javascript:void(0)" class="site-link">speaker4.com</a>
+                            <a href="http://uibreakfast.com/" class="site-link">uibreakfast.com</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -226,10 +227,12 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="pricing-info">
                         <h3>15th October, 2017</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</p>
+                        {{--<p>--}}
+                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod--}}
+                            {{--tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,--}}
+                            {{--quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo--}}
+                            {{--consequat.--}}
+                        {{--</p>--}}
                     </div>
 
 
@@ -246,28 +249,29 @@
                             $25
                         </div>
                         <div class="p-btn">
-                            <a href="https://www.tickettailor.com/checkout/view-event/id/97243/chk/cf13" target="_blank" class="primary-btn">Register Now</a>
+                            <a href="https://www.tickettailor.com/checkout/view-event/id/97243/chk/cf13" target="_blank"
+                               class="primary-btn">Register Now</a>
                         </div>
                     </div>
 
-                    <div class="pricing-details">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <ul>
-                                    <li><p>Lorem ipsum is a dummy text.</p></li>
-                                    <li><p>Lorem ipsum is a dummy text.</p></li>
-                                    <li><p>Lorem ipsum is a dummy text.</p></li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6">
-                                <ul>
-                                    <li><p>Lorem ipsum is a dummy text.</p></li>
-                                    <li><p>Lorem ipsum is a dummy text.</p></li>
-                                    <li><p>Lorem ipsum is a dummy text.</p></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    {{--<div class="pricing-details">--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<ul>--}}
+                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<ul>--}}
+                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
@@ -473,7 +477,7 @@
                                 <div class="speaker-data">
                                     <img src="/img/kai-davis.jpg" alt="Kai Davis">
 
-                                    <p>Sunday 25 June, 3:15pm</p>
+                                    <p>TBD</p>
 
                                     <a href="javascript:void(0)">
                                         Generating client referrals and repeat projects through outreach.
@@ -533,7 +537,7 @@
                                 <div class="speaker-data">
                                     <img src="/img/sean-dsouza.jpg" alt="Sean D'Souza">
 
-                                    <p>Sunday 25 June, 3:15pm</p>
+                                    <p>TBD</p>
 
                                     <a href="javascript:void(0)">
                                         How To Get To Your Uniqueness For Your Consultancy/Freelancing Business.
@@ -590,10 +594,10 @@
                                 <div class="speaker-data">
                                     <img src="/img/christopher-hawkins.jpg" alt="Christopher Hawkins">
 
-                                    <p>Sunday 25 June, 3:15pm</p>
+                                    <p>TBD</p>
 
                                     <a href="javascript:void(0)">
-                                        Offline Networking to increase your funnel
+                                        Offline Networking to improve your sales funnel
                                     </a>
                                 </div>
                             </div>
@@ -603,7 +607,87 @@
                                    target="_blank">christopherhawkins.com</a>
                                 <p></p>
                                 <p>
-                                    Speaker Description
+                                    Just before turning 30, Chris walked away from his successful career leading
+                                    technical projects for large enterprises, launching his own consulting practice
+                                    instead. He quickly built a 6-figure practice that provides consulting and web
+                                    development for businesses of every size, from Fortune 500s on down.
+                                </p>
+                                <p>
+                                    Chris writes extensively on the software consulting industry and hosts the $100K
+                                    Freelancing show, teaching other consultants and freelancers how to run an effective
+                                    and profitable practice.
+                                </p>
+                                <p>
+                                    Having built a reputation as an expert in handling crisis projects, difficult
+                                    clients, and recurring engagements, Chris says "When I teach consultants how to hold
+                                    professional boundaries, manage crises, and re-sell new projects to old clients, I'm
+                                    teaching them how to sustain an entire 6-figure career."
+                                </p>
+                                <p></p>
+                                <div class="social-icons">
+                                    <a href="javascript:void(0)" class="icon fb-icon" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="javascript:void(0)" class="icon twitter-icon" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="javascript:void(0)" class="icon insta-icon" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End of speaker Modal -->
+
+    <!-- Jane Portman Modal -->
+
+    <div id="profile-4" class="modal speaker-modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="container">
+
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i
+                                class="fa fa-close"></i></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="speaker-data">
+                                    <img src="/img/jane-portman.jpg" alt="Jane Portman">
+
+                                    <p>TBD</p>
+
+                                    <a href="javascript:void(0)">
+                                        Productizing your Consulting Services
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-9">
+                                <h2>Jane Portman</h2>
+                                <a href="http://uibreakfast.com/" class="site-target"
+                                   target="_blank">uibreakfast.com</a>
+                                <p></p>
+                                <p>
+                                    Jane is an independent UI/UX consultant from Russia who helps software companies
+                                    build focused, profitable web applications.
+                                </p>
+                                <p>
+                                    Previously a creative director at a large agency, Jane went solo after having two
+                                    boys. Since then, she's written three books on UI/UX design, given talks at multiple
+                                    conferences, and grown a successful podcast. These days she's focused on building
+                                    her own software product called Tiny Reminder.
+                                </p>
+                                <p>
+                                    Besides helping founders, she teaches other consultants and freelancers build their
+                                    authority. Her favorite topics include productized consulting, product strategy, and
+                                    action-driven consulting websites. "Start building your own platform as early as
+                                    possible," — Jane recommends.
                                 </p>
                                 <p></p>
                                 <div class="social-icons">
@@ -813,11 +897,10 @@
                 //     $('.conf-nav li a').removeClass('active');
                 // }
 
-               
 
-                if(scrollTop > 0){
+                if (scrollTop > 0) {
                     // $('.navbar-default').addClass('white-nav');
-                }else{
+                } else {
                     // $('.navbar-default').removeClass('white-nav');
                 }
 
