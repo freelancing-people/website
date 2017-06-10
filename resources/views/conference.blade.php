@@ -59,7 +59,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="landing-logo">
-                            <img src="{{asset('img/logo-color.svg')}}" height="200px">
+                            <img src="{{asset('img/without-text.png')}}" height="200px">
                         </div>
                         <h1>This year, we're bringing an online conference for <span class="animate-word"><span
                                         class="freelancer">FREELANCERS!</span></span></h1>
