@@ -242,8 +242,8 @@
                             Access to all keynotes, workshops and parties across three days.
                         </div>
                         <div class="p-amount">
-                            <span class="p-act-amount">$799<span class="p-current-amount"></span></span>
-                            $599
+                            <span class="p-act-amount">$49<span class="p-current-amount"></span></span>
+                            $25
                         </div>
                         <div class="p-btn">
                             <a href="javascript:void(0)" class="primary-btn">Register Now</a>
