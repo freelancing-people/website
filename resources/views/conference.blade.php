@@ -11,6 +11,7 @@
     <!-- External font - Open Sans -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/app.css"> <!-- Compiled css -->
+    @include('includes.pixel')
 </head>
 <body>
 <div id="app">
@@ -844,6 +845,5 @@
     /* End of window load function */
 
 </script>
-@include('includes.pixel')
 </body>
 </html>
