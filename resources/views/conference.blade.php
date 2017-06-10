@@ -242,7 +242,7 @@
                             Access to all sessions, offline videos and conference swag.
                         </div>
                         <div class="p-amount">
-                            <span class="p-act-amount">$49<span class="p-current-amount"></span></span>
+                            <span class="p-act-amount">$50<span class="p-current-amount"></span></span>
                             $25
                         </div>
                         <div class="p-btn">
@@ -288,7 +288,7 @@
                     </header>
                     <p>
                         Part of the excitement of a conference is the chance to network and make new connections. For
-                        Consulting People Conference, we’re creating a dedicated Slack room just for attendees which you
+                        Freelancing Conf, we’re creating a dedicated Slack room just for attendees which you
                         can use before,
                         during, and after the event.</p>
 
