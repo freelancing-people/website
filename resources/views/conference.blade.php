@@ -844,5 +844,6 @@
     /* End of window load function */
 
 </script>
+@include('includes.pixel')
 </body>
 </html>
