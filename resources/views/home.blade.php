@@ -131,7 +131,7 @@
             </div>
 
             <div class="info-box">
-                <h2>Get more Leads from your Website</h2>
+                <h2>Turn your website into a Lead Magnet</h2>
                 <p>
                     I’d like to help you build a web presence that does the following:
                 </p>
