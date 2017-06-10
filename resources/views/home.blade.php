@@ -55,7 +55,7 @@
                     <div class="ck_form ck_naked">
                         <div class="ck_form_fields">
                             <div id="ck_success_msg" style="display:none;">
-                                <p>Success! Now check your email to confirm your subscription.</p>
+                                <p>Success! Now check your email for lesson #1.</p>
                             </div>
 
 
@@ -86,7 +86,7 @@
 
 
                                 <button class="subscribe_button ck_subscribe_button btn fields"
-                                        id="ck_subscribe_button">Subscribe
+                                        id="ck_subscribe_button">Send Lesson #1
                                 </button>
                             </form>
                         </div>
@@ -154,7 +154,7 @@
                     <div class="ck_form ck_naked">
                         <div class="ck_form_fields">
                             <div id="ck_success_msg" style="display:none;">
-                                <p>Success! Now check your email to confirm your subscription.</p>
+                                <p>Success! Now check your email for lesson #1.</p>
                             </div>
                             <form id="ck_subscribe_form" class="ck_subscribe_form"
                                   action="https://app.convertkit.com/landing_pages/223466/subscribe" data-remote="true">
@@ -183,7 +183,7 @@
 
 
                                 <button class="subscribe_button ck_subscribe_button btn fields"
-                                        id="ck_subscribe_button">Subscribe
+                                        id="ck_subscribe_button">Send Lesson #1
                                 </button>
                             </form>
                         </div>
