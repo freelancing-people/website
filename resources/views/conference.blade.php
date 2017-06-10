@@ -68,7 +68,7 @@
                 {{--<p>10th – 13th July 2015</p>--}}
                 <p>15th October, 2017</p>
                 <div class="action-buttons">
-                    <button class="primary-btn">Buy Tickets Now</button>
+                    <a href="https://www.tickettailor.com/checkout/view-event/id/97243/chk/cf13" target="_blank" class="primary-btn">Buy Tickets Now</a>
                     <!-- <button class="secondary-btn" id="learn-more">Learn More</button> -->
                 </div>
             </div>
@@ -239,14 +239,14 @@
                         </div>
                         <div class="p-type">
                             <h6>Price</h6>
-                            Access to all keynotes, workshops and parties across three days.
+                            Access to all sessions, offline videos and conference swag.
                         </div>
                         <div class="p-amount">
                             <span class="p-act-amount">$49<span class="p-current-amount"></span></span>
                             $25
                         </div>
                         <div class="p-btn">
-                            <a href="javascript:void(0)" class="primary-btn">Register Now</a>
+                            <a href="https://www.tickettailor.com/checkout/view-event/id/97243/chk/cf13" target="_blank" class="primary-btn">Register Now</a>
                         </div>
                     </div>
 
