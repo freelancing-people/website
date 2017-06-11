@@ -86,22 +86,23 @@
         <div class="container">
             <header class="conf-header">
                 {{--<img src="/img/about.png">--}}
-                <h2 class="dark">About Freelancing Conference</h2>
+                <h2 class="dark">Get Actionable Advice</h2>
             </header>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <p>
-                        There's nothing like attending a conference in person, but unfortunately, everyone of us cannot
-                        make it to wonderful conferences around the world.
+                        To start with, in a normal technical conference, there are sessions, where speakers talk about
+                        a given topic, give ideas and introduce concepts. These concepts open up a new world for
+                        you, but it's up to your discipline and procrastination - you need to go home, take out
+                        time, learn stuff and PRACTICE it. This works, but most of the times, you lose the tempo and go
+                        back to normal life eventually not making any good progress.
                     </p>
                     <p>
-                        We've curated a very special experience for YOU. You'll get to experience every exciting
-                        aspect of a conference - mingling with fellow attendees, swag, discussions with speakers,
-                        parties and lastly tons of knowledge to grow your business.
-                    </p>
-                    <p class="green">
-                        Worried you can't make it on 15th October? We'll be recording all talks for offline download
-                        after the conference.
+                        I visualize Freelancing Conference with a very different objective. FreelancingConf gives
+                        actionable advice, period. You'll leave with a framework ready in your hands which can
+                        be put into action the next moment. I have something planned out after the conference that will
+                        help me track and motivate you to implement the framework that you've have learned in the
+                        conference.
                     </p>
                 </div>
             </div>
@@ -182,15 +183,15 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="speaker">
-                            <a href="#profile-1" data-toggle="modal">
-                                <img src="/img/female-user.png" alt="Speaker 5">
+                            <a href="#mojca-mars" data-toggle="modal">
+                                <img src="/img/mojca-mars.png" alt="Speaker 5">
                             </a>
                             <div class="open-pro-modal">
                                 <a href="#profile-1" data-toggle="modal">
-                                    <h2>Speaker 5</h2>
+                                    <h2>Mojca Mars</h2>
                                 </a>
                             </div>
-                            <a href="javascript:void(0)" class="site-link">speaker5.com</a>
+                            <a href="javascript:void(0)" class="site-link">superspicymedia.com</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -225,14 +226,19 @@
 
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
                     <div class="pricing-info">
                         <h3>15th October, 2017</h3>
-                        {{--<p>--}}
-                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod--}}
-                            {{--tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,--}}
-                            {{--quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo--}}
-                            {{--consequat.--}}
-                        {{--</p>--}}
+                        <p>
+                            There's nothing like attending a conference in person, but unfortunately, everyone of us
+                            cannot make it to wonderful conferences around the world. We've curated a very special
+                            experience for YOU.
+                        </p>
                     </div>
 
 
@@ -254,23 +260,36 @@
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <p>
+                                You'll get to experience every exciting aspect of a conference -
+                                mingling with fellow attendees, swag, discussions with speakers, parties and lastly tons of
+                                knowledge to grow your business.
+                            </p>
+                            <p class="green">
+                                Worried you can't make it on 15th October? We'll be recording all talks for offline download
+                                after the conference.
+                            </p>
+                        </div>
+                    </div>
                     {{--<div class="pricing-details">--}}
-                        {{--<div class="row">--}}
-                            {{--<div class="col-sm-6">--}}
-                                {{--<ul>--}}
-                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                                {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-sm-6">--}}
-                                {{--<ul>--}}
-                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                                {{--</ul>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
+                    {{--<div class="row">--}}
+                    {{--<div class="col-sm-6">--}}
+                    {{--<ul>--}}
+                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                    {{--</ul>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-sm-6">--}}
+                    {{--<ul>--}}
+                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
+                    {{--</ul>--}}
+                    {{--</div>--}}
+                    {{--</div>--}}
                     {{--</div>--}}
                 </div>
             </div>
@@ -659,7 +678,7 @@
                         <div class="row">
                             <div class="col-sm-3">
                                 <div class="speaker-data">
-                                    <img src="/img/jane-portman.jpg" alt="Jane Portman">
+                                    <img src="/img/jane-portman.png" alt="Jane Portman">
 
                                     <p>TBD</p>
 
@@ -710,7 +729,60 @@
         </div>
     </div>
 
-    <!-- End of speaker Modal -->
+    <!-- End of Jane Portman Modal -->
+
+    <!-- Mojca Mars Modal -->
+
+    <div id="mojca-mars" class="modal speaker-modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="container">
+
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i
+                                class="fa fa-close"></i></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="speaker-data">
+                                    <img src="/img/mojca-mars.png" alt="Mojca Mars">
+
+                                    <p>TBD</p>
+
+                                    <a href="javascript:void(0)">
+                                        Using Social Media to Boost Sales Funnel
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-9">
+                                <h2>Mojca Mars</h2>
+                                <a href="http://superspicymedia.com/" class="site-target"
+                                   target="_blank">superspicymedia.com</a>
+                                <p></p>
+                                <p>
+                                    TBD
+                                </p>
+                                <p></p>
+                                <div class="social-icons">
+                                    <a href="javascript:void(0)" class="icon fb-icon" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="javascript:void(0)" class="icon twitter-icon" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="javascript:void(0)" class="icon insta-icon" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End of Jane Portman Modal -->
 
 
     <!-- Footer section -->
@@ -719,11 +791,11 @@
         <div class="container">
             <div class="row">
                 {{--<div class="col-sm-4">--}}
-                    {{--<p class="footer-links">--}}
-                        {{--<a href="javascript:void(0)">Terms</a>--}}
-                        {{--<a href="javascript:void(0)">Privacy</a>--}}
-                        {{--<a href="javascript:void(0)">Blog</a>--}}
-                    {{--</p>--}}
+                {{--<p class="footer-links">--}}
+                {{--<a href="javascript:void(0)">Terms</a>--}}
+                {{--<a href="javascript:void(0)">Privacy</a>--}}
+                {{--<a href="javascript:void(0)">Blog</a>--}}
+                {{--</p>--}}
                 {{--</div>--}}
                 <div class="col-sm-12">
                     <div class="copy-div">
@@ -732,24 +804,24 @@
                     <p class="copy-text">© {{ date('Y') }} The Consulting and Freelancing Club, Inc.</p>
                 </div>
                 {{--<div class="col-sm-4">--}}
-                    {{--<p class="footer-contact-head">Contact Us</p>--}}
-                    {{--<ul class="social">--}}
-                        {{--<li>--}}
-                            {{--<a href="" data-toggle="modal" data-target="#modal-contact-form">--}}
-                                {{--<i class="fa fa-envelope-o"></i>--}}
-                            {{--</a>--}}
-                        {{--</li>--}}
-                        {{--<li>--}}
-                            {{--<a href="https://twitter.com/" target="_blank">--}}
-                                {{--<i class="fa fa-twitter"></i>--}}
-                            {{--</a>--}}
-                        {{--</li>--}}
-                        {{--<li>--}}
-                            {{--<a href="https://www.facebook.com/" target="_blank">--}}
-                                {{--<i class="fa fa-facebook"></i>--}}
-                            {{--</a>--}}
-                        {{--</li>--}}
-                    {{--</ul>--}}
+                {{--<p class="footer-contact-head">Contact Us</p>--}}
+                {{--<ul class="social">--}}
+                {{--<li>--}}
+                {{--<a href="" data-toggle="modal" data-target="#modal-contact-form">--}}
+                {{--<i class="fa fa-envelope-o"></i>--}}
+                {{--</a>--}}
+                {{--</li>--}}
+                {{--<li>--}}
+                {{--<a href="https://twitter.com/" target="_blank">--}}
+                {{--<i class="fa fa-twitter"></i>--}}
+                {{--</a>--}}
+                {{--</li>--}}
+                {{--<li>--}}
+                {{--<a href="https://www.facebook.com/" target="_blank">--}}
+                {{--<i class="fa fa-facebook"></i>--}}
+                {{--</a>--}}
+                {{--</li>--}}
+                {{--</ul>--}}
                 {{--</div>--}}
             </div>
         </div>
