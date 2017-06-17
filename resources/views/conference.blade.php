@@ -15,38 +15,7 @@
 </head>
 <body>
 <div id="app">
-    <!-- Navbar Header -->
-
-    <!-- <nav class="navbar navbar-default navbar-fixed-top">
-
-        <div class="main-nav">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">FreelancingConf</a>
-
-                </div>
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                    <ul class="nav navbar-nav navbar-right conf-nav">
-                        <li><a href="javascrip:void(0)" alt="Speakers" data-move="speaker-section">Speakers</a></li>
-                        <li><a href="javascrip:void(0)" alt="Home" data-move="price-section">Pricing</a></li>
-                        <li><a href="javascrip:void(0)" alt="Home" data-move="sponsor-section">Sponsors</a></li>
-                        <li><a href="javascrip:void(0)" alt="Home" data-move="faq-section">FAQ</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav> -->
-
-    <!-- End of navbar header -->
+    
 
 
     <!-- Landing section -->
@@ -61,8 +30,7 @@
                         <div class="landing-logo">
                             <img src="{{asset('img/without-text.png')}}" height="200px">
                         </div>
-                        <h1>This year, we're bringing an online conference for <span class="animate-word"><span
-                                        class="freelancer">FREELANCERS!</span></span></h1>
+                        <h1>This year, we're bringing an online conference for FREELANCERS!</h1>
                     </div>
                 </div>
                 {{--<p>10th – 13th July 2015</p>--}}
@@ -842,145 +810,7 @@
 
     /* Javascript code will start function only after all the resources and assets of the site will load */
 
-    $(window).on('load', function () {
-
-        function funHide(text, num) {
-            switch (num) {
-                case 1:
-                    setTimeout(function () {
-                        $('.freelancer').text(text)
-                            .css({
-                                "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                            });
-                        funHide('DESIGNERS!', 2);
-                    }, 2800);
-                    break;
-
-                case 2 :
-                    setTimeout(function () {
-                        $('.freelancer').css({
-                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                        });
-                        funHide('AGENCIES!', 3);
-                    }, 2800);
-                    break;
-
-                case 3 :
-                    setTimeout(function () {
-                        $('.freelancer').text(text)
-                            .css({
-                                "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                            });
-                        funHide('AGENCIES!', 4);
-                    }, 2800);
-                    break;
-
-                case 4 :
-                    setTimeout(function () {
-                        $('.freelancer').css({
-                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                        });
-                        funHide('FREELANCERS!', 5);
-
-                    }, 2800);
-                    break;
-
-                case 5 :
-                    setTimeout(function () {
-                        $('.freelancer').text(text)
-                            .css({
-                                "animation": "typing 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                            });
-                        funHide('FREELANCERS!', 6);
-                    }, 2800);
-                    break;
-
-                case 6 :
-                    setTimeout(function () {
-                        $('.freelancer').css({
-                            "animation": "backspace 3s steps(60, end),blink-caret 1s step-end infinite alternate",
-                        });
-                        funHide('DESIGNERS!', 1);
-                    }, 2800);
-                    break;
-
-                default:
-                    break;
-            }
-            ;
-        };
-
-        funHide('DESIGNERS!', 1);
-
-
-        /* Navigation Functionality */
-        // $('.conf-nav li a').on('click', function () {
-        //     $('.conf-nav li a').removeClass('active');
-        //     var $this = $(this);
-        //     var moveSection = $this.data('move');
-        //     $('html, body').animate({
-        //         scrollTop: $('.' + moveSection).offset().top - 73
-        //     }, 1000);
-        //     if ($(window).width() < 768) {
-        //         $('.navbar-toggle').addClass('collapsed')
-        //             .attr('aria-expanded', false);
-        //         $('.navbar-collapse').removeClass('in');
-        //     }
-        // })
-
-
-        // $('#learn-more').on('click', function () {
-        //     $('html, body').animate({
-        //         scrollTop: $('.about-section').offset().top - 73
-        //     }, 1000);
-        // })
-
-        /* End of navigation functionality */
-
-        /* Responsive header & animation */
-        var speakerSection = $('.speaker-section').offset().top - 100;
-        var priceSection = $('.price-section').offset().top - 100;
-        var slackSection = $('.slack-section').offset().top - 100;
-        var sponsorSection = $('.sponsor-section').offset().top - 100;
-        var faqSection = $('.faq-section').offset().top - 100;
-        var footer = $('footer').offset().top - 100;
-
-
-        if ($(window).width() < 768) {
-            $('.navbar-default').addClass('white-nav');
-        } else {
-
-            $(window).scroll(function () {
-                var scrollTop = $(this).scrollTop();
-
-                // if (scrollTop > speakerSection && scrollTop < priceSection) {
-                //     $('.conf-nav li a').removeClass('active');
-                //     $('a[data-move="speaker-section"]').addClass('active');
-                // } else if (scrollTop > priceSection && scrollTop < slackSection) {
-                //     $('.conf-nav li a').removeClass('active');
-                //     $('a[data-move="price-section"]').addClass('active');
-                // } else if (scrollTop > sponsorSection && scrollTop < faqSection) {
-                //     $('.conf-nav li a').removeClass('active');
-                //     $('a[data-move="sponsor-section"]').addClass('active');
-                // } else if (scrollTop > faqSection && scrollTop < footer) {
-                //     $('.conf-nav li a').removeClass('active');
-                //     $('a[data-move="faq-section"]').addClass('active');
-                // } else {
-                //     $('.conf-nav li a').removeClass('active');
-                // }
-
-
-                if (scrollTop > 0) {
-                    // $('.navbar-default').addClass('white-nav');
-                } else {
-                    // $('.navbar-default').removeClass('white-nav');
-                }
-
-            });
-        }
-
-        /* End of responsive header */
-
+    $(window).on('load', function () {   
 
         /* IE 9 Support */
 

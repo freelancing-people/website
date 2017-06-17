@@ -15,6 +15,10 @@ Route::get('/conference', function() {
     return view('conference');
 });
 
+Route::get('/redirect', function() {
+    return view('redirect');
+});
+
 Route::get('/', function () {
     return view('home');
 });
