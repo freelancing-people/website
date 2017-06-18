@@ -18,7 +18,7 @@
     <meta property="og:title" content="An online conference for freelancers"/>
     <meta property="og:description"
           content="Want to close more clients? Freelancing Conf helps you learn a framework to get a continuous pipeline of leads."/>
-    <meta property="og:image" content="{{asset('img/logo-color.png')}}"/>
+    <meta property="og:image" content="{{asset('img/conference-landing-image.png')}}"/>
 
     <!-— Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
@@ -26,7 +26,7 @@
     <meta name="twitter:title" value="An online conference for freelancers"/>
     <meta name="twitter:description"
           value="Want to close more clients? Freelancing Conf helps you learn a framework to get a continuous pipeline of leads."/>
-    <meta name="twitter:image" content="{{asset('img/logo-color.png')}}"/>
+    <meta name="twitter:image" content="{{asset('img/conference-landing-image.png')}}"/>
     <meta name="twitter:url" value="http://freelancingpeople.com/conference"/>
 
     @include('includes.pixel')
