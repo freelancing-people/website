@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Freelancing People</title>
-    <meta charset="utf-8"> <!-- Meta for unicode encoding -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta for responsiveness -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Meta for Edge style rendering in IE -->
-    <link rel='shortcut icon' href="{{asset('img/favicon.png')}}" type='image/x-icon'>
-    <!-- External font - Open Sans -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" type="text/css" href="{{asset('css/home.css')}}">
-    @include('includes.pixel')
-</head>
-<body>
-<script src="https://assets.convertkit.com/assets/CKJS4.js?v=21"></script>
+@extends('layouts.home')
 
-
+@section('content')
 <section class="top-section">
     <div class="container">
         <div class="col-md-8 col-md-offset-2">
@@ -37,15 +22,15 @@
                             </li>
                             <li>
                                 <strong>Lesson 3:</strong>
-                                Handcraft valuable CTAs, give freebies, invest in experiences
+                                Capturing quality leads from your website
                             </li>
                             <li>
                                 <strong>Lesson 4:</strong>
-                                Building a personal relationship based on TRUST
+                                Attracting genuine visitors to your website
                             </li>
                             <li>
                                 <strong>Lesson 5:</strong>
-                                Pitching at the right time!!!
+                                Building a personal relationship to pitch at the right time!!!
                             </li>
                         </ul>
                     </div>
@@ -60,10 +45,10 @@
 
 
                             <form id="ck_subscribe_form" class="ck_subscribe_form"
-                                  action="https://app.convertkit.com/landing_pages/223466/subscribe" data-remote="true">
+                                  action="https://app.convertkit.com/landing_pages/226862/subscribe" data-remote="true">
                                 <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;}"
                                        id="ck_form_options">
-                                <input type="hidden" name="id" value="223466" id="landing_page_id">
+                                <input type="hidden" name="id" value="226862" id="landing_page_id">
                                 <input type="hidden" name="ck_form_recaptcha" value="" id="ck_form_recaptcha">
                                 <div class="ck_errorArea">
                                     <div id="ck_error_msg" style="display:none">
@@ -157,10 +142,10 @@
                                 <p>Success! Now check your email for lesson #1.</p>
                             </div>
                             <form id="ck_subscribe_form" class="ck_subscribe_form"
-                                  action="https://app.convertkit.com/landing_pages/223466/subscribe" data-remote="true">
+                                  action="https://app.convertkit.com/landing_pages/226862/subscribe" data-remote="true">
                                 <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;}"
                                        id="ck_form_options">
-                                <input type="hidden" name="id" value="223466" id="landing_page_id">
+                                <input type="hidden" name="id" value="226862" id="landing_page_id">
                                 <input type="hidden" name="ck_form_recaptcha" value="" id="ck_form_recaptcha">
                                 <div class="ck_errorArea">
                                     <div id="ck_error_msg" style="display:none">
@@ -195,14 +180,4 @@
         </div>
     </div>
 </section>
-
-<footer>
-    <div class="container">
-        <div class="col-sm-8 col-sm-offset-2 text-center">
-            <p>Copyright © 2017 The Consulting and Freelancing Club, Inc.</p>
-        </div>
-    </div>
-</footer>
-
-</body>
-</html>
+@endsection

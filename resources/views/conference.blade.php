@@ -11,6 +11,22 @@
     <!-- External font - Open Sans -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/app.css"> <!-- Compiled css -->
+
+    <!-— Facebook and Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://freelancingpeople.com/conference" />
+    <meta property="og:title" content="An online conference for freelancers" />
+    <meta property="og:description" content="Want to land more clients? Freelancing Conf helps you learn a framework to get a continuous pipeline of leads." />
+    <meta property="og:image" content="{{asset('img/logo-color.png')}}" />
+
+    <!-— Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://freelancingpeople.com" />
+    <meta name="twitter:title" value="An online conference for freelancers" />
+    <meta name="twitter:description" value="Want to land more clients? Freelancing Conf helps you learn a framework to get a continuous pipeline of leads." />
+    <meta name="twitter:image" content="{{asset('img/logo-color.png')}}" />
+    <meta name="twitter:url" value="http://freelancingpeople.com/conference" />
+
     @include('includes.pixel')
 </head>
 <body>

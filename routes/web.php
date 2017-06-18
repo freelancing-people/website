@@ -19,6 +19,6 @@ Route::get('/redirect', function() {
     return view('redirect');
 });
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@show');
+Route::get('/developer', 'HomeController@developer');
+Route::get('/designer', 'HomeController@designer');

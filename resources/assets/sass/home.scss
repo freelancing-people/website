@@ -106,7 +106,7 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        button{
+        a {
             padding: 12px 0;
             width: 320px;
             border: 2px solid $green;
@@ -116,11 +116,14 @@ body{
             background: $green;
             color: $white;
             transition: all 0.3s ease;
+            text-align: center;
             &:hover{
                 background: $white;
                 border: 2px solid $green;
                 color: $green;
                 transition: all 0.3s ease;
+                text-decoration: none;
+                cursor: pointer;
             }
         }
     }
