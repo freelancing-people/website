@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Conference</title>
+    <title>Freelancing Conf</title>
     <meta charset="utf-8"> <!-- Meta for unicode encoding -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta for responsiveness -->
@@ -13,25 +13,26 @@
     <link rel="stylesheet" type="text/css" href="css/app.css"> <!-- Compiled css -->
 
     <!-— Facebook and Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://freelancingpeople.com/conference" />
-    <meta property="og:title" content="An online conference for freelancers" />
-    <meta property="og:description" content="Want to land more clients? Freelancing Conf helps you learn a framework to get a continuous pipeline of leads." />
-    <meta property="og:image" content="{{asset('img/logo-color.png')}}" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://freelancingpeople.com/conference"/>
+    <meta property="og:title" content="An online conference for freelancers"/>
+    <meta property="og:description"
+          content="Want to close more clients? Freelancing Conf helps you learn a framework to get a continuous pipeline of leads."/>
+    <meta property="og:image" content="{{asset('img/logo-color.png')}}"/>
 
     <!-— Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:domain" value="https://freelancingpeople.com" />
-    <meta name="twitter:title" value="An online conference for freelancers" />
-    <meta name="twitter:description" value="Want to land more clients? Freelancing Conf helps you learn a framework to get a continuous pipeline of leads." />
-    <meta name="twitter:image" content="{{asset('img/logo-color.png')}}" />
-    <meta name="twitter:url" value="http://freelancingpeople.com/conference" />
+    <meta name="twitter:domain" value="https://freelancingpeople.com"/>
+    <meta name="twitter:title" value="An online conference for freelancers"/>
+    <meta name="twitter:description"
+          value="Want to close more clients? Freelancing Conf helps you learn a framework to get a continuous pipeline of leads."/>
+    <meta name="twitter:image" content="{{asset('img/logo-color.png')}}"/>
+    <meta name="twitter:url" value="http://freelancingpeople.com/conference"/>
 
     @include('includes.pixel')
 </head>
 <body>
 <div id="app">
-    
 
 
     <!-- Landing section -->
@@ -75,18 +76,17 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <p>
-                        To start with, in a normal technical conference, there are sessions, where speakers talk about
-                        a given topic, give ideas and introduce concepts. These concepts open up a new world for
-                        you, but it's up to your discipline and procrastination - you need to go home, take out
-                        time, learn stuff and PRACTICE it. This works, but most of the times, you lose the tempo and go
-                        back to normal life eventually not making any good progress.
+                        In regular conferences, speakers talk about a given topic, give ideas and introduce concepts.
+                        These ideas open up a new world for you, but it's up to your discipline and procrastination -
+                        you need to go home, take out time, learn stuff and PRACTICE it. This technique works, but most
+                        of the times, you lose the tempo and go back to normal life eventually not making any real
+                        progress.
                     </p>
                     <p>
-                        I visualize Freelancing Conference with a very different objective. FreelancingConf gives
-                        actionable advice, period. You'll leave with a framework ready in your hands which can
-                        be put into action the next moment. I have something planned out after the conference that will
-                        help me track and motivate you to implement the framework that you've have learned in the
-                        conference.
+                        I visualize Freelancing Conference with a single objective. FreelancingConf gives actionable
+                        advice, period. You'll leave with a framework ready in your hands which can be put into action
+                        the next moment. I have something planned out after the conference that will help me track and
+                        motivate you to implement the framework that you've have learned in the convention.
                     </p>
                 </div>
             </div>
@@ -248,33 +248,33 @@
                         <div class="col-md-8 col-md-offset-2">
                             <p>
                                 You'll get to experience every exciting aspect of a conference -
-                                mingling with fellow attendees, swag, discussions with speakers, parties and lastly tons of
+                                mingling with fellow attendees, swag, discussions with speakers, parties and lastly tons
+                                of
                                 knowledge to grow your business.
                             </p>
                             <p class="green">
-                                Worried you can't make it on 15th October? We'll be recording all talks for offline download
+                                Worried you can't make it on 15th October? We'll be recording all talks for offline
+                                download
                                 after the conference.
                             </p>
                         </div>
                     </div>
-                    {{--<div class="pricing-details">--}}
-                    {{--<div class="row">--}}
-                    {{--<div class="col-sm-6">--}}
-                    {{--<ul>--}}
-                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                    {{--</ul>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-sm-6">--}}
-                    {{--<ul>--}}
-                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                    {{--<li><p>Lorem ipsum is a dummy text.</p></li>--}}
-                    {{--</ul>--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
+                    <div class="pricing-details">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <hr />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <ul>
+                                    <li><p>Exclusive discounts on courses and e-books for freelancers</p></li>
+                                    <li><p>Access to digital swag from sponsors (discounts, T-shirts)</p></li>
+                                    <li><p>First hand look at the inner workings of freelancers generating $100K + revenue</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -826,7 +826,7 @@
 
     /* Javascript code will start function only after all the resources and assets of the site will load */
 
-    $(window).on('load', function () {   
+    $(window).on('load', function () {
 
         /* IE 9 Support */
 
