@@ -38,7 +38,7 @@
     <!-- Landing section -->
 
     <section class="conference-landing">
-        <a class="site-logo" href="javascript:void(0)">FreelancingConf</a>
+        {{--<a class="site-logo" href="javascript:void(0)">FreelancingConf</a>--}}
         <div class="container">
             <div class="welcome-message">
                 {{--<h1>A Event For Freelancers, Consultants & Agencies</h1>--}}
