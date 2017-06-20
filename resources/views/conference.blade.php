@@ -148,7 +148,7 @@
                                 <div class="display-table height-100 width-100">
                                     <div class="display-table-cell vertical-align-middle sm-text-center">
                                         <span class="display-block font-family-alt font-weight-700 letter-spacing-1 xs-text-extra-large title-medium text-uppercase">Save The Date. <span
-                                                    class="text-decoration-underline text-base-color">Don't Miss It!</span></span>
+                                                    class="text-decoration-underline text-base-color">15 Oct, 2017!</span></span>
                                         <span class="display-block font-family-alt margin-1 no-margin-bottom no-margin-rl text-large text-gray-dark">Book your place right now!</span>
                                     </div>
                                     <!-- //.display-table-cell -->
