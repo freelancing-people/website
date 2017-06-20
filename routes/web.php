@@ -15,6 +15,14 @@ Route::get('/conference', function() {
     return view('conference');
 });
 
+Route::get('/conference/thank-you', function() {
+    return view('conference_thank_you');
+});
+
+Route::get('/thank-you', function() {
+    return view('email_course_thank_you');
+});
+
 Route::get('/redirect', function() {
     return view('redirect');
 });
