@@ -590,7 +590,7 @@
             <div class="features-box col-sm-6 col-md-4 sm-margin-4-5 margin-3 sm-no-margin-bottom no-margin-bottom sm-no-margin-rl no-margin-rl">
                 <div class="overflow-hidden position-relative width-100">
                     <div class="position-relative">
-                        <img src="/assets/images/speakers-6.jpg" alt=""/>
+                        <img src="/assets/images/jane-portman.jpg" alt=""/>
                         <span class="bg-base-color display-inline-block font-family-alt letter-spacing-1 margin-4 padding-tb-9px padding-rl-13px position-absolute position-bottom text-extra-small text-uppercase text-white">UI/UX Consultant</span>
                     </div>
                     <!-- //.position-relative -->
