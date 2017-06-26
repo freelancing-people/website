@@ -1,0 +1,59 @@
+.navbar{
+	background: transparent;
+	border: 0;
+	padding-top: 50px;
+	&.white-nav{
+		padding-top: 0;
+		-webkit-box-shadow: 0 1px 12px 0px rgba(51, 51, 51, 0.23);
+ 		-moz-shadow: 0 1px 12px 0px rgba(51, 51, 51, 0.23);
+ 		-o-shadow: 0 1px 12px 0px rgba(51, 51, 51, 0.23);
+ 		-ms-shadow: 0 1px 12px 0px rgba(51, 51, 51, 0.23);
+ 		box-shadow: 0 1px 12px 0px rgba(51, 51, 51, 0.23);
+ 		background: rgba(255, 255, 255, 0.97);
+ 		-webkit-box-shadow: fadeInDown 1s both;
+ 		-moz-shadow: fadeInDown 1s both;
+ 		-o-shadow: fadeInDown 1s both;
+ 		-ms-shadow: fadeInDown 1s both;
+ 		animation: fadeInDown 1s both;
+	}
+	.navbar-brand{
+		img{
+			height: 110px;
+		}
+	}
+
+	.nav{
+		li{
+			a{
+				padding: 30px 15px;
+				color: $black;
+				font-weight: bold;
+				position: relative;
+				&:after{
+					opacity: 0;
+					position: absolute;
+					content: "";
+					width: 90%;
+					height: 2px;
+					left: 50%;
+					bottom: 25px;
+					transform: translateX(-50%);
+					background: $black;
+					transition: all 0.3s ease;
+				}
+				&:hover{
+					color: $black;
+					&:after{
+						opacity: 1;
+						transition: all 0.3s ease;
+					}
+				}
+				&.active{
+					&:after{
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}

@@ -15,6 +15,10 @@ Route::get('/conference', function() {
     return view('conference');
 });
 
+Route::get('/interviews', function() {
+    return view('interview');
+});
+
 Route::get('/conference/thank-you', function() {
     return view('conference_thank_you');
 });
