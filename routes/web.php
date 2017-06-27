@@ -11,25 +11,25 @@
 |
 */
 
-Route::get('/conference', function() {
+Route::get('/conference', function () {
     return view('conference');
 });
 
-Route::get('/interviews', function() {
-    return view('interview');
+Route::group(['namespace' => 'Website'], function () {
+    Route::resource('interviews', 'InterviewsController');
+    Route::resource('articles', 'ArticlesController');
+    Route::resource('services', 'ServicesController');
 });
 
-Route::get('/conference/thank-you', function() {
+
+Route::get('/conference/thank-you', function () {
     return view('conference_thank_you');
 });
 
-Route::get('/thank-you', function() {
+Route::get('/thank-you', function () {
     return view('email_course_thank_you');
 });
 
-Route::get('/redirect', function() {
-    return view('redirect');
-});
 
 Route::get('/', 'HomeController@show');
 Route::get('/developer', 'HomeController@developer');
