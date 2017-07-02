@@ -20,7 +20,7 @@ $instabg: #fb3958;    /* Instagram bg color */
 $logo-orange: #fcc140;/* Logo orange color */
 $logo-blue: #094590;  /* Logo blue color */
 $logo-green: #225552; /* Logo green color */
-$logo-gray: #f9ece1;  /* Logo gray color */
+$logo-gray: #ddd;  /* Logo gray color */
 
 /* Animation for header */
 
@@ -40,6 +40,28 @@ $logo-gray: #f9ece1;  /* Logo gray color */
 	}
 
 /* End of animation for header */
+
+/* vibrate Animation */
+
+	@keyframes vibrate {
+	  10%, 90% {
+	    transform: rotate(30deg);
+	  }
+	  
+	  20%, 80% {
+	    transform: rotate(10deg);
+	  }
+
+	  30%, 50%, 70% {
+	    transform: rotate(40deg);
+	  }
+
+	  40%, 60% {
+	    transform: rotate(20deg);
+	  }
+	}
+
+/* End of vibrate animation */
 
 @font-face {
     font-family: "futura-medium";

@@ -182,3 +182,164 @@
 		}
 	}
 }
+
+.interview-view{
+	padding-top: 225px;
+	padding-bottom: 50px;
+	position: relative;
+	.triangle-bg{
+		-webkit-clip-path: polygon(100% 0, 0 0, 99% 100%);
+		clip-path: polygon(100% 0, 0 0, 99% 100%);
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 280px;
+		background: $logo-blue;
+		width: 280px;
+		z-index: -1;
+		&.rotate-bg{
+			-webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+			clip-path: polygon(100% 0, 0 0, 0 100%);
+			background: $logo-gray;
+			background: #ddd;
+		    height: 450px;
+		    width: 400px;
+		    top: 60%;
+		    left: 22%;
+			transform: rotate(25deg);
+		}
+	}
+	.next-btn{
+		color: $black;
+		font-size: 16px;
+		display: inline-block;
+		padding-top: 60px;
+	}
+	.profile-image{
+		position: relative;
+		height: 180px;
+		width: 250px;
+		margin: 25px auto 0 auto;
+		&:after{
+			position: absolute;
+			content: "";
+			top: 58%;
+			left: 47%;
+			transform: translate(-50%,-50%) rotate(-45deg);
+			background: $light-gray;
+			width: 8px;
+			height: 160%;
+		}
+		img{
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			-webkit-clip-path: polygon(0 12%, 76% 0, 100% 100%, 9% 89%);;
+			clip-path: polygon(0 12%, 76% 0, 100% 100%, 9% 89%);
+			z-index: 1;
+		}
+		.profile-name{
+			position: absolute;
+		    font-weight: bold;
+		    bottom: -10px;
+		    left: 22px;
+		    text-transform: uppercase;
+		    font-size: 16px;
+		    transform: rotate(5deg);
+		}
+	}
+	.profile-body{
+		ul{
+    		margin: 50px auto 0 75px;
+    		li{
+    			padding: 5px 0;
+    			font-size: 19px;
+    		}
+		}
+	}
+
+	.profile-info{
+		border: 8px solid $black;
+		height: 130vh;
+		background: $white;
+		padding-bottom: 50px;
+		.content{
+			padding: 50px 40px;
+			overflow: auto;
+			position: relative;
+			font-style: italic;
+			height: 100%;
+			p{
+				font-size: 17px;
+			}
+			h3{
+				font-size: 23px;
+				text-decoration: underline;
+				margin-bottom: 20px;
+			}
+			h2{
+				font-size: 25px;
+				margin-bottom: 20px;
+			}
+		}
+		&.animate{
+			.line{
+				-webkit-box-shadow: vibrate 1s both;
+		 		-moz-shadow: vibrate 1s both;
+		 		-o-shadow: vibrate 1s both;
+		 		-ms-shadow: vibrate 1s both;
+		 		animation: vibrate 1s both;
+			}
+		}
+		.line{
+			position: absolute;
+			border: 2px solid $black;
+			width: 8px;
+			background: $white;
+			&.line-1{
+				height: 90px;
+				top: -45px;
+				left: 70px;
+				transform: rotate(40deg); 
+			}
+			&.line-2{
+				height: 70px;
+				top: 100px;
+				right: 10px;
+				transform: rotate(-25deg); 
+			}
+			&.line-3{
+				height: 70px;
+				bottom: -25px;
+				left: 90px;
+				transform: rotate(30deg); 
+			}
+			&.line-4{
+				height: 70px;
+				right: 15px;
+				bottom: 30vh;
+				transform: rotate(-50deg); 
+			}
+		}
+		
+	}
+}
+
+div::-webkit-scrollbar-track{
+	-webkit-box-shadow: none;
+	background-color: transparent;
+	height: 100px;
+	background-clip: content-box;
+}
+
+div::-webkit-scrollbar{
+	width: 13px;
+    height: 100px;
+    margin-right: 3px;
+    background-color: transparent;
+}
+
+div::-webkit-scrollbar-thumb{
+	background-color: #000;
+    border-right: 10px solid #fff;
+}

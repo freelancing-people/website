@@ -1,7 +1,8 @@
 @extends('layouts.website')
 
 @section('content')
-	<div class="container">
+
+<div class="container">
 		<div class="search-section">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
@@ -155,4 +156,5 @@
 			</div>
 		</div>
 	</section>
+
 @endsection

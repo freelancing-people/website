@@ -15,6 +15,28 @@
 	}
 }
 
+@media(max-width: 991px){
+	.interview-view{
+		.profile-details{
+			ul{
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px){
+      .interview-view{
+      	.profile-details{
+      		ul{
+      			li{
+      				text-align: center;
+      			}
+      		}
+      	}
+      }
+}
+
 @media(max-width: 768px){
 	.navbar{
 		padding-top: 0;
@@ -37,5 +59,58 @@
 				}
 			}
 		}
+	}
+
+	.interview-view{
+		padding-top: 70px;
+		overflow: hidden;
+		.container-fluid{
+			padding: 0;
+		}
+		.profile-details{
+			.profile-body{
+				padding-bottom: 60px;
+			}
+		}
+
+		.profile-info{
+			.content{
+				padding: 50px 20px;
+			}
+		}
+	}
+
+	.services-section{
+		padding: 225px 15px 50px 15px;
+		.list-view{
+			.list-header{
+				padding: 25px;
+			}
+			.list-footer{
+				padding-top: 50px;
+			}
+		}
+	}
+
+	.fp-modal{
+		.fp-modal-content{
+			h1{
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			form{
+				max-width: 95%;
+				padding-top: 120px;
+			}
+		}
+	}
+}
+
+@media(max-width: 420px){
+	.services-section{
+		.list-view{
+			padding-top: 250px;
+		}
+
 	}
 }

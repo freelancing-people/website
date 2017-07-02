@@ -58,6 +58,26 @@
                 }
             });
         }
+
+        $('.content').on('scroll',function(){
+            $('.profile-info').addClass('animate');
+            setTimeout(function(){
+               $('.profile-info').removeClass('animate'); 
+            },500);
+        })
+
+        $('.service-btn').on('click',function(){
+            $('.fp-modal').addClass('open');
+        })
+
+        $('.fp-modal-backdrop').on('click',function(){
+            $('.fp-modal').removeClass('open');
+            $('#fp-form')[0].reset();
+        });
+        $('.close-btn').on('click',function(){
+            $('.fp-modal').removeClass('open');
+            $('#fp-form')[0].reset();
+        });
     })
 
 </script>
