@@ -5,5 +5,75 @@
 			font-size: 28px;
 		}
 	}
-	
+}
+
+.article-show-section{
+	.list-view{
+		border: 10px solid $black;
+		padding-top: 135px;
+		.blue-triangle{
+			position: absolute;
+			-webkit-clip-path: polygon(0 0, 21% 100%, 100% 100%);
+			clip-path: polygon(0 0, 21% 100%, 100% 100%);
+			height: 200px;
+		    width: 550px;
+		    bottom: 0100%;
+		    left: 28%;
+			background: $logo-blue;
+		}
+		.gray-triangle{
+			position: absolute;
+			-webkit-clip-path: polygon(5% 0, 100% 49%, 62% 100%, 0% 100%);
+			clip-path: polygon(5% 0, 100% 49%, 62% 100%, 0% 100%);
+			height: 250px;
+			width: 280px;
+			background: $logo-gray;
+			z-index: 1;
+			left: 65%;
+    		top: -125px;
+		}
+		.list-header{
+			top: -60px;
+			padding: 15px 150px 15px 15px;
+			h1{
+				font-size: 32px;
+				margin-bottom: 0;
+			}
+			&:after{
+				display: none;
+			}
+		}
+	}
+	.profile-info{
+		background: transparent;
+		border: 0;
+		padding: 0 150px;
+		div::-webkit-scrollbar-thumb{
+			background-color: #000;
+		    border-right: 10px solid $light-gray;
+		}
+		.content{
+			padding-top: 0;
+		}
+		.line{
+			&.line-1{
+				top: 10%;
+			    left: 0;
+			    right: initial;
+			    height: 110px;
+			}
+			&.line-2{
+				top: 50%;
+				right: 70px;
+			}
+			&.line-4{
+			    height: 110px;
+			    right: -5px;
+			    bottom: 100px;
+			}
+			&.line-3{
+				bottom: 50px;
+			}
+		}
+	}
 }

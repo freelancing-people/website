@@ -26,9 +26,14 @@
 			background: transparent;
 			border: 2px solid $black;
 			color: $black;
-			padding: 8px 5px;
+			padding: 9px 5px 8px 5px;
 			text-transform: uppercase;
 			display: inline-block;
+			&:hover{
+				background: $logo-green;
+				color: $white;
+				transition: all 0.3s ease;
+			}
 		}
 	}
 }
@@ -258,71 +263,71 @@
 		}
 	}
 
-	.profile-info{
-		border: 8px solid $black;
-		height: 130vh;
-		background: $white;
-		padding-bottom: 50px;
-		.content{
-			padding: 50px 40px;
-			overflow: auto;
-			position: relative;
-			font-style: italic;
-			height: 100%;
-			p{
-				font-size: 17px;
-			}
-			h3{
-				font-size: 23px;
-				text-decoration: underline;
-				margin-bottom: 20px;
-			}
-			h2{
-				font-size: 25px;
-				margin-bottom: 20px;
-			}
+}
+.profile-info{
+	border: 8px solid $black;
+	height: 130vh;
+	background: $white;
+	padding-bottom: 50px;
+	.content{
+		padding: 50px 40px;
+		overflow: auto;
+		position: relative;
+		font-style: italic;
+		height: 100%;
+		p{
+			font-size: 17px;
 		}
-		&.animate{
-			.line{
-				-webkit-box-shadow: vibrate 1s both;
-		 		-moz-shadow: vibrate 1s both;
-		 		-o-shadow: vibrate 1s both;
-		 		-ms-shadow: vibrate 1s both;
-		 		animation: vibrate 1s both;
-			}
+		h3{
+			font-size: 23px;
+			text-decoration: underline;
+			margin-bottom: 20px;
 		}
-		.line{
-			position: absolute;
-			border: 2px solid $black;
-			width: 8px;
-			background: $white;
-			&.line-1{
-				height: 90px;
-				top: -45px;
-				left: 70px;
-				transform: rotate(40deg); 
-			}
-			&.line-2{
-				height: 70px;
-				top: 100px;
-				right: 10px;
-				transform: rotate(-25deg); 
-			}
-			&.line-3{
-				height: 70px;
-				bottom: -25px;
-				left: 90px;
-				transform: rotate(30deg); 
-			}
-			&.line-4{
-				height: 70px;
-				right: 15px;
-				bottom: 30vh;
-				transform: rotate(-50deg); 
-			}
+		h2{
+			font-size: 25px;
+			margin-bottom: 20px;
 		}
-		
 	}
+	&.animate{
+		.line{
+			-webkit-box-shadow: vibrate 1s both;
+	 		-moz-shadow: vibrate 1s both;
+	 		-o-shadow: vibrate 1s both;
+	 		-ms-shadow: vibrate 1s both;
+	 		animation: vibrate 1s both;
+		}
+	}
+	.line{
+		position: absolute;
+		border: 2px solid $black;
+		width: 8px;
+		background: $white;
+		&.line-1{
+			height: 90px;
+			top: -45px;
+			left: 70px;
+			transform: rotate(40deg); 
+		}
+		&.line-2{
+			height: 70px;
+			top: 100px;
+			right: 10px;
+			transform: rotate(-25deg); 
+		}
+		&.line-3{
+			height: 70px;
+			bottom: -25px;
+			left: 90px;
+			transform: rotate(30deg); 
+		}
+		&.line-4{
+			height: 70px;
+			right: 15px;
+			bottom: 30vh;
+			transform: rotate(-50deg); 
+		}
+	}
+	
 }
 
 div::-webkit-scrollbar-track{
@@ -341,5 +346,6 @@ div::-webkit-scrollbar{
 
 div::-webkit-scrollbar-thumb{
 	background-color: #000;
-    border-right: 10px solid #fff;
+    border-right: 10px solid $white;
 }
+

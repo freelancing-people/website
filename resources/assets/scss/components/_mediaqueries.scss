@@ -15,11 +15,46 @@
 	}
 }
 
+@media(max-width: 1100px){
+	.article-show-section{
+		.list-view{
+			.gray-triangle{
+				height: 200px;
+			    width: 230px;
+			    left: 68%;
+			    top: -118px;		
+			}
+		}
+	}
+}
+
 @media(max-width: 991px){
 	.interview-view{
 		.profile-details{
 			ul{
 				margin-left: 0;
+			}
+		}
+	}
+	.article-show-section{
+		overflow: hidden;
+		.list-view{
+			.list-header{
+				padding-right: 50px;
+			}
+			.gray-triangle{
+			    left: 85%;
+			}
+			.profile-info{
+				padding: 0;
+				.line{
+					&.line-3{
+						left: 0;
+					}
+					&.line-2{
+						right: 0;
+					}
+				}
 			}
 		}
 	}
@@ -104,6 +139,20 @@
 			}
 		}
 	}
+	.article-show-section{
+		overflow: hidden;
+		.list-view{
+			padding-top: 100px;
+			.list-header{
+				h1{
+					font-size: 20px;
+				}
+			}
+			.profile-info{
+				padding: 0;
+			}
+		}
+	}
 }
 
 @media(max-width: 420px){
@@ -111,6 +160,10 @@
 		.list-view{
 			padding-top: 250px;
 		}
-
+		&.article-show-section{
+			.list-view{
+				padding-top: 100px;
+			}
+		}
 	}
 }
