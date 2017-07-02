@@ -288,15 +288,7 @@
 			margin-bottom: 20px;
 		}
 	}
-	&.animate{
-		.line{
-			-webkit-box-shadow: vibrate 1s both;
-	 		-moz-shadow: vibrate 1s both;
-	 		-o-shadow: vibrate 1s both;
-	 		-ms-shadow: vibrate 1s both;
-	 		animation: vibrate 1s both;
-		}
-	}
+	
 	.line{
 		position: absolute;
 		border: 2px solid $black;
@@ -330,21 +322,21 @@
 	
 }
 
-div::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track{
 	-webkit-box-shadow: none;
 	background-color: transparent;
 	height: 100px;
 	background-clip: content-box;
 }
 
-div::-webkit-scrollbar{
+body::-webkit-scrollbar{
 	width: 13px;
     height: 100px;
     margin-right: 3px;
     background-color: transparent;
 }
 
-div::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb{
 	background-color: #000;
     border-right: 10px solid $white;
 }

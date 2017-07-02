@@ -1,8 +1,222 @@
 .articles-section{
-	padding-top: 250px;
+	padding-top: 200px;
+	padding-bottom: 150px;
+	overflow: hidden;
 	.articles-header{
 		h1{
 			font-size: 28px;
+		}
+		ul{
+			margin-top: 25px;
+			li{
+				position: relative;
+				padding-left: 35px;
+				padding-right: 100px;
+				&:before{
+					position: absolute;
+					content: "";
+					height: 15px;
+					width: 15px;
+					left: 0;
+					top: 2px;
+					background: $logo-orange;
+				}
+				&:first-child{
+					&:before{
+						background: $logo-green;
+					}
+				}
+				&:nth-child(3){
+					&:before{
+						background: $logo-blue;
+					}
+				}
+				&:last-child{
+					&:before{
+						background: $logo-gray;
+					}
+				}
+				a{
+					font-size: 16px;
+					color: $black;
+					position: relative;
+					&:after{
+						content: "";
+						position: absolute;
+						bottom: -3px;
+						width: 100%;
+						height: 2px;
+						background: $black;
+						opacity: 0;
+						left: 0;
+						transition: all 0.3s ease;
+					}
+					&:hover{
+						text-decoration: none;
+						&:after{
+							opacity: 1;
+							transition: all 0.3s ease;
+						}
+					}
+				}
+			}
+		}
+	}
+	.articles-body{
+		position: relative;
+		padding-top: 150px;
+		a{
+			display: inline-block;
+			h1{
+				font-size: 28px;
+				color: $black;
+			}
+		}
+		.article-design-1{
+			text-align: right;
+			position: relative;
+			.article-link{
+				display: inline-block;
+			    position: absolute;
+			    left: 0;
+			    bottom: 0;
+			    margin-right: 260px;
+			    text-align: left;
+			    h1{
+			    	margin: 0;
+			    	color: $black;
+			    	font-size: 28px;
+			    }
+			}
+			.design-box{
+				display: inline-block;
+				width: 250px;
+				height: 250px;
+				background: $e-gray;
+				position: relative;
+				&:before{
+					position: absolute;
+					content: "";
+					-webkit-clip-path: polygon(50% 0, 0% 85%, 100% 100%);
+					clip-path: polygon(50% 0, 0% 85%, 100% 100%);
+				    background: $logo-green;
+				    height: 200px;
+				    width: 400px;
+				    top: -80px;
+				    left: -170px;
+				    z-index: -1;
+				    transform: rotate(10deg);
+				}
+			}
+		}
+		.article-info{
+			position: relative;
+			padding-left: 30px;
+			.read-more-btn{
+				position: absolute;
+				color: $black;
+				bottom: 0;
+				left: 30px;
+			}
+			p{
+				padding: 0 50px 50px 0;
+			}
+		}
+		.design-type{
+			padding-top: 100px;
+		}
+		.article-design-2{
+			text-align: right;
+			.design-box{
+				display: inline-block;
+				height: 300px;
+				width: 350px;
+				background: $e-gray;
+				position: relative;
+				&:after{
+					position: absolute;
+					content: "";
+					-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+					clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+					height: 250px;
+					width: 270px;
+					background: $light-gray;
+					left: -100px;
+					bottom: -50px;
+					transform: rotate(30deg);
+					z-index: -1;
+				}
+			}
+		}
+		.article-design-3{
+			.design-box{
+				height: 250px;
+				width: 200px;
+				background: $e-gray;
+				position: relative;
+				&:before{
+					content: "";
+					position: absolute;
+					height: 250px;
+					width: 350px;
+					background: $logo-orange;
+					-webkit-clip-path: polygon(66% 0, 100% 47%, 83% 100%, 0 81%);
+					clip-path: polygon(66% 0, 100% 47%, 83% 100%, 0 81%);
+					z-index: -1;
+					left: -100px;
+    				bottom: -50px;
+				}
+			}
+		}
+		.article-design-4{
+			padding-top: 70px;
+			.design-box{
+				height: 200px;
+				background: $e-gray;
+				position: relative;
+				&:after{
+					position: absolute;
+					content: "";
+					-webkit-clip-path: polygon(0 0, 16% 91%, 100% 100%);
+					clip-path: polygon(0 0, 16% 91%, 100% 100%);
+					height: 300px;
+					width: 350px;
+					background: $logo-blue;
+					z-index: -1;
+					left: 40%;
+					top: -87px;
+				}
+			}
+		}
+	}
+	.line{
+		position: absolute;
+		border: 2px solid $black;
+		width: 8px;
+		background: $white;
+		&.line-1{
+			height: 90px;
+			top: 30%;
+			left: -20px;
+			transform: rotate(40deg); 
+		}
+		&.line-2{
+			height: 70px;
+			top: 50%;
+			right: 0;
+			transform: rotate(-25deg); 
+		}
+		&.line-3{
+			height: 70px;
+			bottom: 10%;
+			left: 0;
+			transform: rotate(30deg); 
+		}
+		&.line-4{
+			height: 70px;
+			right: 0;
+			bottom: 30vh;
+			transform: rotate(-50deg); 
 		}
 	}
 }
@@ -50,7 +264,7 @@
 		padding: 0 150px;
 		div::-webkit-scrollbar-thumb{
 			background-color: #000;
-		    border-right: 10px solid $light-gray;
+		    border-right: 10px solid $e-gray;
 		}
 		.content{
 			padding-top: 0;

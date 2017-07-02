@@ -58,6 +58,16 @@
 			}
 		}
 	}
+	
+	.articles-section{ 
+		.articles-header{ 
+			ul{
+				li{
+					padding-right: 40px;
+				}
+			}
+		}
+	}
 }
 
 @media only screen and (min-width: 360px) and (max-width: 768px){
@@ -150,6 +160,14 @@
 			}
 			.profile-info{
 				padding: 0;
+			}
+		}
+	}
+
+	.articles-section{ 
+		.articles-header{ 
+			ul{
+				text-align: left;
 			}
 		}
 	}
