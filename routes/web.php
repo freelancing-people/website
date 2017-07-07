@@ -34,3 +34,7 @@ Route::get('/thank-you', function () {
 Route::get('/', 'HomeController@show');
 Route::get('/developer', 'HomeController@developer');
 Route::get('/designer', 'HomeController@designer');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

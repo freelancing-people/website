@@ -31676,7 +31676,7 @@ var Component = __webpack_require__(37)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\website\\resources\\assets\\js\\components\\Example.vue"
+Component.options.__file = "/Users/virajkhatavkar/Sites/freelancing-people/resources/assets/js/components/Example.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Example.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31687,9 +31687,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-120cd477", Component.options)
+    hotAPI.createRecord("data-v-db99e4d4", Component.options)
   } else {
-    hotAPI.reload("data-v-120cd477", Component.options)
+    hotAPI.reload("data-v-db99e4d4", Component.options)
   }
 })()}
 
@@ -31778,7 +31778,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-120cd477", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-db99e4d4", module.exports)
   }
 }
 
@@ -31788,7 +31788,7 @@ if (false) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {/*!
- * Vue.js v2.3.3
+ * Vue.js v2.3.4
  * (c) 2014-2017 Evan You
  * Released under the MIT License.
  */
@@ -36217,7 +36217,7 @@ Object.defineProperty(Vue$3.prototype, '$ssrContext', {
   }
 });
 
-Vue$3.version = '2.3.3';
+Vue$3.version = '2.3.4';
 
 /*  */
 
@@ -36708,6 +36708,7 @@ function createPatchFunction (backend) {
   function initComponent (vnode, insertedVnodeQueue) {
     if (isDef(vnode.data.pendingInsert)) {
       insertedVnodeQueue.push.apply(insertedVnodeQueue, vnode.data.pendingInsert);
+      vnode.data.pendingInsert = null;
     }
     vnode.elm = vnode.componentInstance.$el;
     if (isPatchable(vnode)) {
@@ -41515,6 +41516,7 @@ module.exports = function(module) {
 __webpack_require__(8);
 __webpack_require__(10);
 __webpack_require__(11);
+(function webpackMissingModule() { throw new Error("Cannot find module \"/Users/virajkhatavkar/Sites/freelancing-people/resources/assets/sass/main.scss\""); }());
 module.exports = __webpack_require__(9);
 
 
