@@ -7,9 +7,17 @@
 	background: rgba(255,255,255,0.7);
 	padding: 30px 0;
 	z-index: 1031;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 	&.open{
 		left: 0;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
 		transition: all 0.5s ease;
 	}
 	.fp-modal-backdrop{
@@ -28,17 +36,29 @@
 	    top: 15px;
 	    right: 15px;
 	    background: $white;
-	    transition: all 0.3s ease;
+	    -webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		transition: all 0.5s ease;
 	    &:hover{
 	    	color: $white;
 	    	background: $logo-blue;
-	    	transition: all 0.3s ease;
+	    	-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+			transition: all 0.5s ease;
 	    }
 	}
 	.fp-modal-content{
 		position: absolute;
 		top: 50%;
 		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		-moz-transform: translate(-50%,-50%);
+		-o-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
 		transform: translate(-50%,-50%);
 		background: $white;
 		background-image: url("../img/without-text.png");
@@ -48,6 +68,8 @@
 		overflow: auto;
 		-webkit-box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.75);
+		-o-box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.75);
+		-ms-box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.75);
 		box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.75);
 		height: calc(100% - 60px);
 
@@ -88,10 +110,18 @@
 				color: $black;
 				background: rgba(255,255,255,0.9);
 				font-size: 16px;
-				transition: all 0.3s ease;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				-ms-transition: all 0.5s ease;
+				transition: all 0.5s ease;
 				&:hover{
 					background: $logo-orange;
-					transition: all 0.3 ease;
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-o-transition: all 0.5s ease;
+					-ms-transition: all 0.5s ease;
+					transition: all 0.5s ease;
 				}				
 			}
 			::-webkit-input-placeholder { /* Chrome/Opera/Safari */

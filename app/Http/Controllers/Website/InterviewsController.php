@@ -12,7 +12,7 @@ class InterviewsController extends Controller
         return view('website.interviews.index');
     }
 
-    public function show()
+    public function show($id)
     {
         return view('website.interviews.show');
     }

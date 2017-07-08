@@ -2,6 +2,7 @@
 	.photo-section{
 		.photo-grid{
 			.green-polygon{
+				-webkit-clip-path: polygon(10% 0, 100% 13%, 48% 73%, 49% 73%, 0 44%);
 				clip-path: polygon(10% 0, 100% 13%, 48% 73%, 49% 73%, 0 44%);
 			    height: 173px;
 			    width: 213px;
@@ -71,7 +72,7 @@
 }
 
 @media only screen and (min-width: 360px) and (max-width: 768px){
-      .interview-view{
+    .interview-view{
       	.profile-details{
       		ul{
       			li{
@@ -79,7 +80,7 @@
       			}
       		}
       	}
-      }
+    }
 }
 
 @media(max-width: 768px){
@@ -141,6 +142,10 @@
 		.fp-modal-content{
 			h1{
 				left: 50%;
+				-webkit-transform: translateX(-50%);
+				-moz-transform: translateX(-50%);
+				-o-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
 				transform: translateX(-50%);
 			}
 			form{
@@ -149,6 +154,7 @@
 			}
 		}
 	}
+
 	.article-show-section{
 		overflow: hidden;
 		.list-view{
@@ -165,9 +171,96 @@
 	}
 
 	.articles-section{ 
-		.articles-header{ 
+		padding-bottom: 0;
+		padding-top: 100px;
+		.articles-header{
+
 			ul{
 				text-align: left;
+			}
+		}
+		.articles-body{
+			padding-top: 60px;
+			.article-link{
+				position: static !important;
+				margin-right: 0 !important;
+				padding-bottom: 15px;
+			}
+			.design-box{
+				display: none !important;
+			} 
+			.container-fluid{
+				padding: 0;
+			}
+			.article-info{
+				padding: 0;
+				p{
+					padding-right: 0;
+				}
+			}
+			.design-type{
+				padding-top: 50px;
+				position: relative;
+				&:after{
+					position: absolute;
+					content: "";
+					-webkit-clip-path: polygon(100% 81%, 0 39%, 0 72%);
+					clip-path: polygon(100% 81%, 0 39%, 0 72%);
+					height: 200px;
+					width: 200px;
+					z-index: -1;
+					
+				}
+				&.design-type-2,
+				&.design-type-4{
+					&:after{
+						left: -50px;
+						bottom: -150px;
+						-webkit-transform: rotate(-230deg);
+						-moz-transform: rotate(-230deg);
+						-o-transform: rotate(-230deg);
+						-ms-transform: rotate(-230deg);
+						transform: rotate(-230deg);
+						background: $logo-gray;
+					}
+				}
+				&.design-type-3{
+					&:after{
+						right: -50px;
+						bottom: -50px;
+						-webkit-transform: rotate(10deg);
+						-moz-transform: rotate(10deg);
+						-o-transform: rotate(10deg);
+						-ms-transform: rotate(10deg);
+						transform: rotate(10deg);
+						background: $logo-orange;
+					}
+				}
+				&.design-type-4{
+					&:after{
+						background: $logo-blue;
+					}
+				}
+			}
+			.design-type-1{
+				position: relative;
+				&:after{
+					position: absolute;
+					content: "";
+					-webkit-clip-path: polygon(100% 81%, 0 39%, 0 72%);
+					clip-path: polygon(100% 81%, 0 39%, 0 72%);
+					height: 200px;
+					width: 200px;
+					right: -50px;
+					bottom: -50px;
+					-webkit-transform: rotate(10deg);
+					-moz-transform: rotate(10deg);
+					-o-transform: rotate(10deg);
+					-ms-transform: rotate(10deg);
+					transform: rotate(10deg);
+					background: $logo-green;
+					z-index: -1;
+				}
 			}
 		}
 	}

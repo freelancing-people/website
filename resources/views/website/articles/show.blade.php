@@ -1,5 +1,3 @@
-
-
 @extends('layouts.website')
 
 @section('content')
@@ -23,13 +21,21 @@
 						<h3>What convinced you to join</h3>
 						<p>Joey and Rachel were pissed off at data providers, and their anger rubbed off on me. There aren't a lot of apps out there that enable everyday people to make good investment decisions, because startup app developers can't get the data they need to build innovative tools. The result is that poor people can't learn to invest for themselves, because only a "professional" can afford the training and tools needed to understand the market. Since we already had the data, we ended up building the original automated investing app idea, but by 2015 the data was the focus, so we made the app free. Today, we keep the finan</p>
 					</div>
+					
 					<span class="line line-1"></span>
 					<span class="line line-2"></span>
 					<span class="line line-3"></span>
 					<span class="line line-4"></span>
+				</div>
+				<div class="color-footer profile-info">
+					<div class="color green-color"></div>
+					<div class="color blue-color"></div>
+					<div class="color gray-color"></div>
+					<div class="color orange-color"></div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 @endsection
+
