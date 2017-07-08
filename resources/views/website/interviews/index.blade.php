@@ -35,14 +35,12 @@
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-sm-4">
-						<div class="photo-grid">
+						<div class="photo-grid triangle-border">
 							<a href="javascript:void(0)">
 								<img src="/assets/images/kai-davis.jpg" alt="Kai Davis">
 								<h3>Kai Davis</h3>
 								<h4>Freelance Graphic Designer</h4>
 							</a>
-							<!-- <div class="triangle-shape">
-							</div> -->
 						</div>
 					</div>
 					<div class="col-sm-4">
@@ -144,7 +142,7 @@
 						</div>
 					</div>
 					<div class="col-sm-4">
-						<div class="photo-grid">
+						<div class="photo-grid lower-triangle">
 							<a href="javascript:void(0)">
 								<img src="/assets/images/philip-morgan.jpg" alt="Philip Morgan">
 								<h3>Philip Morgan</h3>

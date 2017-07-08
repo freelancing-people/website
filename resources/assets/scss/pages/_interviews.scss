@@ -130,6 +130,66 @@
 			margin: 0;
 			font-weight: bold;
 		}
+		&.triangle-border{
+			&:after{
+			    position: absolute;
+			    content: "";
+			    width: 0;
+			    height: 0;
+			    border-left: 100px solid transparent;
+			    border-right: 100px solid transparent;
+			    border-bottom: 140px solid $black;
+			    left: 65px;
+			    -webkit-transform: rotate(-5deg);
+			    transform: rotate(-5deg);
+			    top: -20px;
+			    z-index: -2;
+			}
+			&:before{
+				position: absolute;
+			    content: "";
+			    width: 0;
+			    height: 0;
+			    border-left: 90px solid transparent;
+			    border-right: 90px solid transparent;
+			    border-bottom: 125px solid $white;
+			    left: 75px;
+			    -webkit-transform: rotate(-5deg);
+			    transform: rotate(-5deg);
+			    top: -10px;
+			    z-index: -1;
+			}
+		}
+		&.lower-triangle{
+			&:after{
+			    position: absolute;
+			    content: "";
+			    width: 0;
+			    height: 0;
+			    border-left: 80px solid transparent;
+			    border-right: 80px solid transparent;
+			    border-bottom: 140px solid $black;
+			    left: 108px;
+			    -webkit-transform: rotate(-5deg);
+			    transform: rotate(-275deg);
+			    top: 35px;
+			    z-index: -2;
+			}
+			&:before{
+				position: absolute;
+			    content: "";
+			    width: 0;
+			    height: 0;
+			    border-left: 70px solid transparent;
+			    border-right: 70px solid transparent;
+			    border-bottom: 125px solid $white;
+			    left: 115px;
+			    -webkit-transform: rotate(-5deg);
+			    transform: rotate(-275deg);
+			    top: 43px;
+			    z-index: -1;
+			}
+		}
 	}
 
 	.line{

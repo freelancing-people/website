@@ -66,6 +66,7 @@
             },500);
         })
 
+      
 
         $('.service-btn').on('click',function(){
             $('.fp-modal').addClass('open');
