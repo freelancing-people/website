@@ -21,6 +21,10 @@ Route::group(['namespace' => 'Website'], function () {
     Route::resource('services', 'ServicesController');
 });
 
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function () {
+    Route::resource('interviews', 'InterviewsController');
+});
+
 
 Route::get('/conference/thank-you', function () {
     return view('conference_thank_you');
