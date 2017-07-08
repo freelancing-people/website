@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta for responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Meta for Edge style rendering in IE -->
     <link rel='shortcut icon' href="{{asset('img/favicon.png')}}" type='image/x-icon'>
-    <link rel="stylesheet" type="text/css" href="css/main.css"> <!-- Compiled css -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}"> <!-- Compiled css -->
 
 </head>
 <body>
