@@ -19,6 +19,10 @@ Route::group(['namespace' => 'Website'], function () {
     Route::resource('interviews', 'InterviewsController');
     Route::resource('articles', 'ArticlesController');
     Route::resource('services', 'ServicesController');
+
+    Route::get('/', 'HomeController@show');
+    Route::get('/developer', 'HomeController@developer');
+    Route::get('/designer', 'HomeController@designer');
 });
 
 Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function () {
@@ -34,10 +38,6 @@ Route::get('/thank-you', function () {
     return view('email_course_thank_you');
 });
 
-
-Route::get('/', 'HomeController@show');
-Route::get('/developer', 'HomeController@developer');
-Route::get('/designer', 'HomeController@designer');
 
 Auth::routes();
 
