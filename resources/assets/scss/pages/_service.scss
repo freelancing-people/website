@@ -14,6 +14,10 @@
 			left: 50%;
 			background: $white;
 			border: 5px solid $black;
+			-webkit-transform: translateX(-50%);
+			-moz-transform: translateX(-50%);
+			-o-transform: translateX(-50%);
+			-ms-transform: translateX(-50%);
 			transform: translateX(-50%);
 			&:after{
 				position: absolute;
@@ -24,6 +28,10 @@
 				width: 8px;
 				top: -57px;
 			    left: 15px;
+			    -webkit-transform: rotate(45deg);
+				-moz-transform: rotate(45deg);
+				-o-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
 			    transform: rotate(45deg);
 			}
 			h1{
@@ -86,6 +94,10 @@
 							border: 2px solid $black;
 							background: $white;
 							right: 25%;
+							 -webkit-transform: rotate(-75deg);
+							-moz-transform: rotate(-75deg);
+							-o-transform: rotate(-75deg);
+							-ms-transform: rotate(-75deg);
 							transform:rotate(-75deg);
 						}
 						h2{
@@ -120,6 +132,10 @@
 				width: 10px;
 				bottom: -60px;
 			    left: 60%;
+			    -webkit-transform: rotate(-30deg);
+				-moz-transform: rotate(-30deg);
+				-o-transform: rotate(-30deg);
+				-ms-transform: rotate(-30deg);
 			    transform: rotate(-30deg);
 			}
 		}
@@ -132,6 +148,10 @@
 			&.line-1{
 				top: 10%;
 				right: 150px;
+				-webkit-transform: rotate(45deg);
+				-moz-transform: rotate(45deg);
+				-o-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
 				transform: rotate(45deg);
 			}
 		}

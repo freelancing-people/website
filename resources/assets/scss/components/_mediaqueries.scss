@@ -2,6 +2,7 @@
 	.photo-section{
 		.photo-grid{
 			.green-polygon{
+				-webkit-clip-path: polygon(10% 0, 100% 13%, 48% 73%, 49% 73%, 0 44%);
 				clip-path: polygon(10% 0, 100% 13%, 48% 73%, 49% 73%, 0 44%);
 			    height: 173px;
 			    width: 213px;
@@ -141,6 +142,10 @@
 		.fp-modal-content{
 			h1{
 				left: 50%;
+				-webkit-transform: translateX(-50%);
+				-moz-transform: translateX(-50%);
+				-o-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
 				transform: translateX(-50%);
 			}
 			form{
@@ -211,6 +216,10 @@
 					&:after{
 						left: -50px;
 						bottom: -150px;
+						-webkit-transform: rotate(-230deg);
+						-moz-transform: rotate(-230deg);
+						-o-transform: rotate(-230deg);
+						-ms-transform: rotate(-230deg);
 						transform: rotate(-230deg);
 						background: $logo-gray;
 					}
@@ -219,6 +228,10 @@
 					&:after{
 						right: -50px;
 						bottom: -50px;
+						-webkit-transform: rotate(10deg);
+						-moz-transform: rotate(10deg);
+						-o-transform: rotate(10deg);
+						-ms-transform: rotate(10deg);
 						transform: rotate(10deg);
 						background: $logo-orange;
 					}
@@ -240,6 +253,10 @@
 					width: 200px;
 					right: -50px;
 					bottom: -50px;
+					-webkit-transform: rotate(10deg);
+					-moz-transform: rotate(10deg);
+					-o-transform: rotate(10deg);
+					-ms-transform: rotate(10deg);
 					transform: rotate(10deg);
 					background: $logo-green;
 					z-index: -1;
