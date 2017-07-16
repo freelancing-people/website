@@ -15,6 +15,15 @@ class CreateInterviewsTable extends Migration
     {
         Schema::create('interviews', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
+            $table->string('slug');
+            $table->unsignedInteger('founded_in');
+            $table->string('based_in');
+            $table->unsignedInteger('founders');
+            $table->unsignedInteger('employees');
+            $table->text('body');
+            $table->string('avatar');
+            $table->boolean('published')->default(false);
             $table->timestamps();
         });
     }

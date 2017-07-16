@@ -25,7 +25,7 @@ Route::group(['namespace' => 'Website'], function () {
     Route::get('/designer', 'HomeController@designer');
 });
 
-Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function () {
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => ['auth']], function () {
     Route::resource('interviews', 'InterviewsController');
 });
 
