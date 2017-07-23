@@ -5,6 +5,7 @@ namespace App\Models;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
+use Parsedown;
 
 class Interview extends Model
 {
@@ -12,7 +13,7 @@ class Interview extends Model
 
     protected $fillable = ['name', 'founded_in', 'based_in', 'founders', 'employees', 'body', 'published', 'avatar'];
 
-    protected $appends = ['status'];
+    protected $appends = ['status', 'html_body'];
 
     /**
      * Return the sluggable configuration array for this model.
@@ -38,8 +39,18 @@ class Interview extends Model
         return $this->isPublished() ? 'Published' : 'Draft';
     }
 
+    public function getHtmlBodyAttribute()
+    {
+        return (new Parsedown())->text($this->body);
+    }
+
     public function isPublished()
     {
         return $this->published;
+    }
+
+    public function scopePublished($query)
+    {
+        return $query->where('published', 1);
     }
 }

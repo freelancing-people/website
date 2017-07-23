@@ -10,7 +10,9 @@ class InterviewsController extends Controller
 {
     public function index()
     {
-        return view('website.interviews.index');
+        return view('website.interviews.index', [
+            'interviews' => Interview::published()->get()
+        ]);
     }
 
     public function show(Interview $interview)

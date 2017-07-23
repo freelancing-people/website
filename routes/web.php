@@ -20,7 +20,7 @@ Route::group(['namespace' => 'Website'], function () {
     Route::resource('articles', 'ArticlesController');
     Route::resource('services', 'ServicesController');
 
-    Route::get('/', 'HomeController@show');
+    Route::get('/', 'InterviewsController@index');
     Route::get('/developer', 'HomeController@developer');
     Route::get('/designer', 'HomeController@designer');
 });

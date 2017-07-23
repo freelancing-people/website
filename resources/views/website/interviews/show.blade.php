@@ -6,7 +6,7 @@
             <div class="col-sm-4">
                 <div class="profile-details">
                     <div class="profile-image">
-                        <img src="/assets/images/philip-morgan.jpg" alt="Philip Morgan">
+                        <img src="{{ Storage::url($interview->avatar) }}" alt="Philip Morgan">
                         <div class="profile-name">{{ $interview->name }}</div>
                     </div>
                     <div class="profile-body">
@@ -23,7 +23,7 @@
             <div class="col-sm-8">
                 <div class="profile-info">
                     <div class="content">
-                        {{ $interview->body }}
+                        {!! $interview->html_body !!}
                     </div>
                     <span class="line line-1"></span>
                     <span class="line line-2"></span>

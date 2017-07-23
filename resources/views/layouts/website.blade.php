@@ -21,15 +21,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="{{asset('img/logo-color.png')}}"></a>
+            <a class="navbar-brand" href="/"><img src="{{asset('img/logo-color.png')}}"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Conference</a></li>
-                <li><a href="#">Interviews</a></li>
+                {{--<li><a href="#">Articles</a></li>--}}
+                {{--<li><a href="#">Services</a></li>--}}
+                <li><a href="/conference">Conference</a></li>
+                <li><a href="/">Interviews</a></li>
             </ul>
         </div>
     </div>

@@ -44,7 +44,7 @@ class InterviewsController extends Controller
             'avatar'     => 'required|image',
         ]);
 
-        $path = request()->avatar->store('avatars', 'interview');
+        $path = request()->avatar->store('avatars');
 
         $interview = Interview::create([
             'name'       => request('name'),
@@ -54,7 +54,7 @@ class InterviewsController extends Controller
             'employees'  => request('employees'),
             'body'       => request('body'),
             'avatar'     => $path,
-            'published'  => request('published') ?? false,
+            'published'  => request('published') ? true : false,
         ]);
 
         return redirect('/admin/interviews');
@@ -75,26 +75,46 @@ class InterviewsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int $id
+     * @param \App\Models\Interview $interview
      *
      * @return \Illuminate\Http\Response
+     *
      */
-    public function edit($id)
+    public function edit(Interview $interview)
     {
-        //
+        return view('admin.interviews.edit', compact('interview'));
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request $request
-     * @param  int $id
+     * @param \App\Models\Interview $interview
      *
      * @return \Illuminate\Http\Response
+     *
      */
-    public function update(Request $request, $id)
+    public function update(Interview $interview)
     {
-        //
+        $this->validate(request(), [
+            'name'       => 'required',
+            'founded_in' => 'required',
+            'based_in'   => 'required',
+            'founders'   => 'required|numeric',
+            'employees'  => 'required|numeric',
+            'body'       => 'required',
+        ]);
+
+        $interview->update([
+            'name'       => request('name'),
+            'founded_in' => request('founded_in'),
+            'based_in'   => request('based_in'),
+            'founders'   => request('founders'),
+            'employees'  => request('employees'),
+            'body'       => request('body'),
+            'published'  => request('published') ?? false,
+        ]);
+
+        return redirect('/admin/interviews');
     }
 
     /**

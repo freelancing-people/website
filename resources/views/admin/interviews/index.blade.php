@@ -27,7 +27,11 @@
                                 <td>{{ $interview->name }}</td>
                                 <td>{{ $interview->created_at }}</td>
                                 <td>{{ $interview->status }}</td>
-                                <td></td>
+                                <td>
+                                    <a href="/admin/interviews/{{ $interview->slug }}/edit">
+                                        <i class="fa fa-pencil"></i> Edit
+                                    </a>
+                                </td>
                             </tr>
                         @endforeach
                         </tbody>
