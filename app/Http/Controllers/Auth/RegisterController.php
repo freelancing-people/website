@@ -47,6 +47,7 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
+        dd('Oh Man! You are sure in the wrong place!!!');
         return Validator::make($data, [
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
