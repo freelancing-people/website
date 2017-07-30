@@ -1,0 +1,70 @@
+/* 
+	Variables for colors used in website and animation
+	Author: Pankaj Patil
+ */
+
+ 
+
+
+$white: #fff;         /* White Color */
+$black: #000;	      /* Black Color */
+$green: #8eb75d;	  /* Green Color */
+$text-gray: #888;	  /* Gray color for paragraphs and text */	
+$light-gray: #f6f6f6; /* Light gray color used as background for gray bg sections */
+$dark-gray: #333;     /* Dark gray color */
+$gray: #ccc;		  /* Normal gray color */	
+$e-gray: #ddd;		  /* Normal gray color */	
+$slackbg: #3e313c;    /* Slack section bg color */
+$fbbg: #3b5998;       /* Facebook color */
+$twitterbg: #3A8FDA;  /* Twitter bg color */
+$instabg: #fb3958;    /* Instagram bg color */
+$logo-orange: #fcc140;/* Logo orange color */
+$logo-blue: #094590;  /* Logo blue color */
+$logo-green: #225552; /* Logo green color */
+$logo-gray: #ddd;  /* Logo gray color */
+
+/* Animation for header */
+
+	@keyframes fadeInDown {
+		0% {
+			opacity:0;
+			-webkit-transform:translateY(-20px);
+			-ms-transform:translateY(-20px);
+			transform:translateY(-20px);
+		}
+		100% {
+			opacity:1;
+			-webkit-transform:translateY(0);
+			-ms-transform:translateY(0);
+			transform:translateY(0);
+		}
+	}
+
+/* End of animation for header */
+
+/* vibrate Animation */
+
+	@keyframes vibrate {
+	  10%, 90% {
+	    transform: rotate(30deg);
+	  }
+	  
+	  20%, 80% {
+	    transform: rotate(10deg);
+	  }
+
+	  30%, 50%, 70% {
+	    transform: rotate(40deg);
+	  }
+
+	  40%, 60% {
+	    transform: rotate(20deg);
+	  }
+	}
+
+/* End of vibrate animation */
+
+@font-face {
+    font-family: "futura-medium";
+    src: url("../fonts/futura-medium.ttf");
+}

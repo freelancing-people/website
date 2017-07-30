@@ -1,0 +1,18 @@
+body{
+	height: 100vh;
+	font-family: "futura-medium";
+}
+
+p{
+	font-size: 16px;
+}
+
+.animate{
+	.line{
+		-webkit-animation: vibrate 1s both;
+ 		-moz-animation: vibrate 1s both;
+ 		-o-animation: vibrate 1s both;
+ 		-ms-animation: vibrate 1s both;
+ 		animation: vibrate 1s both;
+	}
+}

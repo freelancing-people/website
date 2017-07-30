@@ -1,0 +1,14 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import 'base/variable';
+@import 'base/global';
+
+@import 'pages/service';
+@import 'pages/interviews';
+@import 'pages/articles';
+
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/fpmodal';
+@import 'components/mediaqueries';

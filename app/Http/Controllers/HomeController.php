@@ -6,26 +6,23 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function show()
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
     {
-        if(session()->has('user_type')) {
-            return view('home_' . session('user_type'));
-        }
-
-        return view('home_select_user_type');
+        $this->middleware('auth');
     }
 
-    public function developer()
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
     {
-        session(['user_type' => 'developer']);
-
-        return redirect('/');
-    }
-
-    public function designer()
-    {
-        session(['user_type' => 'designer']);
-
-        return redirect('/');
+        return view('home');
     }
 }
