@@ -31,6 +31,9 @@
                                     <a href="/admin/interviews/{{ $interview->slug }}/edit">
                                         <i class="fa fa-pencil"></i> Edit
                                     </a>
+                                    <a href="/admin/interviews/{{ $interview->slug }}/delete">
+                                        <i class="fa fa-trash"></i> Delete
+                                    </a>
                                 </td>
                             </tr>
                         @endforeach

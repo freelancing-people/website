@@ -12,12 +12,21 @@
                             {{ method_field('PUT') }}
                             {{ csrf_field() }}
                             <div class="row">
-                                <div class="col-sm-12">
+                                <div class="col-sm-6">
                                     <div class="form-group @if($errors->has('name')) has-error @endif">
                                         <label for="name">Name *</label>
                                         <input type="text" class="form-control" name="name" id="name" value="{{ $interview->name }}">
                                         @if($errors->has('name'))
                                             <span class="help-block">{{ $errors->first('name') }}</span>
+                                        @endif
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group @if($errors->has('introduction')) has-error @endif">
+                                        <label for="introduction">Introduction *</label>
+                                        <input type="text" class="form-control" name="introduction" id="introduction" value="{{ $interview->introduction }}">
+                                        @if($errors->has('introduction'))
+                                            <span class="help-block">{{ $errors->first('introduction') }}</span>
                                         @endif
                                     </div>
                                 </div>

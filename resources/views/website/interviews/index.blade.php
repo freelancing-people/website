@@ -6,16 +6,17 @@
 		<div class="search-section">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
-					<h1 class="text-center">Learn from profitable <br> businesses and side projects.</h1>
+					<h1 class="text-center">Learn from profitable <br> freelancers and agencies.</h1>
 					<p>Subscribe to get new interviews in your inbox weekly!</p>
-					<div class="container-fluid">
-						<div class="col-sm-10 col-sm-offset-1">
-							<div class="form-group subscribe-group">
-								<input class="form-control" type="email" name="email">
-								<button>Subscribe</button> 
-							</div>
-						</div>
-					</div>
+					<script async id="_ck_245203" src="https://forms.convertkit.com/245203?v=6"></script>
+					{{--<div class="container-fluid">--}}
+						{{--<div class="col-sm-10 col-sm-offset-1">--}}
+							{{--<div class="form-group subscribe-group">--}}
+								{{--<input class="form-control" type="email" name="email">--}}
+								{{--<button>Subscribe</button> --}}
+							{{--</div>--}}
+						{{--</div>--}}
+					{{--</div>--}}
 				</div>
 			</div>
 		</div>
@@ -23,7 +24,7 @@
 
 	<section class="photo-section">
 		<div class="container">
-			<a href="javascript:void(0)" class="pull-right">Sort by recently added</a>
+			{{--<a href="javascript:void(0)" class="pull-right">Sort by recently added</a>--}}
 			<span class="line line-1"></span>
 			<span class="line line-2"></span>
 			<span class="line line-3"></span>
@@ -38,9 +39,9 @@
                         <div class="col-sm-4">
                             <div class="photo-grid triangle-border">
                                 <a href="/interviews/{{ $interview->slug }}">
-                                    <img src="{{ Storage::disk('interview')->url($interview->avatar) }}" alt="Kai Davis">
+                                    <img src="{{ Storage::disk('public')->url($interview->avatar) }}" alt="Kai Davis">
                                     <h3>{{ $interview->name }}</h3>
-                                    <h4>Freelance Graphic Designer</h4>
+                                    <h4>{{ $interview->introduction }}</h4>
                                 </a>
                             </div>
                         </div>

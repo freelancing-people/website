@@ -26,6 +26,7 @@ Route::group(['namespace' => 'Website'], function () {
 });
 
 Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => ['auth']], function () {
+    Route::get('/interviews/{interview}/delete', 'InterviewsController@destroy');
     Route::resource('interviews', 'InterviewsController');
 });
 

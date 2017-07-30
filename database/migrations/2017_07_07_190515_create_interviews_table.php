@@ -17,6 +17,7 @@ class CreateInterviewsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('slug');
+            $table->string('introduction');
             $table->unsignedInteger('founded_in');
             $table->string('based_in');
             $table->unsignedInteger('founders');

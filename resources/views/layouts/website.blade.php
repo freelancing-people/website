@@ -11,7 +11,7 @@
 
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -50,15 +50,15 @@
 <script type="text/javascript">
 
     $(window).on('load', function () {
-        if ($(window).width() > 768) {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 0) {
-                    $('.navbar-default').addClass('white-nav');
-                } else {
-                    $('.navbar-default').removeClass('white-nav');
-                }
-            });
-        }
+//        if ($(window).width() > 768) {
+//            $(window).scroll(function () {
+//                if ($(this).scrollTop() > 0) {
+//                    $('.navbar-default').addClass('white-nav');
+//                } else {
+//                    $('.navbar-default').removeClass('white-nav');
+//                }
+//            });
+//        }
 
         $('.content').on('scroll',function(){
             $('.profile-info').addClass('animate');
