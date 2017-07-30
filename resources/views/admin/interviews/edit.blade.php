@@ -75,7 +75,7 @@
                                 <div class="col-sm-12">
                                     <div class="form-group @if($errors->has('body')) has-error @endif">
                                         <label for="body">Body *</label>
-                                        <textarea name="body" id="body" class="form-control">{{ $interview->body }}</textarea>
+                                        <textarea name="body" id="body" class="form-control" rows="50">{{ $interview->body }}</textarea>
                                         @if($errors->has('body'))
                                             <span class="help-block">{{ $errors->first('body') }}</span>
                                         @endif
