@@ -39,7 +39,7 @@
                         <div class="col-sm-4">
                             <div class="photo-grid triangle-border">
                                 <a href="/interviews/{{ $interview->slug }}">
-                                    <img src="{{ Storage::disk('public')->url($interview->avatar) }}" alt="Kai Davis">
+                                    <img src="{{ Storage::disk('public')->url($interview->avatar) }}" alt="{{ $interview->name }}>
                                     <h3>{{ $interview->name }}</h3>
                                     <h4>{{ $interview->introduction }}</h4>
                                 </a>

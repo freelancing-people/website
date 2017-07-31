@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="col-sm-4">
                 <div class="profile-details">
-                    <img src="{{ Storage::disk('public')->url($interview->avatar) }}" class="img-circle img-responsive" alt="{{ $interview->name }}">
+                    <img src="{{ Storage::disk('public')->url($interview->avatar) }}" class="img-circle img-responsive center-block" alt="{{ $interview->name }}">
                     {{--<div class="profile-image">--}}
                         {{--<img src="{{ Storage::url($interview->avatar) }}" alt="Philip Morgan">--}}
                         {{--<div class="profile-name">{{ $interview->name }}</div>--}}
