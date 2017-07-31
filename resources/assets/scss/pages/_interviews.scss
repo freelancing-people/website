@@ -1,5 +1,5 @@
 .search-section{
-	padding-top: 11px;
+	padding-top: 113px;
 	padding-bottom: 30px;
 	border-bottom: 2px solid $black;
 	h1{
@@ -317,7 +317,7 @@
 }
 
 .interview-view{
-	padding-top: 225px;
+	padding-top: 113px;
 	padding-bottom: 50px;
 	position: relative;
 	.triangle-bg{
@@ -400,6 +400,12 @@
     			padding: 5px 0;
     			font-size: 19px;
     		}
+		}
+	}
+
+	.profile-details {
+		img {
+			max-width: 200px;
 		}
 	}
 
