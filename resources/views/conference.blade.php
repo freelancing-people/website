@@ -309,7 +309,7 @@
                         <span class="display-block font-family-alt font-weight-700 letter-spacing-1 margin-5 no-margin-bottom no-margin-rl text-large text-uppercase">Speakers</span>
                         <p class="margin-3 no-margin-bottom no-margin-rl text-large text-gray-dark-2">
                             <strong>6</strong> Professsional Speakers:<br>
-                            Kai, Christopher, Mojca, Jane, Philip, Sean...
+                            Kai, Laura, Mojca, Jane, Philip, Sean...
                         </p>
                     </div>
                     <!-- //.col-md-6 -->
@@ -397,13 +397,13 @@
             <div class="features-box col-sm-6 col-md-4 xs-margin-4-5 xs-no-margin-bottom xs-no-margin-rl">
                 <div class="overflow-hidden position-relative width-100">
                     <div class="position-relative">
-                        <img src="/assets/images/christopher-hawkins.jpg" alt=""/>
-                        <span class="bg-base-color display-inline-block font-family-alt letter-spacing-1 margin-4 padding-tb-9px padding-rl-13px position-absolute position-bottom text-extra-small text-uppercase text-white">CEO, Founder</span>
+                        <img src="/assets/images/laura-elizabeth.jpg" alt="Laura Elizabeth"/>
+                        <span class="bg-base-color display-inline-block font-family-alt letter-spacing-1 margin-4 padding-tb-9px padding-rl-13px position-absolute position-bottom text-extra-small text-uppercase text-white">Design Consultant</span>
                     </div>
                     <!-- //.position-relative -->
 
                     <div class="bg-gray-light no-padding-rl padding-6 position-relative text-center">
-                        <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">Christopher Hawkins</span>
+                        <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">Laura Elizabeth</span>
                     </div>
                     <!-- //.bg-gray-light -->
 
@@ -411,13 +411,13 @@
                         <div class="bg-base-color height-100 width-100">
                             <div class="display-table height-100 width-100">
                                 <div class="display-table-cell no-padding-tb padding-11 vertical-align-middle">
-                                    <span class="display-block font-family-alt letter-spacing-2 text-medium text-uppercase text-white">Christopher Hawkins</span>
-                                    <span class="display-block font-family-alt letter-spacing-1 text-small text-uppercase text-white">CEO, Founder</span>
+                                    <span class="display-block font-family-alt letter-spacing-2 text-medium text-uppercase text-white">Laura Elizabeth</span>
+                                    <span class="display-block font-family-alt letter-spacing-1 text-small text-uppercase text-white">Design Consultant</span>
                                     <p class="margin-6 no-margin-bottom no-margin-rl text-medium text-white">
-                                        Chris quickly built a 6-figure practice that provides consulting and web
-                                        development for businesses of every size, from Fortune 500s on down. He
-                                        writes extensively on the software consulting industry, and hosts the $100K
-                                        Freelancing show
+                                        Laura Elizabeth is an independent designer with a hankering for cross stitch and
+                                        rockets. She runs Design Academy which aims to help developers conquer their
+                                        fear of design. She's also launched her first product called Client Portal—a
+                                        client-friendly way to keep your projects organised.
                                     </p>
                                 </div>
                                 <!-- //.display-table-cell -->
@@ -436,7 +436,7 @@
             <div class="features-box col-sm-6 col-md-4 xs-margin-4-5 xs-no-margin-bottom xs-no-margin-rl">
                 <div class="overflow-hidden position-relative width-100">
                     <div class="position-relative">
-                        <img src="/assets/images/kai-davis.jpg" alt=""/>
+                        <img src="/assets/images/kai-davis.jpg" alt="Kai Davis"/>
                         <span class="bg-base-color display-inline-block font-family-alt letter-spacing-1 margin-4 padding-tb-9px padding-rl-13px position-absolute position-bottom text-extra-small text-uppercase text-white">Outreach Consultant</span>
                     </div>
                     <!-- //.position-relative -->
@@ -1424,7 +1424,7 @@
                         <div class="display-table-cell no-padding-tb padding-8 vertical-align-middle">
                             <a href="#" class="text-black"><span
                                         class="display-block font-family-alt font-weight-700 letter-spacing-1 text-large text-uppercase">
-                                    Offline Networking to Get More Leads
+                                    Onboard your clients in a way that sets you up for success.
                                 </span></a>
                             <span class="bg-base-color display-inline-block margin-3 no-margin-bottom no-margin-rl separator-line-thick"></span>
                             <span class="display-block margin-2 no-margin-bottom no-margin-rl text-medium text-gray-dark-2"></span>
@@ -1434,7 +1434,7 @@
                     <!-- //.display-table -->
 
                     <span class="bg-base-color border-round display-block font-family-alt letter-spacing-1 margin-4 padding-tb-9px padding-rl-13px position-absolute position-bottom position-right text-extra-small text-uppercase text-white">
-                        Christopher Hawkins</span>
+                        Laura Elizabeth</span>
                 </div>
                 <!-- //.border -->
             </div>
