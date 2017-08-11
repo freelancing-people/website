@@ -328,7 +328,7 @@
                         <i class="fa fa-coffee display-block text-base-color title-extra-large-2"></i>
                         <span class="display-block font-family-alt font-weight-700 letter-spacing-1 margin-5 no-margin-bottom no-margin-rl text-large text-uppercase">Sponsors</span>
                         <p class="margin-3 no-margin-bottom no-margin-rl text-large text-gray-dark-2">
-                            The Consulting and Freelancing Club
+                            FreelancingPeople
                         </p>
                     </div>
                     <!-- //.col-md-6 -->
@@ -2000,7 +2000,7 @@
                             <span class="display-block font-family-alt letter-spacing-1 text-gray-dark-2 text-large text-uppercase">Early Bird</span>
 
                             <span class="display-block font-family-alt margin-11 no-letter-spacing no-margin-bottom no-margin-rl text-gray-dark-2 title-extra-large-4">
-                                    <span class="pricing-dollar position-relative title-large">$</span>25
+                                    <span class="pricing-dollar position-relative title-large">$</span>50
                                 </span>
 
                             <span class="bg-gray-light-2 margin-10-5 no-margin-bottom no-margin-rl separator-line-full"></span>
@@ -2016,8 +2016,8 @@
                             </ul>
 
                             <p class="margin-11 no-margin-bottom no-margin-rl text-gray-dark-2 text-medium">Ticket
-                                prices are $25.00 if you reserve by 15th August or first 50 tickets, whichever happens first,
-                                otherwise general admission will cost $50.00.</p>
+                                prices are $50.00 if you reserve by 15th September,
+                                otherwise late admission will cost $75.00.</p>
                         </div>
                         <!-- //.display-table-cell -->
                     </div>
