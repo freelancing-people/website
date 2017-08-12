@@ -11,7 +11,7 @@ class InterviewsController extends Controller
     public function index()
     {
         return view('website.interviews.index', [
-            'interviews' => Interview::published()->get()
+            'interviews' => Interview::published()->latest()->get()
         ]);
     }
 
