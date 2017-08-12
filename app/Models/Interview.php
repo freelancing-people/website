@@ -11,7 +11,20 @@ class Interview extends Model
 {
     use Sluggable;
 
-    protected $fillable = ['name', 'introduction', 'founded_in', 'based_in', 'founders', 'employees', 'body', 'published', 'avatar'];
+    protected $fillable = [
+        'name',
+        'introduction',
+        'founded_in',
+        'based_in',
+        'founders',
+        'employees',
+        'website',
+        'body',
+        'published',
+        'avatar',
+        'shareable_description',
+        'shareable_image',
+    ];
 
     protected $appends = ['status', 'html_body'];
 

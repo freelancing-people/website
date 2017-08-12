@@ -7,7 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Meta for Edge style rendering in IE -->
     <link rel='shortcut icon' href="{{asset('img/favicon.png')}}" type='image/x-icon'>
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    @yield('meta')
+
     <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}"> <!-- Compiled css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 
 </head>
 <body>

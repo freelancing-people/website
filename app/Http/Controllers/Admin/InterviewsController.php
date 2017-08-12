@@ -35,28 +35,35 @@ class InterviewsController extends Controller
     public function store()
     {
         $this->validate(request(), [
-            'name'         => 'required|max:240',
-            'introduction' => 'required|max:240',
-            'founded_in'   => 'required',
-            'based_in'     => 'required',
-            'founders'     => 'required|numeric',
-            'employees'    => 'required|numeric',
-            'body'         => 'required',
-            'avatar'       => 'required|image',
+            'name'                  => 'required|max:240',
+            'introduction'          => 'required|max:240',
+            'founded_in'            => 'required',
+            'based_in'              => 'required',
+            'founders'              => 'required|numeric',
+            'employees'             => 'required|numeric',
+            'shareable_description' => 'required',
+            'shareable_image'       => 'required|image',
+            'website'               => 'required|url',
+            'body'                  => 'required',
+            'avatar'                => 'required|image',
         ]);
 
-        $path = request()->avatar->store('avatars');
+        $avatarPath = request()->avatar->store('avatars');
+        $shareableImagePath = request()->shareable_image->store('shareable_images');
 
         Interview::create([
-            'name'         => request('name'),
-            'introduction' => request('introduction'),
-            'founded_in'   => request('founded_in'),
-            'based_in'     => request('based_in'),
-            'founders'     => request('founders'),
-            'employees'    => request('employees'),
-            'body'         => request('body'),
-            'avatar'       => $path,
-            'published'    => request('published') ? true : false,
+            'name'                  => request('name'),
+            'introduction'          => request('introduction'),
+            'founded_in'            => request('founded_in'),
+            'based_in'              => request('based_in'),
+            'founders'              => request('founders'),
+            'employees'             => request('employees'),
+            'body'                  => request('body'),
+            'avatar'                => $avatarPath,
+            'shareable_description' => request('shareable_description'),
+            'shareable_image'       => $shareableImagePath,
+            'website'               => request('website'),
+            'published'             => request('published') ? true : false,
         ]);
 
         return redirect('/admin/interviews');
@@ -98,29 +105,38 @@ class InterviewsController extends Controller
     public function update(Interview $interview)
     {
         $this->validate(request(), [
-            'name'         => 'required|max:240',
-            'introduction' => 'required|max:240',
-            'founded_in'   => 'required',
-            'based_in'     => 'required',
-            'founders'     => 'required|numeric',
-            'employees'    => 'required|numeric',
-            'body'         => 'required',
+            'name'                  => 'required|max:240',
+            'introduction'          => 'required|max:240',
+            'founded_in'            => 'required',
+            'based_in'              => 'required',
+            'founders'              => 'required|numeric',
+            'employees'             => 'required|numeric',
+            'shareable_description' => 'required',
+            'website'               => 'required|url',
+            'body'                  => 'required',
         ]);
 
-        if(request()->hasFile('avatar')) {
+        if (request()->hasFile('avatar')) {
             $interview->avatar = request()->avatar->store('avatars');
             $interview->save();
         }
 
+        if (request()->hasFile('avatar')) {
+            $interview->shareable_image = request()->shareable_image->store('shareable_images');
+            $interview->save();
+        }
+
         $interview->update([
-            'name'         => request('name'),
-            'introduction' => request('introduction'),
-            'founded_in'   => request('founded_in'),
-            'based_in'     => request('based_in'),
-            'founders'     => request('founders'),
-            'employees'    => request('employees'),
-            'body'         => request('body'),
-            'published'    => request('published') ?? false,
+            'name'                  => request('name'),
+            'introduction'          => request('introduction'),
+            'founded_in'            => request('founded_in'),
+            'based_in'              => request('based_in'),
+            'founders'              => request('founders'),
+            'employees'             => request('employees'),
+            'website'               => request('website'),
+            'shareable_description' => request('shareable_description'),
+            'body'                  => request('body'),
+            'published'             => request('published') ?? false,
         ]);
 
         return redirect('/admin/interviews');
