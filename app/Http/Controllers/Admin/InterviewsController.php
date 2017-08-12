@@ -121,7 +121,7 @@ class InterviewsController extends Controller
             $interview->save();
         }
 
-        if (request()->hasFile('avatar')) {
+        if (request()->hasFile('shareable_image')) {
             $interview->shareable_image = request()->shareable_image->store('shareable_images');
             $interview->save();
         }
