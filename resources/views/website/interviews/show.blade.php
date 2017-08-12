@@ -14,7 +14,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="{{ $interview->shareable_description }}">
     <meta name="twitter:image" content="{{ Storage::disk('public')->url($interview->shareable_image) }}">
-    <meta name="twitter:site" content="@freelancingpeople">
+    <meta name="twitter:site" content="@freelancingclub">
     <meta name="twitter:title" content="{{ $interview->name }} on Freelancing People">
 @endsection
 
