@@ -1,5 +1,23 @@
 @extends('layouts.website')
 
+@section('meta')
+    <meta property="og:description" content="Learn from profitable freelancers and agencies">
+    <meta property="og:image" content="/images/freelancing-people-shareable.png">
+
+    <meta property="og:image:height" content="420">
+    <meta property="og:image:width" content="840">
+    <meta property="og:site_name" content="Freelancing People">
+    <meta property="og:title" content="Freelancing People">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://freelancingpeople.com">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="Learn from profitable freelancers and agencies">
+    <meta name="twitter:image" content="/images/freelancing-people-shareable.png">
+    <meta name="twitter:site" content="@freelancingclub">
+    <meta name="twitter:title" content="Freelancing People">
+@endsection
+
 @section('content')
 
 <div class="container">
