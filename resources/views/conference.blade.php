@@ -122,8 +122,8 @@
                     </p>
 
                     <a href="#intro"
-                       class="page-scroll btn btn-base-color sm-btn-medium btn-large margin-4-5 no-margin-bottom no-margin-rl">15
-                        October 2017, Live Streaming</a>
+                       class="page-scroll btn btn-base-color sm-btn-medium btn-large margin-4-5 no-margin-bottom no-margin-rl">19
+                        November 2017, Live Streaming</a>
                 </div>
                 <!-- //.col-md-8 -->
             </div>
@@ -148,7 +148,7 @@
                                 <div class="display-table height-100 width-100">
                                     <div class="display-table-cell vertical-align-middle sm-text-center">
                                         <span class="display-block font-family-alt font-weight-700 letter-spacing-1 xs-text-extra-large title-medium text-uppercase">Save The Date. <span
-                                                    class="text-decoration-underline text-base-color">15 Oct, 2017!</span></span>
+                                                    class="text-decoration-underline text-base-color">19 Nov, 2017!</span></span>
                                         <span class="display-block font-family-alt margin-1 no-margin-bottom no-margin-rl text-large text-gray-dark">Book your place right now!</span>
                                     </div>
                                     <!-- //.display-table-cell -->
@@ -159,7 +159,7 @@
 
                             <div class="col-md-6 sm-margin-4 sm-no-margin-bottom sm-no-margin-rl"
                                  data-mh="mh-col-countdown">
-                                <div id="clock" data-until-date="2017/10/15" class="clock"></div>
+                                <div id="clock" data-until-date="2017/11/19" class="clock"></div>
                             </div>
                             <!-- //.col-md-6 -->
                         </div>
@@ -318,7 +318,7 @@
                         <i class="fa fa-clock-o display-block text-base-color title-extra-large-2"></i>
                         <span class="display-block font-family-alt font-weight-700 letter-spacing-1 margin-5 no-margin-bottom no-margin-rl text-large text-uppercase">Date & Time</span>
                         <p class="margin-3 no-margin-bottom no-margin-rl text-large text-gray-dark-2">
-                            October 15th, 2017<br>
+                            November 19th, 2017<br>
                             Time: TBD
                         </p>
                     </div>
@@ -1756,7 +1756,7 @@
                                     <div class="panel-body">
                                         <p class="text-gray-dark-2 text-large">
                                             The speakers and sessions are confirmed and available on the website. The exact
-                                            schedule with timings will be live by 15th July.
+                                            schedule with timings will be live by 15th November.
                                         </p>
                                     </div>
                                     <!-- //.panel-body -->
@@ -1807,7 +1807,7 @@
                                     <div class="panel-body">
                                         <p class="text-gray-dark-2 text-large">
                                             Yes, you can download the videos after the conference. You will get detailed
-                                            instructions for the same after 15th October.
+                                            instructions for the same after 19th November.
                                         </p>
                                     </div>
                                     <!-- //.panel-body -->
@@ -2016,8 +2016,7 @@
                             </ul>
 
                             <p class="margin-11 no-margin-bottom no-margin-rl text-gray-dark-2 text-medium">Ticket
-                                prices are $50.00 if you reserve by 15th September,
-                                otherwise late admission will cost $75.00.</p>
+                                prices are $75.00</p>
                         </div>
                         <!-- //.display-table-cell -->
                     </div>
