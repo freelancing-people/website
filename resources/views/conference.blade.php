@@ -2000,7 +2000,7 @@
                             <span class="display-block font-family-alt letter-spacing-1 text-gray-dark-2 text-large text-uppercase">Early Bird</span>
 
                             <span class="display-block font-family-alt margin-11 no-letter-spacing no-margin-bottom no-margin-rl text-gray-dark-2 title-extra-large-4">
-                                    <span class="pricing-dollar position-relative title-large">$</span>50
+                                    <span class="pricing-dollar position-relative title-large">$</span>75
                                 </span>
 
                             <span class="bg-gray-light-2 margin-10-5 no-margin-bottom no-margin-rl separator-line-full"></span>
