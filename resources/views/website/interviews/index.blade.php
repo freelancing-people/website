@@ -21,6 +21,9 @@
 @section('content')
 
 <div class="container">
+	<div id="app">
+
+	</div>
 		<div class="search-section">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
