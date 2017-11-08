@@ -23,6 +23,7 @@ Route::group(['namespace' => 'Website'], function () {
     Route::get('/', 'InterviewsController@index');
     Route::get('/developer', 'HomeController@developer');
     Route::get('/designer', 'HomeController@designer');
+    Route::get('/turn-your-website-into-a-lead-magnet', 'HomeController@show');
 });
 
 Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => ['auth']], function () {

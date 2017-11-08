@@ -32,8 +32,16 @@
     <div class="container">
         <div class="col-md-8 col-md-offset-2">
             <div class="row">
-                <h1>Thanks for being awesome!!!</h1>
-                <h3 class="text-center">You'll receive an e-mail with more details.</h3>
+                <div class="col-sm-12">
+                    <h1>I've sent the first lesson</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center"> I know your email is the most private place. You trusting me with your email is a great deal to me. I'll make sure to never spam you. I promise you that whenever I come to your email inbox it is going to be worth your time.</p>
+                    <p class="pull-right">- Viraj Khatavkar</p>
+                    <p class="pull-right"></p>
+                </div>
             </div>
         </div>
     </div>

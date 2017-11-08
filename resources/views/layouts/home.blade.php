@@ -12,18 +12,18 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/home.css')}}">
     <!-— Facebook and Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://freelancingpeople.com" />
+    <meta property="og:url" content="https://freelancingpeople.com/turn-your-website-into-a-lead-magnet" />
     <meta property="og:title" content="Free E-mail Course: Turn your website into a Lead Magnet" />
     <meta property="og:description" content="Not getting enough lead from website? Join a free, 5 lesson course and learn how to generate a continuous pipeline of leads from your website." />
     <meta property="og:image" content="{{asset('img/free-email-course.png')}}" />
 
     <!-— Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:domain" value="https://freelancingpeople.com" />
+    <meta name="twitter:domain" value="https://freelancingpeople.com/turn-your-website-into-a-lead-magnet" />
     <meta name="twitter:title" value="Free E-mail Course: Turn your website into a Lead Magnet" />
     <meta name="twitter:description" value="Not getting enough lead from website? Join a free, 5 lesson course and learn how to generate a continuous pipeline of leads from your website." />
     <meta name="twitter:image" content="{{asset('img/free-email-course.png')}}" />
-    <meta name="twitter:url" value="http://freelancingpeople.com" />
+    <meta name="twitter:url" value="http://freelancingpeople.com/turn-your-website-into-a-lead-magnet" />
     @include('includes.pixel')
 </head>
 <body>

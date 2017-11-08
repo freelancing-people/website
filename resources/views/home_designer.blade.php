@@ -45,10 +45,10 @@
 
 
                             <form id="ck_subscribe_form" class="ck_subscribe_form"
-                                  action="https://app.convertkit.com/landing_pages/226862/subscribe" data-remote="true">
+                                  action="https://app.convertkit.com/landing_pages/292610/subscribe" data-remote="true">
                                 <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;}"
                                        id="ck_form_options">
-                                <input type="hidden" name="id" value="226862" id="landing_page_id">
+                                <input type="hidden" name="id" value="292610" id="landing_page_id">
                                 <input type="hidden" name="ck_form_recaptcha" value="" id="ck_form_recaptcha">
                                 <div class="ck_errorArea">
                                     <div id="ck_error_msg" style="display:none">
@@ -142,10 +142,10 @@
                                 <p>Success! Now check your email for lesson #1.</p>
                             </div>
                             <form id="ck_subscribe_form" class="ck_subscribe_form"
-                                  action="https://app.convertkit.com/landing_pages/226862/subscribe" data-remote="true">
+                                  action="https://app.convertkit.com/landing_pages/292610/subscribe" data-remote="true">
                                 <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;}"
                                        id="ck_form_options">
-                                <input type="hidden" name="id" value="226862" id="landing_page_id">
+                                <input type="hidden" name="id" value="292610" id="landing_page_id">
                                 <input type="hidden" name="ck_form_recaptcha" value="" id="ck_form_recaptcha">
                                 <div class="ck_errorArea">
                                     <div id="ck_error_msg" style="display:none">

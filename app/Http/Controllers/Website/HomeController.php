@@ -20,13 +20,13 @@ class HomeController extends Controller
     {
         session(['user_type' => 'developer']);
 
-        return redirect('/');
+        return redirect('/turn-your-website-into-a-lead-magnet');
     }
 
     public function designer()
     {
         session(['user_type' => 'designer']);
 
-        return redirect('/');
+        return redirect('/turn-your-website-into-a-lead-magnet');
     }
 }
