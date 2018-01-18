@@ -34,7 +34,6 @@
             <ul class="nav navbar-nav navbar-right">
                 {{--<li><a href="#">Articles</a></li>--}}
                 {{--<li><a href="#">Services</a></li>--}}
-                <li><a href="/conference">Conference</a></li>
                 <li><a href="/">Interviews</a></li>
             </ul>
         </div>
